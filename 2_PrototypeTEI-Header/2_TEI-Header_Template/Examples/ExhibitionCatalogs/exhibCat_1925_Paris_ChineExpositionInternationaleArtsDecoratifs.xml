@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="exhibCat_1925_Paris_ChineExpositionInternationaleArtsDecoratifs">
+   <!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Chine à l'Exposition internationale des arts décoratifs et industriels
+               modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles
+               modernes exposées dans la section chinoise.</title>
+            <editor role="metadata">
+               <persName>Auriane Quoix</persName>
+            </editor>
+            <editor role="data">
+               <persName><!-- Prénom et nom de la personne ayant encodé le corps du texte --></persName>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>VISUAL CONTAGIONS</name>
+               <persName type="director">Béatrice Joyeux-Prunel</persName>
+               <orgName>UNIGE</orgName>
+               <address>
+                  <addrLine>Rue des Battoirs 7</addrLine>
+                  <postCode>1205</postCode>
+                  <settlement>Genève</settlement>
+               </address>
+            </publisher>
+            <date when="2020"/>
+            <availability>
+               <!-- Licence texte -->
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+               <!-- Licence images -->
+               <licence
+                  target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+               />
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="exhibition_catalog">
+               <title>La Chine à l'Exposition internationale des arts décoratifs et industriels
+                  modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles
+                  modernes exposées dans la section chinoise.</title>
+               <author/>
+               <editor>Exposition internationale (1925 ; Paris)</editor>
+               <editor role="director"/>
+               <publisher/>
+               <pubPlace>Paris</pubPlace>
+               <date when="1925">1925</date>
+               <date type="first_publication_number"/>
+               <date type="last_publication_number"/>
+               <relatedItem>
+                  <msDesc>
+                     <msIdentifier>
+                        <!-- Localisation du document original -->
+                        <repository>Bibliothèque nationale de France</repository>
+                     </msIdentifier>
+                     <additional>
+                        <surrogates>
+                           <!-- Lien vers sa version numérisée -->
+                           <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k317898c"/>
+                           <name role="digitisation">Bibliothèque nationale de France</name>
+                        </surrogates>
+                     </additional>
+                  </msDesc>
+               </relatedItem>
+               <extent>1 vol. (40 p.) ; 25 cm</extent>
+               <note/>
+            </bibl>
+            <listEvent>
+               <!-- Concernant l'attribut @subtype de la balise <event>, indiquer "travelling" si l'exposition est itinérante, ou "fixed" si elle ne l'est pas -->
+               <event type="exhibition" subtype="fixed" from="1925-04-28" to="1925-11-30">
+                  <!-- Source concernant les dates de l'exposition : https://madparis.fr/francais/musees/musee-des-arts-decoratifs/dossiers-thematiques/l-exposition-internationale-des-arts-decoratifs-et-industriels-modernes-de/l-exposition-de-1925 -->
+                  <head>La Chine à l'exposition internationale des arts décoratifs et industriels
+                     modernes à Paris</head>
+                  <head type="artists_group"/>
+                  <desc>
+                     <!-- Liste des lieux -->
+                     <listPlace>
+                        <!-- Enchaînement de balises répétable (dans le cas où il y aurait plusieurs sections (= adresses) pour un même catalogue d'exposition) -->
+                        <place>
+                           <head>Section de Chine</head>
+                           <placeName>
+                              <orgName type="room">Grand Palais</orgName>
+                              <!-- Deux adresses sont encodées : celle indiquée dans l'imprimé et sa version normalisée -->
+                              <choice>
+                                 <orig>
+                                    <address n="address_from_source">
+                                       <addrLine>Au Grand Palais - 1er étage, à gauche de la salle
+                                          des Congrès</addrLine>
+                                    </address>
+                                 </orig>
+                                 <reg>
+                                    <address n="section_address">
+                                       <street>3, avenue du Général Eisenhower</street>
+                                       <addrLine n="floor">1er étage</addrLine>
+                                       <addrLine n="additional_address">à gauche de la salle
+                                          des Congrès</addrLine>
+                                       <addrLine n="locality"/>
+                                       <settlement>Paris</settlement>
+                                       <country>France</country>
+                                       <region/>
+                                    </address>
+                                 </reg>
+                              </choice>
+                           </placeName>
+                           <note>La Galerie de Chine se trouve au premier étage du Grand Palais, à
+                              gauche de la Salle du Congrès, et près des Galeries de la Manufacture
+                              des Gobelins et de la Section Russe. Elle est composée de huit stands
+                              et de deux vestibules. La porte d'honneur se trouve du côté de la
+                              Section Russe et représente une décoration de chimères chinoises
+                              évoluées.</note>
+                        </place>
+                        <place>
+                           <!-- Répétition des balises possible comme indiqué ci-dessus -->
+                        </place>
+                     </listPlace>
+                  </desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <!-- La valeur de l'attribut "ident" correspondra à la colonne "Langue_source" (Tableau_prototype_catexp_periodiques) -->
+            <language ident="fr"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <!-- Concerne uniquement les catalogues encodés avec GROBID. Caroline Corbières est chargée de compléter cette partie. -->
+         <p/>
+      </encodingDesc>
+      <revisionDesc>
+         <!-- Descriptif des révisions du fichier -->
+         <change who="nom"
+            ><!-- Indiquer la modification ou la correction apportée au fichier --></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <head/>
+         </list>
+      </body>
+   </text>
+</TEI>

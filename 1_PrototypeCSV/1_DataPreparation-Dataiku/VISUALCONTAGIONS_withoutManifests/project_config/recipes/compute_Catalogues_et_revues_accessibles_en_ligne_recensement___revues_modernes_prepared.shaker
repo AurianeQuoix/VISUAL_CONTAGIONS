@@ -1,0 +1,987 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 0,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 104857600,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "col_0",
+            "to": "Informations manifeste ou PDF"
+          },
+          {
+            "from": "col_1",
+            "to": "Source"
+          },
+          {
+            "from": "col_2",
+            "to": "type"
+          },
+          {
+            "from": "col_3",
+            "to": "Titre"
+          },
+          {
+            "from": "col_4",
+            "to": "fondation"
+          },
+          {
+            "from": "col_5",
+            "to": "mort"
+          },
+          {
+            "from": "col_6",
+            "to": "pays"
+          },
+          {
+            "from": "col_7",
+            "to": "ville, pays"
+          },
+          {
+            "from": "col_8",
+            "to": "ville"
+          },
+          {
+            "from": "col_9",
+            "to": "région"
+          },
+          {
+            "from": "col_10",
+            "to": "animateurs"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Informations manifeste ou PDF"
+        ],
+        "values": [
+          "Informations manifeste ou PDF"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Nommage du fichier",
+        "inputColumn": "type"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "columns": [
+          "Nommage du fichier"
+        ],
+        "reorderAction": "AT_START",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Nommage du fichier"
+        ],
+        "values": [
+          "théâtre",
+          "revue politique"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Catérogie (source)",
+        "inputColumn": "Nommage du fichier"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "Catérogie (source)"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "Revue moderne"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Contributeur",
+        "inputColumn": "Nommage du fichier"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Catérogie (source)",
+        "columns": [
+          "Contributeur"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Informations manifeste ou PDF",
+        "columns": [
+          "Titre"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Directeur",
+        "inputColumn": "Contributeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Editeur",
+        "inputColumn": "Directeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Titre",
+        "columns": [
+          "Directeur",
+          "Editeur"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Informations manifeste ou PDF"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Contributeur",
+        "columns": [
+          "type"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "ville, pays"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "ville",
+            "to": "Lieu de publication"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Source",
+        "columns": [
+          "Lieu de publication"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "région"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "fondation"
+        ],
+        "values": [
+          "??"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "fondation",
+            "to": "Année 1er numéro"
+          },
+          {
+            "from": "mort",
+            "to": "Année dernier numéro"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Netherland",
+            "to": "Netherlands"
+          },
+          {
+            "from": "Swizzerland",
+            "to": "Switzerland"
+          },
+          {
+            "from": "Equateur",
+            "to": "Ecuador"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "pays"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Source",
+            "to": "Source (diffuseur)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Langue source",
+        "inputColumn": "Editeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Lieu de publication",
+        "columns": [
+          "Langue source"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Date de publication",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Langue source",
+        "columns": [
+          "Date de publication"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "animateurs",
+            "to": "Directeur"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Revue moderne",
+            "to": "Periodical"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Catérogie (source)"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "pays",
+          "col_15",
+          "col_14",
+          "col_13",
+          "col_12",
+          "col_11",
+          "type"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Lieu de publication",
+            "to": "Lieu de publication (en)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Licence",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Format",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Dépôt (repository)",
+        "inputColumn": "Licence"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Source (diffuseur)",
+        "columns": [
+          "Dépôt (repository)"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Numérisé par (digitized by)",
+        "inputColumn": "Dépôt (repository)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Numérisé par (digitized by)_copy",
+        "inputColumn": "Numérisé par (digitized by)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Numérisé par (digitized by)_copy",
+            "to": "Date de numérisation"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Informations manifeste ou PDF"
+        ],
+        "values": [
+          "Modernist magazines pas de manifeste/PDF"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Source (diffuseur)",
+            "to": "Source"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "FilterOnCustomFormula",
+      "params": {
+        "expression": "if(contains(Source,\"https://gallica.bnf.fr/ark:/\"), \"Source\", \"\")",
+        "action": "REMOVE_ROW"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Licence",
+        "columns": [
+          "Informations manifeste ou PDF"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Source (diffuseur)"
+        ],
+        "values": [
+          "https://gallica.bnf.fr/ark:/12148/cb32832578f/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb344285339/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb38888015g/date.r\u003dLa%20plume",
+          "https://gallica.bnf.fr/ark:/12148/cb34427363f/date.r\u003dMercure%20de%20France",
+          "https://gallica.bnf.fr/ark:/12148/cb344304470/date.r\u003dLa%20Revue%20blanche",
+          "https://gallica.bnf.fr/ark:/12148/cb32811566s/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32702479q/date.r\u003d#resultat-id-1",
+          "https://gallica.bnf.fr/ark:/12148/cb32870652c/date.r\u003dLes%20Soir%C3%A9es%20de%20Paris",
+          "https://gallica.bnf.fr/ark:/12148/cb32819984r/date.r\u003dMontjoie%20%21%20Organe%20de%20l%27imp%C3%A9rialsime%20artistique%20fran%C3%A7ais",
+          "https://gallica.bnf.fr/ark:/12148/cb32820245z/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32892448g/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32868115h/date.r\u003d\nhttps://bluemountain.princeton.edu/bluemtn/?a\u003dcl\u0026cl\u003dCL1\u0026sp\u003dbmtnaaz\u0026e\u003d-------en-20--1--txt-txIN-------",
+          "https://gallica.bnf.fr/ark:/12148/cb343928182/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32724994w/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32825790c/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb327348804/date.r\u003d\nhttps://magazines.iaddb.org/periodicals/CAIRA\nhttps://digital.lib.uiowa.edu/islandora/object/ui:dada_30547\nhttp://digitheque.ulb.ac.be/fr/digitheque-revues-litteraires-belges/periodiques-numerises/index.html#c11379",
+          "https://gallica.bnf.fr/ark:/12148/cb34428092f/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb343812497/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb37131136n/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32811295j/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32720656j/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb34381250f/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32832125r/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb34442688t/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32874286j/date.r\u003d\nhttps://bluemountain.princeton.edu/bluemtn/?a\u003dd\u0026d\u003dbmtnaaj19241001-01\u0026e\u003d-------en-20--1--txt-txIN-------",
+          "https://gallica.bnf.fr/ark:/12148/cb344287315/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb344142726/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32702981n/date.item",
+          "https://gallica.bnf.fr/ark:/12148/cb34421975n/date.r\u003d#",
+          "https://gallica.bnf.fr/ark:/12148/cb327765782/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb34400604n/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32680959g/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb32711563k/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb343950177/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb328567849/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb34348981h/date.r\u003d",
+          "https://gallica.bnf.fr/ark:/12148/cb344301920/date.r\u003d#resultat-id-1",
+          "https://gallica.bnf.fr/ark:/12148/cb32889152c/date.r\u003d",
+          "https://catalogue.bnf.fr/ark:/12148/cb34358136p",
+          "https://digi.ub.uni-heidelberg.de/diglit/form",
+          "https://digi.ub.uni-heidelberg.de/diglit/yellow_book",
+          ""
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Source (diffuseur)"
+        ],
+        "values": [
+          "https://modernistmagazines.org/european/transition/\nhttps://gallica.bnf.fr/ark:/12148/cb328797802/date.r\u003d"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Source (diffuseur)"
+        ],
+        "values": [
+          "catalogue.bnf.fr",
+          "digi.ub.uni-heidelberg.de",
+          "gallica.bnf.fr"
+        ],
+        "matchingMode": "SUBSTRING",
+        "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Informations manifeste ou PDF"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Nommage du fichier",
+            "to": "Nommage_fichier"
+          },
+          {
+            "from": "Catérogie (source)",
+            "to": "Categorie_source"
+          },
+          {
+            "from": "Lieu de publication (en)",
+            "to": "Lieu_publication_en"
+          },
+          {
+            "from": "Date de publication",
+            "to": "Date_publication"
+          },
+          {
+            "from": "Langue source",
+            "to": "Langue_source"
+          },
+          {
+            "from": "Source (diffuseur)",
+            "to": "Source_diffuseur"
+          },
+          {
+            "from": "Dépôt (repository)",
+            "to": "Depot_repository"
+          },
+          {
+            "from": "Numérisé par (digitized by)",
+            "to": "Numerise_par"
+          },
+          {
+            "from": "Date de numérisation",
+            "to": "Date_numerisation"
+          },
+          {
+            "from": "Année 1er numéro",
+            "to": "Annee_1er_numero"
+          },
+          {
+            "from": "Année dernier numéro",
+            "to": "Annee_dernier_numero"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Annee_1er_numero",
+        "columns": [
+          "Directeur"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Categorie_source",
+            "to": "Type_source"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Periodical",
+            "to": "periodical"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Type_source"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Depot_repository",
+            "to": "Depot"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Editeur_copy",
+        "inputColumn": "Editeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Editeur_copy",
+            "to": "Editeur_scientifique"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [
+    {
+      "column": "Source (diffuseur)",
+      "ascending": true
+    }
+  ],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}

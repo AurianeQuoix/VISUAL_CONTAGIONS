@@ -1,0 +1,358 @@
+note sur manifeste,manifeste IIIF,Manifest IIIF,Titre,Lien vers version numérique,London,1893,1925
+,,,,,,,
+,,,Journaux artistiques et satiriques européens - reprendre pays les uns après les autres ,si l'on pouvait récupérer par iiif toute la base de https://www.ub.uni-heidelberg.de/helios/fachinfo/www/kunst/digilit/artjournals/Welcome.html,Europe,,
+,,Magazines d'art belge,Bulletin des Musées Royaux des Arts Décoratifs et Industriels,https://digi.ub.uni-heidelberg.de/diglit/bullmusroyauxbruxelles,Bruxelles,,
+,,,Bulletin des Musées Royaux du Cinquantenaire,https://digi.ub.uni-heidelberg.de/diglit/bullmusroyauxcinquantenaire,Bruxelles,,
+,,,La licorne: recueil de littérature et d'art,https://digi.ub.uni-heidelberg.de/diglit/licorne,Bruxelles,,
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/samleren/manifest.json,Magazines d'art danois,Samleren: kunsttidsskrift,https://digi.ub.uni-heidelberg.de/diglit/samleren,Copenhague,1924,1944
+,,Revues d'art et de satire britanniques,The artists repository and drawing magazine: exhibiting the principles of the polite arts in their various branches,https://digi.ub.uni-heidelberg.de/diglit/artists_repository_drawing_magazine,Londres,,
+,,,Studio : International Art,https://digi.ub.uni-heidelberg.de/diglit/studio,Londres,,
+,,,The Studio yearbook of applied art,https://digi.ub.uni-heidelberg.de/diglit/studio_yearbook_aa,Londres,,
+,,,The Studio yearbook of decorative art,https://digi.ub.uni-heidelberg.de/diglit/studio_yearbook,Londres,,
+,,,The yellow book: an illustrated quarterly,https://digi.ub.uni-heidelberg.de/diglit/yellow_book,Londres,1894,1897
+,,,Form: a quarterly of the arts,https://digi.ub.uni-heidelberg.de/diglit/form_quarterly_arts,Londres,,
+,,,Punch or The London charivari,https://digi.ub.uni-heidelberg.de/diglit/punch_london_charivari,Londres,,
+,,,Punch,https://digi.ub.uni-heidelberg.de/diglit/punch,Londres,,
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/vs/manifest.json,Magazines d'art italien,Ver sacrum: Mittheilungen der Vereinigung Bildender Künstler Österreichs,https://digi.ub.uni-heidelberg.de/diglit/vs,Vienne,1898,1903
+,,,Nuovo bullettino di archeologia cristiana: ufficiale per i resoconti della Commissione di Archeologia Sacra sugli Scavi e su le Scoperte nelle Catacombe Romane,https://digi.ub.uni-heidelberg.de/diglit/nbacr,Rome,,
+,,,Le Gallerie nazionali italiane: notizie e documenti,https://digi.ub.uni-heidelberg.de/diglit/gallerie_nazionali_italiane,Rome,,
+,,,Bullettino di archeologia cristiana,https://digi.ub.uni-heidelberg.de/diglit/bacr,Rome,,
+,,,L' arte: rivista di storia dell'arte medievale e moderna,https://digi.ub.uni-heidelberg.de/diglit/arte,Turin,,
+,,Magazines d'art néerlandais,Bulletin van den Nederlandschen Oudheidkundigen Bond,https://digi.ub.uni-heidelberg.de/diglit/bulletin_knob,Utrecht,,
+,,,Oudheidkundig jaarboek,https://digi.ub.uni-heidelberg.de/diglit/oudheidkundig_jaarboek,Utrecht,,
+,,,De Dietsche warande: tijdschrift voor kunst en Zedegeschiedenis,https://digi.ub.uni-heidelberg.de/diglit/dietsche_warande,La Haye,,
+,,,Levende kunst: maandelijksch plaatwerk voor hedendaagsche kunst,https://digi.ub.uni-heidelberg.de/diglit/levende_kunst,La Haye,,
+,,,Verslagen der rijksverzamelingen van geschiedenis en kunst,https://digi.ub.uni-heidelberg.de/diglit/vegk,La Haye,,
+,,Magazines d'art polonais,Artium Quaestiones,https://digi.ub.uni-heidelberg.de/diglit/artium_quaestiones,Poznań,1979,2017
+,,,Biuletyn Naukowy,https://digi.ub.uni-heidelberg.de/diglit/bnzaphs,Varsovie,1932,
+,,,Biuletyn Historii Sztuki i Kultury,https://digi.ub.uni-heidelberg.de/diglit/bhsk,Varsovie,1933,1949
+,,,Biuletyn Historii Sztuki,https://digi.ub.uni-heidelberg.de/diglit/bhs,Varsovie,1950,2011
+,,,Bulletin du Musée National de Varsovie,https://digi.ub.uni-heidelberg.de/diglit/bmusvars,Varsovie,1960,2009
+,,,Folia Historiae Artium,https://digi.ub.uni-heidelberg.de/diglit/fha,Cracovie,1964,1994
+,,,Modus: Prace z historii sztuki,https://digi.ub.uni-heidelberg.de/diglit/modus,Cracovie,1999,-
+,,,Porta Aurea: Rocznik Instytutu Historii Sztuki Uniwersytetu Gdańskiego,https://digi.ub.uni-heidelberg.de/diglit/porta_aurea,Gdańsk/Sopot,1992,1999
+,,,Prace z Historii Sztuki,https://digi.ub.uni-heidelberg.de/diglit/phsz,Varsovie,1936,1948
+,,,Prace z Historii Sztuki,https://digi.ub.uni-heidelberg.de/diglit/phs,Cracovie,1962,1995
+,,,Rocznik Historii Sztuki,https://digi.ub.uni-heidelberg.de/diglit/rhs,Varsovie,1956,-
+,,,Rocznik Muzeum Narodowego w Warszawie,https://digi.ub.uni-heidelberg.de/diglit/roczmuzwarsz,Varsovie,1938,-
+,,,Roczniki Humanistyczne,https://digi.ub.uni-heidelberg.de/diglit/rh,Lublin,1956,1986
+,,,Roczniki Humanistyczne: Historia Sztuki,https://digi.ub.uni-heidelberg.de/diglit/rhhsz,Lublin,1987,2011
+,,,Roczniki Sztuki Śląskiej,https://digi.ub.uni-heidelberg.de/diglit/rszs,Wrocław,1959,-
+,,,Rozprawy i Sprawozdania Muzeum Narodowego w Krakowie,https://digi.ub.uni-heidelberg.de/diglit/rsmnk,Cracovie,1952,1980
+,,,Rozprawy Muzeum Narodowego w Krakowie,https://digi.ub.uni-heidelberg.de/diglit/rmnk,Cracovie,1999,-
+,,,Studia do Dziejów Wawelu,https://digi.ub.uni-heidelberg.de/diglit/sdw,Cracovie,1955,1991
+,,,Studia Waweliana,https://digi.ub.uni-heidelberg.de/diglit/studia_waweliana,Cracovie,1992,2016
+,,,Studia Wilanowskie,https://digi.ub.uni-heidelberg.de/diglit/studia_wilanowskie,Varsovie,1977,-
+,,,Sztuka Kresów Wschodnich: materiały sesji naukowej,https://digi.ub.uni-heidelberg.de/diglit/skw,Cracovie,1994,2012
+,,Revues d'art et de satire de langue allemande,,,,,
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/dkd/manifest.json,Revues d'art germanophone d'art nouveau,"Deutsche Kunst und Dekoration: illustr. Monatshefte für moderne Malerei, Plastik, Architektur, Wohnungskunst u. künstlerisches Frauen-Arbeiten",https://digi.ub.uni-heidelberg.de/diglit/dkd,Stuttgart,1897,1932
+,,,Die Graphischen Künste,https://digi.ub.uni-heidelberg.de/diglit/gk,Baden/Vienne,1879,1944
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/jugend/manifest.json,,Jugend: Münchner illustrierte Wochenschrift für Kunst und Leben,https://digi.ub.uni-heidelberg.de/diglit/jugend,Munich,1896,1940
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/kk/manifest.json,,Kunst und Künstler: illustrierte Monatsschrift für bildende Kunst und Kunstgewerbe,https://digi.ub.uni-heidelberg.de/diglit/kk,Berlin,1903,1933
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/pan/manifest.json,,Pan,https://digi.ub.uni-heidelberg.de/diglit/pan,Berlin,1895,1900
+,,,Ver sacrum: Mittheilungen der Vereinigung Bildender Künstler Österreichs,https://digi.ub.uni-heidelberg.de/diglit/vs,Vienne/Leipzig,1898,1903
+,https://digi.ub.uni-heidelberg.de/diglit/iiif/affenspiegel1901/manifest.json,Magazines illustrés de satire,Der Affenspiegel: satyrische Wochenschrift,https://digi.ub.uni-heidelberg.de/diglit/affenspiegel1901,Munich,1901,
+,,,Frührot und der Affenspiegel: satyrisch-politische Wochenschriften,https://digi.ub.uni-heidelberg.de/diglit/fruehrot_affenspiegel,Munich,1901,
+,,,Fliegende Blätter,https://digi.ub.uni-heidelberg.de/diglit/fb,Munich,1845,1925
+,,,Beilage der Fliegenden Blätter,https://digi.ub.uni-heidelberg.de/diglit/fb_bl,Munich,1870,1979
+,,,Beiblatt der Fliegenden Blätter,https://digi.ub.uni-heidelberg.de/diglit/fb_bb,Munich,1883,1920
+,,,Der Guckkasten: illustrierte Zeitschrift für Humor und Kunst,https://digi.ub.uni-heidelberg.de/diglit/guckkasten,Munich,1908,1921
+,,,Der Guckkasten / Beiblatt,https://digi.ub.uni-heidelberg.de/diglit/guckkasten_bb,Berlin,1909,1911
+,,,Kladderadatsch,https://digi.ub.uni-heidelberg.de/diglit/kla,Berlin,1848,1944
+,,,Lachen links: das republikanische Witzblatt,https://digi.ub.uni-heidelberg.de/diglit/lachenlinks,Berlin,1924,1927
+,,,Leuchtkugeln: Randzeichnungen zur Geschichte der Gegenwart,https://digi.ub.uni-heidelberg.de/diglit/leuchtkugeln,Munich,1848,1848
+,,,Lustige Blätter: schönstes buntes Witzblatt Deutschlands,https://digi.ub.uni-heidelberg.de/diglit/lb,Berlin,1895,1921
+,,,Humoristische Monatshefte: aus Lothar Meggendorfer's lustiger Bildermappe,https://digi.ub.uni-heidelberg.de/diglit/meggendorfer_hm,Esslingen,1890,1890
+,,,Lothar Meggendorfers humoristische Blätter,https://digi.ub.uni-heidelberg.de/diglit/meggendorfer_lmhb,Esslingen,1891,1893
+,,,Meggendorfers humoristische Blätter: Zeitschr. für Humor u. Kunst,https://digi.ub.uni-heidelberg.de/diglit/meggendorfer_hb,Munich/Esslingen,1895,1902
+,,,Meggendorfer-Blätter,https://digi.ub.uni-heidelberg.de/diglit/meggendorfer,Munich,1914,1928
+,,,Münchener Punsch: humoristisches Originalblatt,https://digi.ub.uni-heidelberg.de/diglit/muenchener_punsch,Munich,1848,1875
+,,,Theater-Pfeile,https://digi.ub.uni-heidelberg.de/diglit/theaterpfeile,Munich,1850,1850
+,,,Münchhausen: illustrirte Wochenschrift,https://digi.ub.uni-heidelberg.de/diglit/muenchhausen,Berlin,,
+,,,Der Satyr: lose Blätter aus dem Deutschen Reiche,https://digi.ub.uni-heidelberg.de/diglit/satyr,Francfort,1848,1849
+,,,"Der Simpl: Kunst, Karikatur, Kritik",https://digi.ub.uni-heidelberg.de/diglit/simpl,Munich,1946,1950
+,,,Ulk. Wochenbeilage zum Berliner Tageblatt,https://digi.ub.uni-heidelberg.de/diglit/ulk,Berlin,1874,1931
+,,,"Der wahre Jakob: illustrierte Zeitschrift für Satire, Humor und Unterhaltung",https://digi.ub.uni-heidelberg.de/diglit/wj,Berlin/Hamburg/Hamburg,1884,1933
+,,Magazines d'art et d'artisanat,"Facon-Zeitung für Töpfer, Fayence-, Steingut-, Topfwaaren- und Ofen- Fabrikanten: monatliche Mustersammlung der modernsten und geschmackvollsten Formen von Topf- und Fayence-Geschirren, Oefen, Ofentafeln und Ornamenten aller Art",https://digi.ub.uni-heidelberg.de/diglit/facon_zeitung,Weimar,1845,1847
+,,,Die Form: Zeitschrift für gestaltende Arbeit,https://digi.ub.uni-heidelberg.de/diglit/form,Berlin,1922,1935
+,,,Kunst und Handwerk: Zeitschrift für Kunstgewerbe und Kunsthandwerk seit 1851,https://digi.ub.uni-heidelberg.de/diglit/kuh,Munich,1897,1932
+,,,Kunst und Handwerk am Oberrhein: Jahrbuch des Badischen Kunstgewerbevereins und des Kunstgewerbevereins Pforzheim,https://digi.ub.uni-heidelberg.de/diglit/kuho,Carlsruhe,1925,1927
+,,,Das Kunstgewerbe: illustrierte Halbmonatsschau,https://digi.ub.uni-heidelberg.de/diglit/kunstgewerbe,Munich,1890,1895
+,,,Das Kunstgewerbe in Elsaß-Lothringen,https://digi.ub.uni-heidelberg.de/diglit/kgel,Strasbourg,1900,1906
+,,,"Kunstgewerbeblatt : Vereinsorgan der Kunstgewerbevereine Berlin, Dresden, Düsseldorf, Elberfeld, Frankfurt a. M., Hamburg, Hannover, Karlsruhe I. B., Königsberg i. Preussen, Leipzig, Magdeburg, Pforzheim und Stuttgart",https://digi.ub.uni-heidelberg.de/diglit/kunstgewerbeblatt,Leipzig,1885,1917
+,,,Kunstgewerbliche Rundschau: Verkündigungsblatt des Verbandes Deutscher Kunstgewerbevereine,https://digi.ub.uni-heidelberg.de/diglit/kgr,Munich,1894,1897
+,,,Mitteilungen,https://digi.ub.uni-heidelberg.de/diglit/mvdkk,Stuttgart,1900,1901
+,,,Mitteilungen des Württembergischen Kunstgewerbevereins,https://digi.ub.uni-heidelberg.de/diglit/mwkgv,Stuttgart,1902,1909
+,,,Mitteilungsblatt der Arbeitsgemeinschaft Süddeutscher Kunstgewerbevereine,https://digi.ub.uni-heidelberg.de/diglit/mittblattskgv,Munich,1926,1927
+,,,Samlung merkwürdiger Medaillen,https://digi.ub.uni-heidelberg.de/diglit/medaillen,Nuremberg,1737,1744
+,,,Stuttgarter Mitteilungen über Kunst und Gewerbe,https://digi.ub.uni-heidelberg.de/diglit/smkg,Stuttgart,1904,1906
+,,,Verkündigungsblatt des Verbandes Deutscher Kunstgewerbe-Vereine,https://digi.ub.uni-heidelberg.de/diglit/vbvdk,Munich,1889,1893
+,,,Zeitschrift des Badischen Kunstgewerbevereins zu Karlsruhe,https://digi.ub.uni-heidelberg.de/diglit/zbkgv,Leipzig,1885,1895
+,,,Zeitschrift des Bayerischen Kunstgewerbe-Vereins zu München,https://digi.ub.uni-heidelberg.de/diglit/bkgvm,Munich,1887,1897
+,,,Zeitschrift des Kunst-Gewerbe-Vereins zu München,https://digi.ub.uni-heidelberg.de/diglit/kgvm,Munich,1869,1886
+,,,Zeitschrift des Vereins zur Ausbildung der Gewerke in München,https://digi.ub.uni-heidelberg.de/diglit/vagm,Munich,1851,1868
+,,Architecture ,Architektonische Rundschau,https://digi.ub.uni-heidelberg.de/diglit/architektonische_rundschau,Esslingen,1885,1915
+,,,Architectura: Zeitschrift für Geschichte und Aesthetik der Baukunst,https://digi.ub.uni-heidelberg.de/diglit/architectura,Berlin,1933,1933
+,,,Die Gartenkunst,https://digi.ub.uni-heidelberg.de/diglit/gartenkunst,Berlin/Wurtzbourg,1899,1944
+,,,"Ideenmagazin für Liebhaber von Gärten, englischen Anlagen und für Besitzer von Landgütern",https://digi.ub.uni-heidelberg.de/diglit/ideenmagazin,Leipzig,1796,1802
+,,,"Neues Ideen-Magazin für Liebhaber von Gärten, englischen Anlagen und für Besitzer von Landgütern",https://digi.ub.uni-heidelberg.de/diglit/neues_ideenmagazin,Leipzig,1806,1806
+,,,Jahrbuch der Baukunst und Bauwissenschaft in Deutschland,https://digi.ub.uni-heidelberg.de/diglit/jbbd,Eisleben,1844,1847
+,,,Jahrbuch der K.K. Central-Commission zur Erforschung und Erhaltung der Baudenkmale,https://digi.ub.uni-heidelberg.de/diglit/jbceeb,Vienne,1856,1861
+,,,Journal für die Baukunst: in zwanglosen Heften,https://digi.ub.uni-heidelberg.de/diglit/journal_baukunst,Berlin,1829,1851
+,,,Mittheilungen der K.K. Central-Commission zur Erforschung und Erhaltung der Baudenkmale,https://digi.ub.uni-heidelberg.de/diglit/meeb,Vienne,1856,1874
+,,,Moderne Bauformen: Monatshefte für Architektur und Raumkunst,https://digi.ub.uni-heidelberg.de/diglit/moderne_bauformen,Stuttgart,1906,1929
+,,,Zeitschrift für Geschichte der Architektur,https://digi.ub.uni-heidelberg.de/diglit/zga,Heidelberg,1907,1928
+,,Magazines d'art,Jahrbuch für Kunstsammler,https://digi.ub.uni-heidelberg.de/diglit/jahrbuch_kunstsammler,Frankfurt,1921,1925
+,,,Die Kunstauktion: internat. Nachrichtenblatt des gesamten Kunstmarktes,https://digi.ub.uni-heidelberg.de/diglit/kunstauktion,?,1927,1938
+,,,Die Weltkunst,https://digi.ub.uni-heidelberg.de/diglit/wk,Berlin ,1930,1944
+,,,Kunstchronik und Kunstmarkt: Wochenschrift für Kenner und Sammler,https://digi.ub.uni-heidelberg.de/diglit/kunstchronik_kunstmarkt,Leipzig,1918,1926
+,,,Der Kunstmarkt: Halbmonatsschrift für den gesamten Kunsthandel,https://digi.ub.uni-heidelberg.de/diglit/kunstmarkt,?,1925,1925
+,,,Kunstmarkt: Wochenschrift für Kenner u. Sammler,https://digi.ub.uni-heidelberg.de/diglit/kunstmarkt_ws,Leipzig,1903,1918
+,,,Kunstpreis-Verzeichnis,https://digi.ub.uni-heidelberg.de/diglit/kunstpreis_verzeichnis,Munich,1939,1944
+,,,"Der Kunstwanderer: Zeitschrift für alte und neue Kunst, für Kunstmarkt und Sammelwesen",https://digi.ub.uni-heidelberg.de/diglit/kunstwanderer,Berlin ,1919,1932
+,,,Mitteilungen der Galerie Helbing,https://digi.ub.uni-heidelberg.de/diglit/mitteilungen_galerie_helbing,Munich,1912,1914
+,,,Mittheilungen des Museen-Verbandes als Manuscript für die Mitglieder,https://digi.ub.uni-heidelberg.de/diglit/mitmusverb,Hamburg,1899,1939
+,,,Monatsberichte über Kunstwissenschaft und Kunsthandel,https://digi.ub.uni-heidelberg.de/diglit/monatsberichte_kunstwissenschaft_kunsthandel,Heidelberg,1900,1902
+,,,Nachrichten für den Kunsthandel,https://digi.ub.uni-heidelberg.de/diglit/nachrichten_kunsthandel_auktionspreise,Hamburg,1947,1949
+,https://digi.ub.uni-heidelberg.de/diglit/iiif/neue_kunst_deutschland1925/manifest.json,,Die Neue Kunst in Deutschland,https://digi.ub.uni-heidelberg.de/diglit/neue_kunst_deutschland1925,?,1925,1925
+,,,Verhandlungen der ... Versammlung des Verbandes von Museums-Beamten zur Abwehr von Fälschungen und Unlauterem Geschäftsgebaren,https://digi.ub.uni-heidelberg.de/diglit/verhversverbmb,Hamburg,1898,1938
+,,,Die Kunstauktion: internat. Nachrichtenblatt des gesamten Kunstmarktes,https://digi.ub.uni-heidelberg.de/diglit/kunstauktion,Heidelberg,1927,1938
+,,,Die Weltkunst,https://digi.ub.uni-heidelberg.de/diglit/wk,Berlin,1930,1944
+,,,Das Alte Konstanz: Stadt u. Diöcese in Schrift u. Stift dargest.,https://digi.ub.uni-heidelberg.de/diglit/alte_konstanz,Constance,1881,1882
+,,,Archiv für christliche Kunst: Organ des Rottenburger Diözesan-Kunstvereins,https://digi.ub.uni-heidelberg.de/diglit/afck,Stuttgart,1883,1929
+,,,Beiträge zur Kunst- und Literaturgeschichte,https://digi.ub.uni-heidelberg.de/diglit/bkl,Nuremberg,1822,1822
+,,,Beyträge zur Ergänzung der deutschen Litteratur- und Kunstgeschichte,https://digi.ub.uni-heidelberg.de/diglit/beytraege_litteratur_kunstgeschichte,Leipzig,1792,1794
+,,,Bibliothek der redenden und bildenden Künste,https://digi.ub.uni-heidelberg.de/diglit/brbk,Leipzig,1806,1811
+,,,Der Bildermann: Steinzeichnungen fürs deutsche Volk,https://digi.ub.uni-heidelberg.de/diglit/bildermann,Berlin,1916,1917
+,,,Blätter der Galerie Ferdinand Möller,https://digi.ub.uni-heidelberg.de/diglit/blaetter_galerie_ferdinand_moeller,Cologne,1928,1930
+,,,Das Buch für alle: illustrierte Blätter zur Unterhaltung und Belehrung für die Familie und Jedermann,https://digi.ub.uni-heidelberg.de/diglit/bfa,"Stuttgart , Berlin , Leipzig",1866,1935
+,,,"Der Burgwart: Mitteilungsbl. d. Deutschen Burgenvereinigung e.V. zum Schutze Historischer Wehrbauten, Schlösser und Wohnbauten",https://digi.ub.uni-heidelberg.de/diglit/burgwart,Heidelberg,1899,1957
+,,,"Mitteilungsbl. d. Deutschen Burgenvereinigung e.V. zum Schutze Historischer Wehrbauten, Schlösser und Wohnbauten",https://digi.ub.uni-heidelberg.de/diglit/mbdbv,"Stuttgart , Berlin , Leipzig",1950,1954
+,,,Centralblatt der deutschen Kunstvereine,https://digi.ub.uni-heidelberg.de/diglit/centralblatt_dkv,Berlin,1939,1942
+,,,Christliche Kunstblätter: Organ des Christlichen Kunstvereins der Erzdiözese Freiburg,https://digi.ub.uni-heidelberg.de/diglit/christliche_kunstblaetter,Freiburg,1862,1886
+,,,"Christliches Kunstblatt für Kirche, Schule u. Haus",https://digi.ub.uni-heidelberg.de/diglit/christliches_kunstblatt,"Lahr, Baden",1858,1927
+,,,Dekorative Vorbilder: farbige Meisterwerke aus alter und neuer Zeit,https://digi.ub.uni-heidelberg.de/diglit/dekorative_vorbilder,Stuttgart,1890,1928
+,,,Der Cicerone: Halbmonatsschrift für die Interessen des Kunstforschers & Sammlers,https://digi.ub.uni-heidelberg.de/diglit/cicerone,Leipzig,1909,1930
+,,,"Deutsches Kunstblatt <Stuttgart>: Zeitschrift für bildende Kunst, Baukunst und Kunsthandwerk ; Organ der deutschen Kunstvereine &. &.",https://digi.ub.uni-heidelberg.de/diglit/dkb,Stuttgart,1850,1858
+,,,Deutsches Kunstblatt: Literaturblatt des Deutschen Kunstblattes,https://digi.ub.uni-heidelberg.de/diglit/dkbli,Stuttgart,1854,1858
+,,,Die Dioskuren: deutsche Kunstzeitung ; Hauptorgan d. dt. Kunstvereine,https://digi.ub.uni-heidelberg.de/diglit/dioskuren,Berlin,1856,1875
+,,,Feuer: Monatsschrift für Kunst und künstlerische Kultur,https://digi.ub.uni-heidelberg.de/diglit/feuer,"Weimar , Bochum",1919,1924
+,,,Freiburger Münsterblätter: Halbjahrsschrift für die Geschichte und Kunst des Freiburger Münsters,https://digi.ub.uni-heidelberg.de/diglit/freiburgermuensterblaetter,Fribourg-en-Brisgau,1905,1922
+,,,Heidelberger kunstgeschichtliche Abhandlungen,https://digi.ub.uni-heidelberg.de/diglit/hka,Worms,1914,1963
+,,,Illustrirte kunstgewerbliche Zeitschrift für Innendekoration,https://digi.ub.uni-heidelberg.de/diglit/kg-zs-innendekoration,Darmstadt,1890,1899
+,,,Imago: Zeitschrift für Anwendung der Psychoanalyse auf die Geisteswissenschaften,https://digi.ub.uni-heidelberg.de/diglit/imago,Leipzig/Vienne,1912,1925
+,,,"Innendekoration: mein Heim, mein Stolz ; die gesamte Wohnungskunst in Bild und Wort",https://digi.ub.uni-heidelberg.de/diglit/innendekoration,Stuttgart/Darmstadt,1900,1944
+,,,Jahrbuch der Kunsthistorischen Sammlungen des Allerhöchsten Kaiserhauses (ab 1919 Jahrbuch der Kunsthistorischen Sammlungen in Wien),https://digi.ub.uni-heidelberg.de/diglit/jbksak,Vienne,1883,1925
+,,,Jahrbuch für Photographie und Reproduktionstechnik,https://digi.ub.uni-heidelberg.de/diglit/jbpr,Halle-sur-Saale,1887,1914
+,,,"Journal für Fabrik, Manufaktur, Handlung, Kunst und Mode",https://digi.ub.uni-heidelberg.de/diglit/journal_fmhkm,Leipzig,1791,1808
+,,,"Kirchenschmuck: Sammlung von Vorlagen für kirchliche Stickereien, Holz- & Metallarbeiten & Glasmalereien",https://digi.ub.uni-heidelberg.de/diglit/kirchenschmuck,Ratisbonne/Amberg,1857,1870
+,,,Kolloquium zu Fragen der Theorie und Methodik der Industriellen Formgestaltung,https://digi.ub.uni-heidelberg.de/diglit/formgestaltung,Halle,1977,1984
+,,,Designtheoretisches Kolloquium,https://digi.ub.uni-heidelberg.de/diglit/designtheoretisches_kolloquium,Heidelberg,1984,
+,,,Kölner Domblatt / Vorbericht zum Kölner Domblatt,https://digi.ub.uni-heidelberg.de/diglit/koelnerdomblatt_vorbericht,Cologne,1840,1842
+,,,Kölner Domblatt: amtliche Mittheilungen des Central-Dombau-Vereins,https://digi.ub.uni-heidelberg.de/diglit/koelnerdomblatt,Cologne,1842,1892
+,,,Der Kreis: Zeitschrift für künstlerische Kultur ; Organ der Hamburger Bühne,https://digi.ub.uni-heidelberg.de/diglit/kreis,Hamburg,1924,1933
+,,,Kriegszeit: Künstlerflugblätter,https://digi.ub.uni-heidelberg.de/diglit/kriegszeit,Berlin,1916,1918
+,,,Die Kunst dem Volke,https://digi.ub.uni-heidelberg.de/diglit/kunst_dem_volke,Vienne,1909,1943
+,,,"Die Kunst für alle: Malerei, Plastik, Graphik, Architektur",https://digi.ub.uni-heidelberg.de/diglit/kfa,Munich,1886,1943
+,,,Die Kunst in der Photographie,https://digi.ub.uni-heidelberg.de/diglit/kunst_photographie,Halle,1908,
+,,,Kunst- und Denkmalpflege in Schlesien: Niederschlesien,https://digi.ub.uni-heidelberg.de/diglit/kdpf_schlesien,Wrocław/ Leszno,1939,
+,,,Kunst und Jugend,https://digi.ub.uni-heidelberg.de/diglit/kunst_jugend,Ratingen/Stuttgart/Leipzig,1921,1927
+,,,Kunst- und Unterhaltungsblatt für Stadt und Land,https://digi.ub.uni-heidelberg.de/diglit/kunst_unterhaltungsblatt,?,1852,1854
+,,,Kunstchronik: Wochenschrift für Kunst und Kunstgewerbe,https://digi.ub.uni-heidelberg.de/diglit/kunstchronik,Leipzig,1866,1918
+,,,Kunstgeschichtliches Jahrbuch der K[aiserlich-]K[öniglichen] Zentral-Kommission für Erforschung und Erhaltung der Kunst- und Historischen Denkmale,https://digi.ub.uni-heidelberg.de/diglit/kjbzk,Vienne,1907,1910
+,,,Kunstgeschichtliches Jahrbuch der K[aiserlich-]K[öniglichen] Zentral-Kommission für Erforschung und Erhaltung der Kunst- und Historischen Denkmale - Beiblatt für Denkmalpflege,https://digi.ub.uni-heidelberg.de/diglit/kjbzk_beibl,Vienne,1907,1910
+,,,Jahrbuch der K. K. Zentral-Kommission für Erforschung und Erhaltung der Kunst- und Historischen Denkmale,https://digi.ub.uni-heidelberg.de/diglit/jbzk,Vienne,1903,1906
+,,,"Der Kunstwart: Rundschau über alle Gebiete des Schönen ; Monatshefte für Kunst, Literatur und Leben",https://digi.ub.uni-heidelberg.de/diglit/kunstwart,Munich,1887,1932
+,,,Kunstwart und Kulturwart,https://digi.ub.uni-heidelberg.de/diglit/kunstwart_kulturwart,Munich,1912,1925
+,,,Deutscher Wille: des Kunstwarts,https://digi.ub.uni-heidelberg.de/diglit/deutscherwille,Munich,1915,1919
+,,,Die Kunstwelt: deutsche Zeitschrift für die bildende Kunst,https://digi.ub.uni-heidelberg.de/diglit/kunstwelt,Potsdam,1911,1914
+,,,Kunstnachrichten,https://digi.ub.uni-heidelberg.de/diglit/kunstnachrichten,Berlin,1911,1914
+,,,"Kurpfälzer Jahrbuch: ein Volksbuch über heimatliche Geschichtsforschung, das künstlerische, geistige und wirtschaftliche Leben des Gebietes der einstigen Kurpfalz",https://digi.ub.uni-heidelberg.de/diglit/kurpfaelzer_jahrbuch,Heidelberg,1925,1930
+,,,Miscellaneen artistischen Innhalts,https://digi.ub.uni-heidelberg.de/diglit/mai,Erfurt,1779,1787
+,,,Mittheilungen des Heidelberger Schlossvereins,https://digi.ub.uni-heidelberg.de/diglit/mitthdschlossvereins,Heidelberg,1868,1868
+,,,Mitteilungen zur Geschichte des Heidelberger Schlosses,https://digi.ub.uni-heidelberg.de/diglit/mitthdschloss,Heidelberg,1885,1936
+,,,Moderne Kunst: illustrierte Zeitschrift,https://digi.ub.uni-heidelberg.de/diglit/moderne_kunst,Berlin,1889,1914
+,,,Morgenblatt für gebildete Stände / Kunstblatt,https://digi.ub.uni-heidelberg.de/diglit/kunstblatt,Stuttgart / Tübingen,1816,1849
+,,,Münchner Jahrbücher für bildende Kunst,https://digi.ub.uni-heidelberg.de/diglit/mjbbk,München / Leipzig,1838,1842
+,,,Münchner kunsttechnische Blätter,https://digi.ub.uni-heidelberg.de/diglit/muenchner_kunsttechnische_blaetter,Heidelberg,1904,1920
+,,,Museum für altdeutsche Literatur und Kunst,https://digi.ub.uni-heidelberg.de/diglit/malk,Berlin,1809,1811
+,,,Blätter für Gemäldekunde,https://digi.ub.uni-heidelberg.de/diglit/bl_gemaeldekunde,Vienne ,1904,1912
+,,,Neue Blätter für Gemäldekunde,https://digi.ub.uni-heidelberg.de/diglit/nbl_gemaeldekunde,Vienne ,1922,1923
+,,,Das neue Frankfurt: internationale Monatsschrift für die Probleme kultureller Neugestaltung,https://digi.ub.uni-heidelberg.de/diglit/neue_frankfurt,Francfort,1926,1931
+,,,Die neue Stadt: internationale Monatsschrift für architektonische Planung und städtische Kultur,https://digi.ub.uni-heidelberg.de/diglit/neue_stadt,Heidelberg,1932,1934
+,,,Neue Nachrichten von Künstlern und Kunstsachen,https://digi.ub.uni-heidelberg.de/diglit/nnkk,Dresden / Leipzig,1786,
+,,,Neues Museum für Künstler und Kunstliebhaber,https://digi.ub.uni-heidelberg.de/diglit/neues_museum_kuenstler_kunstliebhaber,Leipzig,1794,1795
+,,,Niederrheinisches Jahrbuch für Geschichte und Kunst,https://digi.ub.uni-heidelberg.de/diglit/njbgkp,Bonn,1843,1844
+,,,Neujahrsblatt der Künstlergesellschaft in Zürich,https://digi.ub.uni-heidelberg.de/diglit/nbkgz,Zürich,1841,1896
+,,,Der Orchideengarten : phantastische Blätter,https://digi.ub.uni-heidelberg.de/diglit/orchideengarten,?,1919,1921
+,,,Pfälzisches Museum : Monatsschrift d. Historischen Vereins der Pfalz und des Vereins Historisches Museum der Pfalz,https://digi.ub.uni-heidelberg.de/diglit/pfaelzisches_museum,Kaiserslautern,1884,1920
+,,,"Rheinische Blätter für Kunst, Literatur und Theater",https://digi.ub.uni-heidelberg.de/diglit/rheinische_blaetter_kunst_literatur_theater,Mannheim,1841,
+,,,Rheinisches Jahrbuch für Kunst und Poesie,https://digi.ub.uni-heidelberg.de/diglit/rjbkp,Cologne,1840,1841
+,,,Die Rheinlande: Vierteljahrsschr. d. Verbandes der Kunstfreunde in den Ländern am Rhein,https://digi.ub.uni-heidelberg.de/diglit/rheinlande,Düsseldorf,1900,1922
+,,,Sammlung einiger ausgesuchten Stücke der Gesellschaft der Freyen Künste zu Leipzig,https://digi.ub.uni-heidelberg.de/diglit/gesellschaft_freyen_kuenste_leipzig,Leipzig,1754,1756
+,,,"Schlesische Heimatpflege : Kunst u. Denkmalpflege, Museumswesen, Heimatschutz",https://digi.ub.uni-heidelberg.de/diglit/schlesische_heimatpflege,?,1935,
+,,,Schleswig-holsteinischer Kunstkalender,https://digi.ub.uni-heidelberg.de/diglit/sh_kunstkalender,Potsdam,1911,1917
+,,,Schrifttum zur deutschen Kunst,https://digi.ub.uni-heidelberg.de/diglit/schrifttum,Berlin,1933,?
+,,,"Schwäbisches Archiv : Organ für Geschichte, Altertumskunde, Literatur, Kunst und Kultur Schwabens",https://digi.ub.uni-heidelberg.de/diglit/schwaebarchiv,Ravensburg,1908,1912
+,,,Straßburger Münsterblatt : Organ des Straßburger Münster-Vereins,https://digi.ub.uni-heidelberg.de/diglit/strassburger_muensterblatt,Strasbourg,1903,1912
+,,,Teuerdank : Fahrten u. Träume dt. Maler ; zwanglose Bilderfolgen lebender Künstler,https://digi.ub.uni-heidelberg.de/diglit/teuerdank,Berlin,1900,
+,,,"Vom Rhein : Leben, Kunst u. Dichtung",https://digi.ub.uni-heidelberg.de/diglit/rhein,Essen,1847,
+,,,Wachtfeuer : deutsche Kunstblätter,https://digi.ub.uni-heidelberg.de/diglit/wachtfeuer,Berlin,1914,1925
+,,,Die Werkstatt der Kunst: Organ für d. Interessen d. bildenden Künstler,https://digi.ub.uni-heidelberg.de/diglit/werkstatt_kunst,Heidelberg,1901,1920
+,,,Wieland: Zeitschrift für Kunst und Dichtung,https://digi.ub.uni-heidelberg.de/diglit/wieland,Munich,1915,1920
+,,,Zeitschrift für Ästhetik und allgemeine Kunstwissenschaft,https://digi.ub.uni-heidelberg.de/diglit/zaak,Stuttgart,1906,1943
+,,,Zeitschrift für christliche Archäologie und Kunst,https://digi.ub.uni-heidelberg.de/diglit/zcak,Leipzig,1856,1858
+,,,Zeitschrift für christliche Kunst,https://digi.ub.uni-heidelberg.de/diglit/zchk,Düsseldorf,1888,1921
+ok mais sans images !,https://digi.ub.uni-heidelberg.de/diglit/iiif/ars/manifest.json,Magazines d'art slovaque,Ars: časopis Ústavu Dejín Umenia Slovenskej Akadémie Vied,https://digi.ub.uni-heidelberg.de/diglit/ars,Slovaquie,1967,2015
+,,Magazines d'art américain,Camera Work: A Photographic Quarterly,https://digi.ub.uni-heidelberg.de/diglit/camera_work,New York,1903,1917
+https://digi.ub.uni-heidelberg.de/diglit/iiif/international_studio14/0001/thumbs/manifest.json,https://digi.ub.uni-heidelberg.de/diglit/iiif/international_studio/manifest.json,,International studio,https://digi.ub.uni-heidelberg.de/diglit/international_studio,New York,1898,1925
+,,,,,,,
+,,,Album de l'intransigeant: l'année politique en images,https://digi.ub.uni-heidelberg.de/diglit/album_intransigeant,Paris ,1900,1904
+ne marche pas,https://gallica.bnf.fr/iiif/ark:/12148/cb327033728/date (ou https://digi.ub.uni-heidelberg.de/diglit/assiette_beurre)/manifest.json,,l'Assiette au beurre,ark:/12148/cb327033728/date (ou https://digi.ub.uni-heidelberg.de/diglit/assiette_beurre),Paris,1901,1911
+,,,"La caricature: revue morale, judiciaire, littéraire, artistique, fashionable et scénique",https://digi.ub.uni-heidelberg.de/diglit/caricature,Paris,1830,1843
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/charivari/manifest.json,,Le Charivari,https://digi.ub.uni-heidelberg.de/diglit/charivari,Paris,1841,1893
+,,,Collection de caricatures et de charges pour servir à l'histoire de la guerre et de la révolution de 1870-1871,https://digi.ub.uni-heidelberg.de/diglit/caricatures1870_1871ga,?,1870,1871
+,,,"L' Eclipse: journal hebdomadaire politique, satirique et illustré",https://digi.ub.uni-heidelberg.de/diglit/eclipse,Paris,1868,1877
+,,,Le Fifre: journal hebdomadaire,https://digi.ub.uni-heidelberg.de/diglit/fifre,Paris,1889,1889
+,,,"Le Grelot: journal illustré, politique et satirique",https://digi.ub.uni-heidelberg.de/diglit/grelot,Paris ,1871,1899
+,,,La Lune,https://digi.ub.uni-heidelberg.de/diglit/lune,Paris ,1865,1868
+,,,Père Duchêne / Le fils du Père Duchêne: illustré,https://digi.ub.uni-heidelberg.de/diglit/filsdupereduchene,Paris ,1871,1871
+,,,La revue comique,https://digi.ub.uni-heidelberg.de/diglit/revuecomique,Paris ,1848,1871
+,,,Le rire: journal humoristique,https://digi.ub.uni-heidelberg.de/diglit/rire,Paris ,1894,1924
+,,,Le rire rouge: édition de guerre du journal le rire,https://digi.ub.uni-heidelberg.de/diglit/rire_rouge,Paris ,1914,1918
+,,,La Scie,https://digi.ub.uni-heidelberg.de/diglit/scie,Paris ,1872,1872
+,,,Le Sifflet: journal humoristique de la famille,https://digi.ub.uni-heidelberg.de/diglit/sifflet,Paris ,1872,1877
+,,,Album pratique de l'art industriel et des beaux-arts,https://digi.ub.uni-heidelberg.de/diglit/album_pratique,Paris ,1858,1866
+,,,Annales du Musée et de l'Ecole Moderne des Beaux-Arts,https://digi.ub.uni-heidelberg.de/diglit/amemba,Paris ,1800,1821
+,,,Annales du Musée et de l'Ecole Moderne des Beaux-Arts / Salon,https://digi.ub.uni-heidelberg.de/diglit/amemba_salon,Paris ,1808,1835
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/art_decoratif1898_1899/manifest.json,,L' art décoratif: revue de lárt ancien et de la vie artistique moderne,https://digi.ub.uni-heidelberg.de/diglit/art_decoratif1898_1899,Paris,1898,1914
+,,,L' art français: revue artistique hebdomadaire,https://digi.ub.uni-heidelberg.de/diglit/art_francais,Paris,1887,1901
+,,,L' art ornemental: revue hebdomadaire illustrée,https://digi.ub.uni-heidelberg.de/diglit/art_ornemental,Paris,1883,1887
+,,,L' art pour tous: encyclopédie de l'art industriel et décoratif,https://digi.ub.uni-heidelberg.de/diglit/art_pour_tous,Paris,1861,1905
+,,,Bulletin de l' art pour tous,https://digi.ub.uni-heidelberg.de/diglit/bulletin_art_pour_tous,Paris,1886,1904
+,,,L' art: revue hebdomadaire illustrée,https://digi.ub.uni-heidelberg.de/diglit/art,Paris,1875,1907
+,,,Les artistes contemporains,https://digi.ub.uni-heidelberg.de/diglit/artistes_contemporains,Paris,1847,1853
+,,,Bulletin de la Société Française de Reproductions de Manuscrits à Peintures,https://digi.ub.uni-heidelberg.de/diglit/bulsocfrrepmsspeint,Paris,1911,1937
+,,,Bulletin de la Société de l'Histoire de l'Art Français,https://digi.ub.uni-heidelberg.de/diglit/bshaf,Paris,1875,1925
+,,,Bulletin de la Société pour la Conservation des Monuments Historiques d'Alsace,https://digi.ub.uni-heidelberg.de/diglit/bmha,Strasbourg,1856,1925
+ok,https://digi.ub.uni-heidelberg.de/diglit/iiif/cac/manifest.json,,"Chronique des arts et de la curiosité
+",https://digi.ub.uni-heidelberg.de/diglit/cac,Paris,1859,1922
+,,,Le dessin à l'école et dans la famille: revue d'éducation esthétique,https://digi.ub.uni-heidelberg.de/diglit/dessin_ecole_famille,Bruges,1922,1930
+,,,Exposition de Paris - Journal hebdomadaire,https://digi.ub.uni-heidelberg.de/diglit/exposition_paris,Paris,1878,1878
+,,,Gazette des beaux-arts: la doyenne des revues d'art,https://digi.ub.uni-heidelberg.de/diglit/gba,Paris,1859,1925
+,,,Journal des beaux-arts et de la littérature,https://digi.ub.uni-heidelberg.de/diglit/jbal,Bruxelles ,1859,1887
+,,,Journal de la marbrerie et de l'art décoratif: bimensuel,https://digi.ub.uni-heidelberg.de/diglit/journal_marbrerie,Paris,1903,1908
+,,,Journal de la marbrerie et de l'art décoratif / Supplément,https://digi.ub.uni-heidelberg.de/diglit/journal_marbrerie_suppl,Paris,1903,1905
+,,,Revue générale de la construction,https://digi.ub.uni-heidelberg.de/diglit/revue_general_construction,Paris,1904,1908
+,,,Nouvelles archives de l'art français,https://digi.ub.uni-heidelberg.de/diglit/naaf,Paris,1879,1906
+,,,Revue des beaux-arts de France,https://digi.ub.uni-heidelberg.de/diglit/revue_beaux_arts_france,Paris,1942,1944
+,,,,,,,
+,,,,,,,
+,,,Gallica revues d'art illustrées,,,,
+,,,L'Art,http://catalogue.bnf.fr/ark:/12148/cb344224656,Paris ,1875,1907
+,,,L'Art belge. Journal du mouvement artistique belge,http://catalogue.bnf.fr/ark:/12148/cb32702433d,Bruxelles ,1919,1927
+,,,Art et décoration : revue mensuelle d'art moderne,http://catalogue.bnf.fr/ark:/12148/cb34348232c,Paris ,1897,1938
+,,,L'Art et les artistes : revue mensuelle d'art ancien et moderne,http://catalogue.bnf.fr/ark:/12148/cb32702564z,Paris ,1905,1936
+,,,"L'Art moderne : expositions, musées, collections, peinture, sculpture, gravure, iconographie, archéologie, céramique, numismatique",http://catalogue.bnf.fr/ark:/12148/cb327026391,Paris ,1875,1876
+,,,L'Art pour tous : encyclopédie de l'art industriel et décoratif,http://catalogue.bnf.fr/ark:/12148/cb327026616,Paris ,1864,1905
+,,,L'Artiste : journal de la littérature et des beaux-arts,http://catalogue.bnf.fr/ark:/12148/cb343612621,Paris ,1831,1904
+,,,"Le Cabinet de l'amateur et de l'antiquaire : revue des tableaux et des estampes anciennes, des objets d'art, d'antiquité et de curiosité",http://catalogue.bnf.fr/ark:/12148/cb327349060,Paris ,1842,1863
+,,,Chronique artistique : journal hebdomadaire illustré,http://catalogue.bnf.fr/ark:/12148/cb32741504p,Paris ,1892,1893
+,,,L'Esprit nouveau : revue internationale d'esthétique,http://catalogue.bnf.fr/ark:/12148/cb34428092f,Paris ,1920,1924
+,,qu'une illustration par numéro,"L'Étoile artistique : mondain, financier, littéraire, commercial, scientifique",http://catalogue.bnf.fr/ark:/12148/cb32770193d,Paris ,1886,1887
+,,,"La Fantaisie artistique : poésie, beaux-arts, musique",http://catalogue.bnf.fr/ark:/12148/cb32773144x,Paris ,1887,1889
+,,,Le Gaulois artistique,http://catalogue.bnf.fr/ark:/12148/cb344483753,Paris ,1926,1929
+,,,Gazette des beaux-arts,http://catalogue.bnf.fr/ark:/12148/cb343486585,Paris ,1859,1948
+,,,"L'Image : revue artistique et littéraire ornée de figures sur bois, paraissant tous les mois",http://catalogue.bnf.fr/ark:/12148/cb32788743n,Paris ,1896,1897
+,,,Journal des artistes,http://catalogue.bnf.fr/ark:/12148/cb391813444,Paris ,1827,1870
+,,peu illustré,"Le Monde artiste : théâtre, musique, beaux-arts, littérature",http://catalogue.bnf.fr/ark:/12148/cb32818188p,Paris ,1862,1914
+,,,"Le Moniteur du dessin, de l'architecture & des beaux-arts : revue mensuelle : organe des architectes, ingénieurs, professeurs de dessin des industries artistiques et des candidats aux écoles du gouvernement",http://catalogue.bnf.fr/ark:/12148/cb328193305,Paris ,1897,1939
+,,,Musée universel : revue illustrée hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb32821000p,Paris ,1872,1878
+,,,L'Œuvre d'art : revue bi-mensuelle illustrée,http://catalogue.bnf.fr/ark:/12148/cb32828169m,Paris ,1893,1900
+,,,Pan : revue artistique et littéraire. Supplément français,http://catalogue.bnf.fr/ark:/12148/cb32831673r,Paris ,1895,1895
+,,,La Peinture : sciences et arts : journal mensuel,http://catalogue.bnf.fr/ark:/12148/cb32834788s,Paris ,1896,1897
+,,,La Renaissance,http://catalogue.bnf.fr/ark:/12148/cb34357019k,Paris ,1939,1928
+,,,La Revue de l'art ancien et moderne,http://catalogue.bnf.fr/ark:/12148/cb32857192h,Paris ,1897,1937
+,,,Revue des arts décoratifs,http://catalogue.bnf.fr/ark:/12148/cb32858171s,Paris ,1880,1902
+,,,Le Salon : journal de l'exposition annuelle des beaux-arts,http://catalogue.bnf.fr/ark:/12148/cb32864449p,Paris ,1880,
+,,,La Vie artistique ,http://catalogue.bnf.fr/ark:/12148/cb32888665v,Paris ,1882,1883
+,,,Gallica - Revues satiriques illustrées ,,,,
+,,,L'Album comique de la famille,http://catalogue.bnf.fr/ark:/12148/cb326850325,Paris ,1902,1909
+,,,Almanach de La Calotte,http://catalogue.bnf.fr/ark:/12148/cb32687005r,Paris ,1909,1912
+,,,Almanach du Père Peinard farci de galbeuses histoires et de prédictions épatouflantes,http://catalogue.bnf.fr/ark:/12148/cb326850325,Paris ,1902,1909
+,,,L'Amusant : journal hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb326924662,Paris ,1880,1882
+,,,L'Assiette au beurre,http://catalogue.bnf.fr/ark:/12148/cb327033728,Paris ,1901,1922
+,,,Aujourd'hui,http://catalogue.bnf.fr/ark:/12148/cb32706768v,Paris ,1839,1841
+,,,L'Auto-vélo : journal comique & illustré,http://catalogue.bnf.fr/ark:/12148/cb32707138h,Paris ,1897,1898
+,,,Bec et ongles : satirique hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb32710664z,Paris ,1931,1934
+,,,La Calotte,http://catalogue.bnf.fr/ark:/12148/cb32736601x,Marseille,1897,1906
+,,,La Calotte,http://catalogue.bnf.fr/ark:/12148/cb32736598v,Paris ,1906,1912
+,,,Le Canard sauvage,http://catalogue.bnf.fr/ark:/12148/cb344292284,Paris ,1903,
+,,,La Caricature : publication de la Librairie illustrée,http://catalogue.bnf.fr/ark:/12148/cb32737409c,Paris ,1881,1904
+,,,La Caricature : recueil hebdomadaire de sept journaux quotidiens,http://catalogue.bnf.fr/ark:/12148/cb32737411x,Paris ,1877,
+,,,Le Charivari,http://catalogue.bnf.fr/ark:/12148/cb34452332k,Paris ,1832,1937
+,,,La Charrette charrie,http://catalogue.bnf.fr/ark:/12148/cb34546037d,Paris ,1922,1923
+,,,Le Chat noir : organe des intérêts de Montmartre,http://catalogue.bnf.fr/ark:/12148/cb34427442r,Paris ,1882,1891
+,,,"La Cloche d'argent : journal hebdomadaire, illustré, politique, littéraire, judiciaire, commercial et artistique",http://catalogue.bnf.fr/ark:/12148/cb32743499d,Rouen,1882,1914
+,,,Le Clou : journal humoristique illustré hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb327436184,Paris ,1900,
+,,,Comic-finance,http://catalogue.bnf.fr/ark:/12148/cb32744850d,Paris ,1873,
+,,,Le Comique-annonces. Journal hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb32744929v,Paris ,1885,1886
+,,,"Coulisses lyonnaises illustrées : Journal hebdomadaire, satirique, libre-penseur, libre-parleur",http://catalogue.bnf.fr/ark:/12148/cb32749787p,Lyon,1880,1881
+,,,"Le Coup de fouet : humoristique et satirique, politique et littéraire",http://catalogue.bnf.fr/ark:/12148/cb327498482,Paris ,1911,1913
+,,,Cyrano : satirique hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb327537623,Paris ,1924,1936
+,,,La Diane : journal hebdomadaire paraissant le dimanche,http://catalogue.bnf.fr/ark:/12148/cb32757151r,Paris ,1888,1893
+,,,Éclipse : journal hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb32764192t,Paris ,1868,1909
+,,,"L'Enragé : humoristique, hebdomadaire illustré",http://catalogue.bnf.fr/ark:/12148/cb327672459,Paris ,1908,
+,,,Le Fifre : journal hebdomadaire illustré,http://catalogue.bnf.fr/ark:/12148/cb32775139t,Paris ,1889,
+,,,Folichonneries : illustré hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb327761679,Paris ,1897,
+,,,France d'hier et France de demain,http://catalogue.bnf.fr/ark:/12148/cb32777562x,Paris ,1910,1911
+,,,Le Frou-Frou,http://catalogue.bnf.fr/ark:/12148/cb32779027h,Paris ,1900,1923
+,,,La Gaîté gauloise,http://catalogue.bnf.fr/ark:/12148/cb32779466h,Paris ,1903,1906
+,,,"La Gauloiserie : revue satirique, littéraire : illustrée",http://catalogue.bnf.fr/ark:/12148/cb32779912z,Paris ,1897,
+,,,"La Gifle : s'envoie tous les samedis, se reçoit dans tous les kiosques, et même à domicile",http://catalogue.bnf.fr/ark:/12148/cb32782381n,Paris ,1910,
+,,,Le Grelot,http://catalogue.bnf.fr/ark:/12148/cb32783924q,Paris ,1871,1895
+,,,"Le Guignol : journal hebdomadaire, satirique, humoristique, universel",http://catalogue.bnf.fr/ark:/12148/cb32785288h,Lyon,1883,
+,,,Histoire comique et naturelle des animaux,http://catalogue.bnf.fr/ark:/12148/cb32786814v,Paris ,1908,
+,,,Les Hommes du jour,http://catalogue.bnf.fr/ark:/12148/cb32787229g,Paris ,1908,1916
+,,,L'Hydropathe,http://catalogue.bnf.fr/ark:/12148/cb34460068g,Paris ,1879,1880
+,,,"L'Iroquois : journal sauvage, humoristique, satirique, artistique, littéraire",http://catalogue.bnf.fr/ark:/12148/cb327940580,Paris ,1876,
+,,,Le Javelot,http://catalogue.bnf.fr/ark:/12148/cb327954737,Paris ,1923,1932
+,,,Jean qui rit : journal illustré paraissant le vendredi,http://catalogue.bnf.fr/ark:/12148/cb32795595t,Paris ,1901,1914
+,,,"Le Journal amusant : journal illustré, journal d'images, journal comique, critique, satirique, etc.",http://catalogue.bnf.fr/ark:/12148/cb327966940,Paris ,1856,1933
+,,,Le Journal comique,http://catalogue.bnf.fr/ark:/12148/cb32796744q,Paris ,1909,
+,,,Journal des assassins : organe officiel des chourineurs réunis,http://catalogue.bnf.fr/ark:/12148/cb32799209j,Paris ,1884,
+,,,"Le Journal pour rire : journal d'images, journal comique, critique, satirique, lithographique",http://catalogue.bnf.fr/ark:/12148/cb32802279b,Paris ,1851,1855
+,,,Le Lampion de Berluron : musicien de la territoriale orphéoniste de Tortequeue !,http://catalogue.bnf.fr/ark:/12148/cb32804937t,Paris ,1881,1882
+,,,La Lanterne des demoiselles,http://catalogue.bnf.fr/ark:/12148/cb423866799,Paris ,1902,
+,,,La Lune rousse,http://catalogue.bnf.fr/ark:/12148/cb32809726t,Paris ,1876,1879
+,,,La Nouvelle lune,http://catalogue.bnf.fr/ark:/12148/cb32826156s,Paris ,1880,1891
+,,,L'Œil de Paris,http://catalogue.bnf.fr/ark:/12148/cb32828117c,Paris ,1928,1934
+,,,Paris qui rit : écho de la France gauloise : journal du joyeux viveur,http://catalogue.bnf.fr/ark:/12148/cb32832873j,Paris ,1892,1893
+,,,Le Pêle-mêle : journal humoristique hebdomadaire,http://catalogue.bnf.fr/ark:/12148/cb32834805j,Paris ,1895,1930
+,,,Le Petit Tintamarre,http://catalogue.bnf.fr/ark:/12148/cb328376031,Paris ,1857,
+,,,La Petite Lune,http://catalogue.bnf.fr/ark:/12148/cb328379255,Paris ,1878,1879
+,,,"Les Potins de Paris : politiques, financiers, théâtraux : revue satirique",http://catalogue.bnf.fr/ark:/12148/cb32841639s,Paris ,1918,1933
+,,,Le Régiment : journal littéraire et artistique paraissant tous les dimanches,http://catalogue.bnf.fr/ark:/12148/cb328502327,Paris ,1912,1925
+,,,"Revue comique normande : artistique, littéraire, théâtrale",http://catalogue.bnf.fr/ark:/12148/cb32856631f,Le Havre,1881,1908
+,,,Ric et Rac : grand hebdomadaire pour tous,http://catalogue.bnf.fr/ark:/12148/cb328618659,Paris ,1930,1938
+,,,Le Rire : journal humoristique,http://catalogue.bnf.fr/ark:/12148/cb34432899t,Paris ,1894,1924
+,,,La Risette,http://catalogue.bnf.fr/ark:/12148/cb32862056c,Paris ,1900,
+,,,Le Sifflet,http://catalogue.bnf.fr/ark:/12148/cb32868179r,Paris ,1898,1899
+,,,"La Silhouette : album lithographique, beaux-arts, dessins, moeurs, théâtres, caricatures",http://catalogue.bnf.fr/ark:/12148/cb328682582,Paris ,1830,
+,,,La Tribune internationale : revue illustrée paraissant le dimanche,http://catalogue.bnf.fr/ark:/12148/cb32881357q,Paris ,1904,1905
+,,,Le Trocadéroscope : revue tintamarresque de l'Exposition universelle,http://catalogue.bnf.fr/ark:/12148/cb32881735h,Paris ,1878,
+,,,Le Voltaire. Supplément illustré du dimanche,http://catalogue.bnf.fr/ark:/12148/cb32892211k,Paris ,1880,
+,,,,,,,
+,,,,,,,
+,,,Modernistmagazine - revues peu illustrées,,,,
+,,,Evergreen : a northern seasonal : the book of winter,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=76,Edinburgh/London/Philadelphia,1896-1897,
+,,,Dome,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=279,Londres,mai 1898,n°5
+,,,Art and Letters,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=1,Londres,janvier 1918,"vol. 1, n°3"
+,,,Owl,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=145,Londres,mai 1919,
+,,,Close Up,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=252,Suisse,juillet 1928,
+,,,Close Up,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=253,Suisse et Londres,janvier 1929,
+,,,Left Review,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=256,Londres,juillet 1936,
+,,,London Mercury and Bookman,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=291,Londres,octobre 1937,
+,,,Welsh Review,http://modernistmagazines.com/magazine_viewer.php?curPage=0&SHOWMAX=10000&gallery_id=300,Cardiff,août 1939,
+,,,Poetry,http://modernistmagazines.com/magazine_viewer.php?gallery_id=295,Londres,1942,
+,,,Poetry Scotland,http://modernistmagazines.com/magazine_viewer.php?gallery_id=297,Glasgow,juillet 1946,

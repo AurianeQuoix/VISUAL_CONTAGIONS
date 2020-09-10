@@ -1,0 +1,101 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": true,
+    "exportManagedFS": true,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportAllInputDatasets": true,
+    "exportAllDatasets": true,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": false,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "shareAllInputDatasets": false
+  },
+  "actualContent": {
+    "includedDatasets": [
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne___recensement___Catalogues",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 168393
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne___recensement___Catalogues_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 7782
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne_recensement___Revues",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 46290
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne_recensement___Revues_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 10268
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne_recensement___Revues_prepared_joined",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 10492
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne_recensement___revues_modernes",
+        "type": "UploadedFiles",
+        "usedTransferMethod": "UPLOAD",
+        "size": 83532
+      },
+      {
+        "name": "Catalogues_et_revues_accessibles_en_ligne_recensement___revues_modernes_prepared",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 2060
+      },
+      {
+        "name": "prototype_avec_manifestes",
+        "type": "Filesystem",
+        "usedTransferMethod": "RAW_FILES",
+        "size": 7791
+      }
+    ],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "VISUALCONTAGIONS_PROTOTYPE_AVEC_MANIFESTES",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "5.1.7",
+  "generatedWithDSSConfVersion": "24",
+  "exportedWithPlugins": [
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    }
+  ],
+  "requiredConnections": {
+    "filesystem_managed": {
+      "name": "filesystem_managed",
+      "type": "Filesystem"
+    }
+  },
+  "usedCodeEnvRefs": [],
+  "hasPartitionedDataset": false
+}

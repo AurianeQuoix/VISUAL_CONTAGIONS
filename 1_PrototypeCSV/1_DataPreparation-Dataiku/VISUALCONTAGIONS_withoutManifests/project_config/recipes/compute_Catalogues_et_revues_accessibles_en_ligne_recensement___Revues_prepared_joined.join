@@ -1,0 +1,494 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {
+          "name": "Nommage_fichier",
+          "table": 1
+        },
+        "maxMatches": 1,
+        "type": "KEEP_LARGEST",
+        "enabled": false
+      },
+      "type": "ADVANCED",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "Nommage_fichier",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Nommage_fichier",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Type_source",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Type_source",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 1,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Contributeur",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Contributeur",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Titre",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Titre",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Editeur",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Editeur",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Lieu_publication_en",
+            "table": 0
+          },
+          "column2": {
+            "name": "Lieu_publication_en",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Date_publication",
+            "table": 0
+          },
+          "column2": {
+            "name": "Date_publication",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Langue_source",
+            "table": 0
+          },
+          "column2": {
+            "name": "Langue_source",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Format",
+            "table": 0
+          },
+          "column2": {
+            "name": "Format",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Licence",
+            "table": 0
+          },
+          "column2": {
+            "name": "Licence",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Source_diffuseur",
+            "table": 0
+          },
+          "column2": {
+            "name": "Source_diffuseur",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Depot",
+            "table": 0
+          },
+          "column2": {
+            "name": "Depot",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Numerise_par",
+            "table": 0
+          },
+          "column2": {
+            "name": "Numerise_par",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Date_numerisation",
+            "table": 0
+          },
+          "column2": {
+            "name": "Date_numerisation",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Directeur",
+            "table": 0
+          },
+          "column2": {
+            "name": "Directeur",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Editeur_scientifique",
+            "table": 0
+          },
+          "column2": {
+            "name": "Editeur_scientifique",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        }
+      ]
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Nommage_fichier",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Type_source",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Contributeur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Titre",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Editeur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Editeur_scientifique",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Lieu_publication_en",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_publication",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Langue_source",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Format",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Licence",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Source_diffuseur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Depot",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Numerise_par",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_numerisation",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Directeur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Annee_1er_numero",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Annee_dernier_numero",
+      "type": "string",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": [
+            {
+              "input": "Nommage_fichier",
+              "col": "Categorie_source",
+              "num": 0,
+              "operator": "!\u003d [string]"
+            },
+            {
+              "input": "Nommage_fichier",
+              "col": "Categorie_source",
+              "num": 0,
+              "operator": "contains"
+            }
+          ]
+        },
+        "$status": {
+          "validated": true,
+          "fullyTranslated": false,
+          "ok": false,
+          "message": "Filter expression is invalid"
+        },
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "uiData": {
+          "mode": "\u0026\u0026",
+          "conditions": [
+            {
+              "input": "Nommage_fichier",
+              "col": "Categorie_source",
+              "num": 0,
+              "operator": "contains"
+            }
+          ]
+        },
+        "$status": {
+          "validated": true,
+          "fullyTranslated": false,
+          "ok": false,
+          "message": "Filter expression is invalid"
+        },
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Nommage_fichier",
+            "type": "string"
+          },
+          {
+            "name": "Type_source",
+            "type": "string"
+          },
+          {
+            "name": "Contributeur",
+            "type": "string"
+          },
+          {
+            "name": "Titre",
+            "type": "string"
+          },
+          {
+            "name": "Editeur",
+            "type": "string"
+          },
+          {
+            "name": "Editeur_scientifique",
+            "type": "string"
+          },
+          {
+            "name": "Lieu_publication_en",
+            "type": "string"
+          },
+          {
+            "name": "Date_publication",
+            "type": "string"
+          },
+          {
+            "name": "Langue_source",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Licence",
+            "type": "string"
+          },
+          {
+            "name": "Source_diffuseur",
+            "type": "string"
+          },
+          {
+            "name": "Depot",
+            "type": "string"
+          },
+          {
+            "name": "Numerise_par",
+            "type": "string"
+          },
+          {
+            "name": "Date_numerisation",
+            "type": "string"
+          },
+          {
+            "name": "Directeur",
+            "type": "string"
+          },
+          {
+            "meaning": "DateSource",
+            "name": "Annee_1er_numero",
+            "type": "string"
+          },
+          {
+            "meaning": "DateSource",
+            "name": "Annee_dernier_numero",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "enableAutoCastInJoinConditions": false
+}

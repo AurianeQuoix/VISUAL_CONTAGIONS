@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <Nommage_fichier>exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower
+            prints, and surimono from Hokusai to Kyōsai</Titre>
+        <Auteur>Louis V. Ledoux (1880-1948)</Auteur>
+        <Directeur/>
+        <Editeur>The Grolier Club</Editeur>
+        <Editeur_scientifique/>
+        <Lieu_publication_en>New York</Lieu_publication_en>
+        <Date_publication>1924</Date_publication>
+        <Annee_1er_numero/>
+        <Annee_dernier_numero/>
+        <Langue_source>en</Langue_source>
+        <Format>1 vol. (93 p.) ; 24 cm</Format>
+        <Licence>https://www.hathitrust.org/access_use#pd-google</Licence>
+        <Source_diffuseur>https://hdl.handle.net/2027/wu.89054435979</Source_diffuseur>
+        <Depot>University of Wisconsin - Madison</Depot>
+        <Numerise_par>Google</Numerise_par>
+        <Date_numerisation>2016</Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1924</Date_debut_exposition>
+        <Date_fin_exposition/>
+        <Notes_catalogue_expo/>
+        <Titre_exposition>Japanese landscape, bird, and flower prints, and surimono from Hokusai to
+            Kyōsai</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>New York</Ville_exposition_en>
+        <Pays_en>United States</Pays_en>
+        <Etat_en/>
+        <Titre_groupe_expositions/>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section/>
+        <Adresse_section_decrite_dans_catalogue/>
+        <Lieu_exposition_section_unique>The Grolier Club</Lieu_exposition_section_unique>
+        <Type_lieu>club</Type_lieu>
+        <Numero_et_nom_rue_section>47 East 60th Street</Numero_et_nom_rue_section>
+        <Etage_section/>
+        <Lieu-dit_section/>
+        <Complement_adresse_section/>
+        <Notes_section/>
+    </row>
+</root>

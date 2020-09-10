@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <row>
+        <Nommage_fichier>exhibCat_1925_Paris_ChineExpositionInternationaleArtsDecoratifs</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>La Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise.</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>Imprimerie Labor</Editeur>
+        <Editeur_scientifique>Exposition internationale (1925 ; Paris)</Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1925</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (40 p.) ; 25 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k317898c</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1925-04-28</Date_debut_exposition>
+        <Date_fin_exposition>1925-11-30</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>La Chine à l'exposition internationale des arts décoratifs et industriels modernes à Paris</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>artists_group</Type_groupe_expositions>
+        <Titre_section>Section de Chine</Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Au Grand Palais - 1er étage, à gauche de la salle des Congrès</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Grand Palais</Lieu_exposition_section_unique>
+        <Type_lieu>room</Type_lieu>
+        <Numero_et_nom_rue_section>3, avenue du Général Eisenhower</Numero_et_nom_rue_section>
+        <Etage_section>1er étage</Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section>à gauche de la salle des Congrès</Complement_adresse_section>
+        <Notes_section>La Galerie de Chine se trouve au premier étage du Grand Palais, à gauche de la Salle du Congrès, et près des Galeries de la Manufacture des Gobelins et de la Section Russe. Elle est composée de huit stands et de deux vestibules. La porte d'honneur se trouve du côté de la Section Russe et représente une décoration de chimères chinoises évoluées.</Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k317898c/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1899_Paris_LithographiesFantin-Latour</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899)</Titre>
+        <Auteur>Léonce Bénédite (1859-1925)</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Librairies-imprimeries réunies</Editeur>
+        <Editeur_scientifique>Musée du Luxembourg (Paris ; 1818-1937)</Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1899</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (64 p.) : fig. ; in-8</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k6573766f</Source_diffuseur>
+        <Depot>Bibliothèque de l'INHA / coll. J. Doucet</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1899-06-01</Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>Expositions périodiques d'estampes. Troisième exposition</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Musée national du Luxembourg</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>19, rue de Vaugirard</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6573766f/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1883_Paris_ExpositionRetrospectiveArtJaponais</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Catalogue de l'exposition rétrospective de l'art japonais</Titre>
+        <Auteur>Louis Gonse (1846-1921)</Auteur>
+        <Directeur></Directeur>
+        <Editeur>A. Quantin</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1883</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (495 p.) : fig. ; in-8</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k6373975m</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1883-04</Date_debut_exposition>
+        <Date_fin_exposition>1883-05</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>Exposition rétrospective de l'art japonais</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Galeries Georges Petit</Lieu_exposition_section_unique>
+        <Type_lieu>gallery</Type_lieu>
+        <Numero_et_nom_rue_section>8, rue de Sèze</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6373975m/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1886_Paris_ExpositionMaitresSiecle</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Catalogue. Exposition de Maîtres du Siècle</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1886</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (28 p.)</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/btv1b7200759d</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1886-04</Date_debut_exposition>
+        <Date_fin_exposition>1886-05</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>Exposition de Maîtres du Siècle</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Ancien atelier de Gustave Doré, 3, rue Bayard</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Ancien atelier de Gustave Doré</Lieu_exposition_section_unique>
+        <Type_lieu>other_type</Type_lieu>
+        <Numero_et_nom_rue_section>3, rue Bayard</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/btv1b7200759d/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1892_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Société des artistes indépendants. Catalogue des oeuvres exposées.</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Société des artistes indépendants</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1892</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (75 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1269951h</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1892-03-19</Date_debut_exposition>
+        <Date_fin_exposition>1892-04-27</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>8e Exposition du 19 mars au 27 avril 1892, Pavillon de la ville de Paris, Champs Elysées</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Pavillon de la ville de Paris (Champs-Elysées)</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Pavillon de la ville de Paris</Lieu_exposition_section_unique>
+        <Type_lieu>room</Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1269951h/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1921_TheHague_ExpositionHollandaise</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernes</Titre>
+        <Auteur>Musée du Jeu de paume (Paris)</Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>The Hague</Lieu_publication_en>
+        <Date_publication>1921</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (22 p.- 14 pl.) ; 25 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k6481622b</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1921-04</Date_debut_exposition>
+        <Date_fin_exposition>1921-05</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernes</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Musée du Jeu de Paume</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>1, Place de la Concorde</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k6481622b/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1892_Paris_SalonRoseCroix</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Catalogue du Salon de la Rose † Croix : Geste esthétique</Titre>
+        <Auteur>Salon de la Rose-Croix</Auteur>
+        <Directeur>Joséphin Peladan (1858-1918)</Directeur>
+        <Editeur>Librairie Nilsson</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1892</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (75 p.) ; 23 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k5470406r</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1892-03-10</Date_debut_exposition>
+        <Date_fin_exposition>1892-04-10</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>1er Salon de la Rose-Croix</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris </Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon de la Rose-Croix</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>11, rue Le Peletier</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Galerie Durand-Ruel</Lieu_exposition_section_unique>
+        <Type_lieu>gallery </Type_lieu>
+        <Numero_et_nom_rue_section>11, rue Le Peletier</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5470406r/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1912_London_SecondPost-impressionistExhibition</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Béatrice Joyeux-Prunel</Contributeur>
+        <Titre>Second post-impressionist exhibition​, British, French and Russian artists</Titre>
+        <Auteur>Roger Eliot Fry (1866-1934)</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Ballantyne &amp; Company Ltd. </Editeur>
+        <Editeur_scientifique>Grafton Galleries (London)</Editeur_scientifique>
+        <Lieu_publication_en>London</Lieu_publication_en>
+        <Date_publication>1912</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>en</Langue_source>
+        <Format>1 vol. (72 p.) ; 19 cm</Format>
+        <Licence>https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf</Licence>
+        <Source_diffuseur>https://bibliotheque-numerique.inha.fr/idurl/1/35311</Source_diffuseur>
+        <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation>2017</Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1912-10-05</Date_debut_exposition>
+        <Date_fin_exposition>1912-12-31</Date_fin_exposition>
+        <Notes_catalogue_expo>Contient une introduction de Roger Fry, des textes de Clive Bell, Roger Fry et Boris von Anrep ; Index.</Notes_catalogue_expo>
+        <Titre_exposition>Second post-impressionist exhibition​</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>London</Ville_exposition_en>
+        <Pays_en>United Kingdom</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>artists_group</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>8, Grafton Street, Bond Street, W.</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Grafton Galleries</Lieu_exposition_section_unique>
+        <Type_lieu>gallery</Type_lieu>
+        <Numero_et_nom_rue_section>8, Grafton Street, puis Bond Street</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://bibliotheque-numerique.inha.fr/iiif/35311/manifest</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1919_London_FrenchArt1914-1919</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Béatrice Joyeux-Prunel</Contributeur>
+        <Titre>Catalogue of exhibition of french art, 1914-1919</Titre>
+        <Auteur>Arnold Bennett (1867-1931)</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Printed at the Pelican Press</Editeur>
+        <Editeur_scientifique>Mansard Gallery (London)</Editeur_scientifique>
+        <Lieu_publication_en>London</Lieu_publication_en>
+        <Date_publication>1919</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>en</Langue_source>
+        <Format>1 vol. (10 p.) ; 17 x 11 cm</Format>
+        <Licence>https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf</Licence>
+        <Source_diffuseur>https://bibliotheque-numerique.inha.fr/viewer/49980/?offset=#page=2&amp;viewer=picture&amp;o=bookmark&amp;n=0&amp;q</Source_diffuseur>
+        <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation>2018</Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1919-08</Date_debut_exposition>
+        <Date_fin_exposition>1919-08</Date_fin_exposition>
+        <Notes_catalogue_expo>La Mansard Gallery a été fondée en 1917 par Frank Pick (1878-1941) et Ambrose Heal (1872-1959)</Notes_catalogue_expo>
+        <Titre_exposition>French Art, 1914-1919</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>London</Ville_exposition_en>
+        <Pays_en>United Kingdom</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Tottenham Court RD. W.</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Mansard Gallery</Lieu_exposition_section_unique>
+        <Type_lieu>gallery</Type_lieu>
+        <Numero_et_nom_rue_section>Tottenham Court RD. W.</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://bibliotheque-numerique.inha.fr/iiif/49980/manifest</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1904_Brussels_LibreEsthetique</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Béatrice Joyeux-Prunel</Contributeur>
+        <Titre>Exposition des peintres impressionnistes : Libre Esthétique</Titre>
+        <Auteur>Octave Maus </Auteur>
+        <Directeur></Directeur>
+        <Editeur>Imprimerie Veuve Monnon</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Brussels </Lieu_publication_en>
+        <Date_publication>1904</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (56 p.) ; 17 cm</Format>
+        <Licence>https://www.etalab.gouv.fr/wp-content/uploads/2014/05/Open_Licence.pdf</Licence>
+        <Source_diffuseur>https://bibliotheque-numerique.inha.fr/viewer/26791/?offset=#page=6&amp;viewer=picture&amp;o=bookmark&amp;n=0&amp;q</Source_diffuseur>
+        <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation>2012</Date_numerisation>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1904-02-25</Date_debut_exposition>
+        <Date_fin_exposition>1904-03-22</Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition>Exposition des peintres impressionnistes : Libre Esthétique</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Brussels </Ville_exposition_en>
+        <Pays_en>Belgium</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>artists_group</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://bibliotheque-numerique.inha.fr/iiif/26791/manifest</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1888-05_Paris_JaponArtistique</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Le Japon artistique, documents d’art et d’industrie réunis par Siegfried Bing</Titre>
+        <Auteur></Auteur>
+        <Directeur>Siegfried Bing (1838-1905)</Directeur>
+        <Editeur>Marpon et Flammarion</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1888-05</Date_publication>
+        <Annee_1er_numero>1888</Annee_1er_numero>
+        <Annee_dernier_numero>1891</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format></Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k9115319</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9115319/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1890-01_Paris_MercureFrance</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Mercure de France : série moderne</Titre>
+        <Auteur></Auteur>
+        <Directeur>Alfred Vallette (1858-1935)</Directeur>
+        <Editeur>Mercure de France</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1890-01</Date_publication>
+        <Annee_1er_numero>1890</Annee_1er_numero>
+        <Annee_dernier_numero>1965</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>23 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1051017</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1051017/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1894-04_London_YellowBook</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>The Yellow Book: An Illustrated Quarterly</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>Charles Elkin Mathews (1851-1921), John Lane (1854-1925)</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>London</Lieu_publication_en>
+        <Date_publication>1894-04</Date_publication>
+        <Annee_1er_numero>1894</Annee_1er_numero>
+        <Annee_dernier_numero>1897</Annee_dernier_numero>
+        <Langue_source>en</Langue_source>
+        <Format></Format>
+        <Licence>https://www.ub.uni-heidelberg.de/Englisch/helios/digi/nutzung/Welcome.html</Licence>
+        <Source_diffuseur>https://digi.ub.uni-heidelberg.de/diglit/yellow_book1894_1</Source_diffuseur>
+        <Depot>Universitätsbibliothek Heidelberg</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://digi.ub.uni-heidelberg.de/diglit/iiif/yellow_book1894_1/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1905-07_Paris_ArtDecoratif</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>L'Art décoratif : revue internationale d'art industriel et de décoration</Titre>
+        <Auteur></Auteur>
+        <Directeur>Fernand Roches (1910-1913)</Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1905-07</Date_publication>
+        <Annee_1er_numero>1898</Annee_1er_numero>
+        <Annee_dernier_numero>1914</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format></Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1204557d</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1204557d/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1921-11_Paris_OeufDur</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>L'Oeuf Dur</Titre>
+        <Auteur></Auteur>
+        <Directeur>Georges Duvau (1903-1958), Gérard-Rosenthal (1903-1992), Pierre Villoteau (?-?), Jean Albert-Weil (1933-2019)</Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1921-11</Date_publication>
+        <Annee_1er_numero>1921</Annee_1er_numero>
+        <Annee_dernier_numero>1924</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>23 x 14,5 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1051017</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1051017/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1922-07_Lyon_Manometre</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Manomètre</Titre>
+        <Auteur></Auteur>
+        <Directeur>Emile Malespine (1892-1952)</Directeur>
+        <Editeur>E. Malespine</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Lyon</Lieu_publication_en>
+        <Date_publication>1922-07</Date_publication>
+        <Annee_1er_numero>1922</Annee_1er_numero>
+        <Annee_dernier_numero>1928</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>17,5 x 22,5 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k329089</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k329089/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1924-10_Paris_Surrealisme</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Surréalisme</Titre>
+        <Auteur></Auteur>
+        <Directeur>Yvan Goll (1891-1950)</Directeur>
+        <Editeur>Yvan Goll</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1924-10-01</Date_publication>
+        <Annee_1er_numero>1924</Annee_1er_numero>
+        <Annee_dernier_numero>1924</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 n° (16 p.) ; 26 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1511119d</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1511119d/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1924-12_Paris_RevolutionSurrealiste</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>La Révolution surréaliste</Titre>
+        <Auteur></Auteur>
+        <Directeur>André Breton (1896-1966), Pierre Naville (1904-1993), Benjamin Péret (1899-1959)</Directeur>
+        <Editeur>Librairie J. Corti</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1924-12-01</Date_publication>
+        <Annee_1er_numero>1924</Annee_1er_numero>
+        <Annee_dernier_numero>1929</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>29 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k5844543r</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k5844543r/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1933-06_Paris_Minotaure</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>Minotaure : revue artistique et littéraire</Titre>
+        <Auteur></Auteur>
+        <Directeur>Albert Skira (1904-1973), Emile Tériade (1897-1983)</Directeur>
+        <Editeur>Editions Albert Skira</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1933-06-01</Date_publication>
+        <Annee_1er_numero>1933</Annee_1er_numero>
+        <Annee_dernier_numero>1939</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>33 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k1525969k</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1525969k/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1935-04_Paris_BeteNoire</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>La Bête noire : artistique et littéraire</Titre>
+        <Auteur></Auteur>
+        <Directeur>Maurice Raynal (1884-1954), Emile Tériade (1897-1983)</Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1935-04-01</Date_publication>
+        <Annee_1er_numero>1935</Annee_1er_numero>
+        <Annee_dernier_numero>1936</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format></Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k55684296</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Notes_catalogue_expo></Notes_catalogue_expo>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k55684296/manifest.json</Manifeste_IIIF>
+    </row>
+</root>

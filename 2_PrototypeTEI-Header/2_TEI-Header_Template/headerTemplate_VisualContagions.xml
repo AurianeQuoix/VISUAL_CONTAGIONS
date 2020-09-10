@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="file_name">
+   <!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title><!-- Titre du catalogue/périodique --></title>      
+            <editor role="metadata">
+               <persName><!-- Prénom et nom de la personne ayant encodé le header --></persName>
+            </editor>
+            <editor role="data">
+               <persName><!-- Prénom et nom de la personne ayant encodé le corps du texte --></persName>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>VISUAL CONTAGIONS</name>
+               <persName type="director">Béatrice Joyeux-Prunel</persName>
+               <orgName>UNIGE</orgName>
+               <address>
+                  <addrLine>Rue des Battoirs 7</addrLine>
+                  <postCode>1205</postCode>
+                  <settlement>Genève</settlement>
+               </address>
+            </publisher>
+            <date when="1111"/>
+            <availability>
+               <!-- Licence texte -->
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+               <!-- Licence images -->
+               <licence></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="source_type">
+               <title><!-- Titre du catalogue/périodique --></title>
+               <author><!-- Auteur du document (balise répétable si plusieurs auteurs) --></author>
+               <editor><!-- Editeur scientifique du document (balise répétable si plusieurs éditeurs scientifiques) --></editor>
+               <editor role="director"><!-- Directeur de la revue ou du catalogue dans certains cas (balise répétable si plusieurs directeurs) --></editor>
+               <publisher><!-- Editeur du document --></publisher>
+               <pubPlace><!-- Ville de publication --></pubPlace>
+               <date when="1111"><!-- Année de publication ou date de parution d'un périodique (norme ISO-8601 : yyyy-mm-dd) --></date>
+               <date type="first_publication_number" when="1111"><!-- Année de publication du premier numéro de la revue (fondation de la revue) --></date>
+               <date type="last_publication_number" when="1111"><!-- Année de publication du dernier numéro de la revue (disparition de la revue) --></date>
+               <relatedItem>
+                  <!-- Localisation de l'original -->
+                  <msDesc>
+                     <msIdentifier>
+                        <repository><!-- Nom du dépôt, par exemple : -->Bibliothèque nationale de France</repository>
+                     </msIdentifier>
+                     <additional>
+                        <surrogates>
+                           <!-- Lien vers sa version numérisée -->
+                           <ref facs="https://exemple.fr"/>
+                           <name role="digitisation" when="1111-11-11"><!-- Auteur de la numérisation de la ressource --></name>                           
+                        </surrogates>
+                     </additional>
+                  </msDesc>
+               </relatedItem>
+               <extent><!-- Nombre de volumes, le nombre de pages ainsi que la taille de l’ouvrage (ex : 1 vol. (72 p.) ; 19 cm) --></extent>
+               <note><!-- Notes concernant le catalogue d'exposition/la revue (balise répétable dans le cas où il y aurait plusieurs notes) --></note>
+            </bibl>
+            <listEvent>
+               <!-- Concernant l'attribut @subtype de la balise <event>, indiquer "travelling" si l'exposition est itinérante, ou "fixed" si elle ne l'est pas -->
+               <event type="event_type" subtype="travelling_or_fixed" from="1111-11-11" to="1111-11-11">
+                  <head><!-- Titre de l'exposition --></head>
+                  <head type="exhibition_group_type"><!-- Titre du groupe d'expositions (lorsqu'il en existe un) --></head>             
+                  <desc>
+                     <!-- Liste des lieux -->
+                     <listPlace>
+                        <!-- Enchaînement de balises répétable (dans le cas où il y aurait plusieurs sections (= adresses) pour un même catalogue d'exposition) -->
+                        <place>
+                           <head><!-- Titre de la section (catalogues d'exposition) --></head>
+                           <placeName>
+                              <orgName type="place_type"><!-- Nom du lieu dans lequel s’est déroulé l’exposition (musée, galerie, etc.) --></orgName>
+                              <!-- Deux adresses sont encodées : celle indiquée dans l'imprimé et sa version normalisée -->
+                              <choice>
+                                 <orig>
+                                    <address n="address_from_source">
+                                       <addrLine><!-- Adresse de la section telle qu’elle est indiquée dans la source. --></addrLine>
+                                    </address>
+                                 </orig>
+                                 <reg>
+                                    <address n="section_address">
+                                       <street><!-- N°et nom de rue --></street>
+                                       <addrLine n="floor"><!-- Etage --></addrLine>
+                                       <addrLine n="additional_address"><!-- Complément d’adresse --></addrLine>
+                                       <addrLine n="locality"><!-- Correspond à la colonne "Lieu-dit" (Tableau_prototype_catexp_periodiques) --></addrLine>
+                                       <settlement><!-- Ville de l'exposition --></settlement>
+                                       <country><!-- Pays dans lequel s'est déroulé l’exposition --></country>
+                                       <region><!-- État dans lequel a eu lieu l’exposition --></region>
+                                    </address>
+                                 </reg>
+                              </choice>
+                           </placeName>
+                           <note><!-- Notes de la section --></note>
+                        </place>
+                        <place>
+                           <!-- Répétition des balises possible comme indiqué ci-dessus -->
+                        </place>
+                     </listPlace>
+                  </desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <!-- La valeur de l'attribut "ident" correspondra à la colonne "Langue_source" (Tableau_prototype_catexp_periodiques) -->
+            <language ident="language"/>
+         </langUsage>
+      </profileDesc>
+      <encodingDesc>
+         <!-- Concerne uniquement les catalogues encodés avec GROBID. Caroline Corbières est chargée de compléter cette partie. -->
+         <p/>
+      </encodingDesc>
+      <revisionDesc>
+         <!-- Descriptif des révisions du fichier -->
+         <change who="name"><!-- Indiquer la modification ou la correction apportée au fichier --></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list>
+            <head/>
+         </list>
+      </body>
+   </text>
+</TEI>

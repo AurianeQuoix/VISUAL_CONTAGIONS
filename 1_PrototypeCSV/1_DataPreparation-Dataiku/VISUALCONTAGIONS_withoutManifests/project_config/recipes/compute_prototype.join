@@ -1,0 +1,628 @@
+{
+  "joins": [
+    {
+      "table2": 1,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {
+        "decisionColumn": {}
+      },
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "Nommage_fichier",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Nommage_fichier",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 1,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Type_source",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Type_source",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Contributeur",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Contributeur",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Titre",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Titre",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Editeur",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "Editeur",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "Lieu_publication_en",
+            "table": 0
+          },
+          "column2": {
+            "name": "Lieu_publication_en",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Date_publication",
+            "table": 0
+          },
+          "column2": {
+            "name": "Date_publication",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Langue_source",
+            "table": 0
+          },
+          "column2": {
+            "name": "Langue_source",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Format",
+            "table": 0
+          },
+          "column2": {
+            "name": "Format",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Licence",
+            "table": 0
+          },
+          "column2": {
+            "name": "Licence",
+            "table": 1
+          },
+          "maxDistance": 1,
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Source_diffuseur",
+            "table": 0
+          },
+          "column2": {
+            "name": "Source_diffuseur",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Depot",
+            "table": 0
+          },
+          "column2": {
+            "name": "Depot",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Numerise_par",
+            "table": 0
+          },
+          "column2": {
+            "name": "Numerise_par",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Date_numerisation",
+            "table": 0
+          },
+          "column2": {
+            "name": "Date_numerisation",
+            "table": 1
+          },
+          "type": "EQ"
+        },
+        {
+          "column1": {
+            "name": "Editeur_scientifique",
+            "table": 0
+          },
+          "column2": {
+            "name": "Editeur_scientifique",
+            "table": 1
+          },
+          "type": "EQ"
+        }
+      ]
+    }
+  ],
+  "selectedColumns": [
+    {
+      "name": "Nommage_fichier",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Type_source",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Contributeur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Titre",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Editeur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Editeur_scientifique",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Lieu_publication_en",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_publication",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Langue_source",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Format",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Licence",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Source_diffuseur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Depot",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Numerise_par",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_numerisation",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Auteur",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Type_evenement",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_debut_exposition",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Date_fin_exposition",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Notes_catalogue_expo",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Titre_exposition",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Exposition_itinerante",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Ville_exposition_en",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Pays_en",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Etat_en",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Titre_groupe_expositions",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Type_groupe_expositions",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Titre_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Adresse_section_decrite_dans_catalogue",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Lieu_exposition_section_unique",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Type_lieu",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Numero_et_nom_rue_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Etage_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Lieu-dit_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Complement_adresse_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Notes_section",
+      "type": "string",
+      "table": 0
+    },
+    {
+      "name": "Directeur",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Annee_1er_numero",
+      "type": "string",
+      "table": 1
+    },
+    {
+      "name": "Annee_dernier_numero",
+      "type": "string",
+      "table": 1
+    }
+  ],
+  "engineParams": {
+    "hive": {
+      "skipPrerunValidate": false,
+      "hiveconf": [],
+      "inheritConf": "default",
+      "addDkuUdf": false,
+      "executionEngine": "HIVECLI_LOCAL"
+    },
+    "impala": {
+      "forceStreamMode": true
+    },
+    "lowerCaseSchemaIfEngineRequiresIt": true,
+    "sparkSQL": {
+      "pipelineAllowMerge": true,
+      "useGlobalMetastore": false,
+      "pipelineAllowStart": true,
+      "readParams": {
+        "map": {}
+      },
+      "overwriteOutputSchema": false,
+      "executionEngine": "SPARK_SUBMIT",
+      "sparkConfig": {
+        "inheritConf": "default",
+        "conf": []
+      }
+    }
+  },
+  "virtualInputs": [
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 0,
+      "computedColumns": []
+    },
+    {
+      "preFilter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "autoSelectColumns": false,
+      "index": 1,
+      "computedColumns": []
+    }
+  ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "Nommage_fichier",
+            "type": "string"
+          },
+          {
+            "name": "Type_source",
+            "type": "string"
+          },
+          {
+            "name": "Contributeur",
+            "type": "string"
+          },
+          {
+            "name": "Titre",
+            "type": "string"
+          },
+          {
+            "name": "Editeur",
+            "type": "string"
+          },
+          {
+            "name": "Editeur_scientifique",
+            "type": "string"
+          },
+          {
+            "name": "Lieu_publication_en",
+            "type": "string"
+          },
+          {
+            "name": "Date_publication",
+            "type": "string"
+          },
+          {
+            "name": "Langue_source",
+            "type": "string"
+          },
+          {
+            "name": "Format",
+            "type": "string"
+          },
+          {
+            "name": "Licence",
+            "type": "string"
+          },
+          {
+            "meaning": "Text",
+            "name": "Source_diffuseur",
+            "type": "string"
+          },
+          {
+            "name": "Depot",
+            "type": "string"
+          },
+          {
+            "name": "Numerise_par",
+            "type": "string"
+          },
+          {
+            "name": "Date_numerisation",
+            "type": "string"
+          },
+          {
+            "name": "Auteur",
+            "type": "string"
+          },
+          {
+            "name": "Type_evenement",
+            "type": "string"
+          },
+          {
+            "meaning": "DateSource",
+            "name": "Date_debut_exposition",
+            "type": "string"
+          },
+          {
+            "name": "Date_fin_exposition",
+            "type": "string"
+          },
+          {
+            "name": "Notes_catalogue_expo",
+            "type": "string"
+          },
+          {
+            "name": "Titre_exposition",
+            "type": "string"
+          },
+          {
+            "name": "Exposition_itinerante",
+            "type": "string"
+          },
+          {
+            "name": "Ville_exposition_en",
+            "type": "string"
+          },
+          {
+            "name": "Pays_en",
+            "type": "string"
+          },
+          {
+            "name": "Etat_en",
+            "type": "string"
+          },
+          {
+            "name": "Titre_groupe_expositions",
+            "type": "string"
+          },
+          {
+            "name": "Type_groupe_expositions",
+            "type": "string"
+          },
+          {
+            "name": "Titre_section",
+            "type": "string"
+          },
+          {
+            "name": "Adresse_section_decrite_dans_catalogue",
+            "type": "string"
+          },
+          {
+            "name": "Lieu_exposition_section_unique",
+            "type": "string"
+          },
+          {
+            "name": "Type_lieu",
+            "type": "string"
+          },
+          {
+            "name": "Numero_et_nom_rue_section",
+            "type": "string"
+          },
+          {
+            "name": "Etage_section",
+            "type": "string"
+          },
+          {
+            "name": "Lieu-dit_section",
+            "type": "string"
+          },
+          {
+            "name": "Complement_adresse_section",
+            "type": "string"
+          },
+          {
+            "name": "Notes_section",
+            "type": "string"
+          },
+          {
+            "name": "Directeur",
+            "type": "string"
+          },
+          {
+            "meaning": "DateSource",
+            "name": "Annee_1er_numero",
+            "type": "string"
+          },
+          {
+            "meaning": "DateSource",
+            "name": "Annee_dernier_numero",
+            "type": "string"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
+  "enableAutoCastInJoinConditions": false
+}

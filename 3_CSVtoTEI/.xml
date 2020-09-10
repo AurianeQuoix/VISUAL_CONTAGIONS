@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Nommage_fichier">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernesLa Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernesLa Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernesLa Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernesLa Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernesLa Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernes</title>
+            <editor role="metadata">
+               <persName>Auriane Quoix Auriane Quoix Auriane Quoix Auriane Quoix Auriane Quoix Auriane Quoix</persName>
+            </editor>
+            <editor role="data">
+               <persName/>
+            </editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <name>VISUAL CONTAGIONS</name>
+               <persName type="director">Béatrice Joyeux-Prunel</persName>
+               <orgName>UNIGE</orgName>
+               <address>
+                  <addrLine>Rue des Battoirs 7</addrLine>
+                  <postCode>1205</postCode>
+                  <settlement>Genève</settlement>
+               </address>
+            </publisher>
+            <date when="1111"/>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+               <licence/>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl type="source_type">
+               <title>La Chine à l'Exposition internationale des arts décoratifs et industriels modernes à Paris. Catalogue des œuvres d'art décoratif artistique et industrielles modernes exposées dans la section chinoise. Catalogue des lithographies originales de Henri Fantin-Latour : Expositions périodiques d'estampes. Troisième exposition (1er juin 1899) Catalogue de l'exposition rétrospective de l'art japonais Catalogue. Exposition de Maîtres du Siècle Société des artistes indépendants. Catalogue des oeuvres exposées. Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernes</title>
+               <author>None Léonce Bénédite (1859-1925) Louis Gonse (1846-1921) None Salon des indépendants Musée du Jeu de paume (Paris)</author>
+               <editor>Exposition internationale (1925 ; Paris) Musée du Luxembourg (Paris ; 1818-1937) None None None None</editor>
+               <editor role="director">None None None None None None</editor>
+               <publisher>Imprimerie Labor Librairies-imprimeries réunies A. Quantin None Société des artistes indépendants None</publisher>
+               <pubPlace>Paris Paris Paris Paris Paris The Hague</pubPlace>
+               <date when="1111"/>
+               <date type="first_publication_number"/>
+               <date type="last_publication_number"/>
+               <relatedItem>
+                  <msDesc>
+                     <msIdentifier>
+                        <repository/>
+                     </msIdentifier>
+                     <additional>
+                        <surrogates>
+                           <ref facs="https://exemple.fr"/>
+                           <name role="digitisation" when="1111-11-11"/>
+                        </surrogates>
+                     </additional>
+                  </msDesc>
+               </relatedItem>
+               <extent/>
+               <note/>
+            </bibl>
+            <listEvent>
+               <event type="event_type"
+                      subtype="travelling_or_fixed"
+                      from="1111-11-11"
+                      to="1111-11-11">
+                  <head/>
+                  <head type="exhibition_group_type"/>
+                  <desc>
+                     <listPlace>
+                        <place>
+                           <head/>
+                           <placeName>
+                              <orgName type="place_type"/>
+                              <choice>
+                                 <orig>
+                                    <address n="address_from_source">
+                                       <addrLine/>
+                                    </address>
+                                 </orig>
+                                 <reg>
+                                    <address n="section_address">
+                                       <street/>
+                                       <addrLine n="floor"/>
+                                       <addrLine n="additional_address"/>
+                                       <addrLine n="locality"/>
+                                       <settlement/>
+                                       <country/>
+                                       <region/>
+                                    </address>
+                                 </reg>
+                              </choice>
+                           </placeName>
+                           <note/>
+                        </place>
+                        <place/>
+                     </listPlace>
+                  </desc>
+               </event>
+            </listEvent>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr"/>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="nom"/>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p/>
+      </body>
+   </text>
+</TEI>

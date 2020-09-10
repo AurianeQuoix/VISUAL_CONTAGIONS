@@ -1,0 +1,2195 @@
+{
+  "columnsSelection": {
+    "mode": "ALL"
+  },
+  "explorationSampling": {
+    "_refreshTrigger": 1,
+    "selection": {
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "latestPartitionsN": 1,
+      "maxRecords": 10000,
+      "ordering": {
+        "rules": [],
+        "enabled": false
+      },
+      "withinFirstN": -1,
+      "partitionSelectionMethod": "ALL",
+      "maxStoredBytes": 1048576000,
+      "targetRatio": 0.02,
+      "maxReadUncompressedBytes": -1,
+      "samplingMethod": "HEAD_SEQUENTIAL"
+    },
+    "autoRefreshSample": false
+  },
+  "explorationFilters": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "col_0",
+            "to": "Catégories"
+          },
+          {
+            "from": "col_1",
+            "to": "Manifeste IIIF"
+          },
+          {
+            "from": "col_2",
+            "to": "OCR-relu"
+          },
+          {
+            "from": "col_3",
+            "to": "Contributeur"
+          },
+          {
+            "from": "col_4",
+            "to": "Source"
+          },
+          {
+            "from": "col_5",
+            "to": "Ville"
+          },
+          {
+            "from": "col_6",
+            "to": "Lieu d\u0027exposition (section unique)"
+          },
+          {
+            "from": "col_7",
+            "to": "Titre"
+          },
+          {
+            "from": "col_8",
+            "to": "Année début"
+          },
+          {
+            "from": "col_9",
+            "to": "Mois début"
+          },
+          {
+            "from": "col_10",
+            "to": "Jour début"
+          },
+          {
+            "from": "col_11",
+            "to": "Année fin"
+          },
+          {
+            "from": "col_12",
+            "to": "Mois fin"
+          },
+          {
+            "from": "col_13",
+            "to": "Jour fin"
+          },
+          {
+            "from": "col_14",
+            "to": "Pays d\u0027aujourd\u0027hui"
+          },
+          {
+            "from": "col_15",
+            "to": "(Etat d\u0027aujourd\u0027hui)"
+          },
+          {
+            "from": "col_17",
+            "to": "Pays d\u0027époque"
+          },
+          {
+            "from": "col_18",
+            "to": "Ville d\u0027époque"
+          },
+          {
+            "from": "col_20",
+            "to": "adresse complète de la section telle que dans le catalogue"
+          },
+          {
+            "from": "col_21",
+            "to": "numéro de rue de la section"
+          },
+          {
+            "from": "col_22",
+            "to": "Rue de la section"
+          },
+          {
+            "from": "col_23",
+            "to": "étage de la section"
+          },
+          {
+            "from": "col_24",
+            "to": "lieu dit de la section"
+          },
+          {
+            "from": "col_25",
+            "to": "complément d’adresse de la section"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "col_16",
+          "col_19"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Catégories",
+            "to": "Catégorie"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Catégorie"
+        ],
+        "values": [
+          "Catégorie"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "REMOVE_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "BJP",
+            "to": "Béatrice Joyeux-Prunel"
+          },
+          {
+            "from": "LSR",
+            "to": "Léa Saint-Raymond"
+          },
+          {
+            "from": "LG",
+            "to": "Letizia Giardini"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Contributeur"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "if(contains(Source,\"ark:\"),\"https://gallica.bnf.fr/\",\"\")",
+        "column": "newcolumn_expression"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsConcat",
+      "params": {
+        "outputColumn": "Source1",
+        "columns": [
+          "newcolumn_expression",
+          "Source"
+        ],
+        "join": ""
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "https://gallica.bnf.fr/ark:/13960/t9668gd1w (https://archive.org/details/japancatalogue00japarich/page/n6/mode/2up)",
+            "to": "https://archive.org/details/japancatalogue00japarich/page/n6/mode/2up"
+          },
+          {
+            "from": "https://gallica.bnf.fr/Ensemble des catalogues numérisés de l\u0027exposition annuelle du Musée de Rouen : ark:/12148/cb32737973v",
+            "to": "https://gallica.bnf.fr/ark:/12148/cb32737973v/date"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Source1"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Ensemble des catalogues numérisés de la Société Lorraine des Amis des Arts : https://gallica.bnf.fr/services/engine/search/sru?operation\u003dsearchRetrieve\u0026version\u003d1.2\u0026collapsing\u003ddisabled\u0026query\u003d%28gallica%20all%20%22catalogue%20exposition%20art%22%29%20and%20arkPress%20all%20%22cb327380054_date%22\u0026rk\u003d257512;0",
+            "to": "https://gallica.bnf.fr/ark:/12148/cb327380054/date"
+          },
+          {
+            "from": "Ensemble des catalogues numérisés de la Société Lorraine des Amis des Arts : https://gallica.bnf.fr/ark:/12148/cb327380054/date.item.r\u003dcatalogue%20exposition%20art",
+            "to": "https://gallica.bnf.fr/ark:/12148/cb327380054/date"
+          },
+          {
+            "from": "envoyé à BJP",
+            "to": "envoyé à Béatrice Joyeux-Prunel"
+          },
+          {
+            "from": "rk:/12148/bpt6k2025027",
+            "to": "https://gallica.bnf.fr/ark:/12148/bpt6k2025027"
+          },
+          {
+            "from": "rk:/12148/bpt6k497853",
+            "to": "https://gallica.bnf.fr/ark:/12148/bpt6k497853"
+          },
+          {
+            "from": "rk:/12148/bpt6k938987z",
+            "to": "https://gallica.bnf.fr/ark:/12148/bpt6k938987z"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Source1"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "newcolumn_expression",
+          "Source"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Source1",
+            "to": "Source"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "columns": [
+          "Titre"
+        ],
+        "reorderAction": "AT_START",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Catégorie_copy",
+        "inputColumn": "Catégorie"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Catégorie",
+        "columns": [
+          "Catégorie_copy"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Catégorie_copy",
+            "to": "Auteur"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Auteur"
+        ],
+        "values": [
+          "1",
+          "3",
+          "2 ou 3",
+          "2"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Catégorie",
+        "columns": [
+          "Contributeur"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Auteur_copy",
+        "inputColumn": "Auteur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "columns": [
+          "Auteur_copy"
+        ],
+        "reorderAction": "AT_START",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Auteur_copy",
+            "to": "Nommage du fichier"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "avril",
+            "to": "04"
+          },
+          {
+            "from": "octobre",
+            "to": "10"
+          },
+          {
+            "from": "mars",
+            "to": "03"
+          },
+          {
+            "from": "septembre",
+            "to": "09"
+          },
+          {
+            "from": "janvier",
+            "to": "01"
+          },
+          {
+            "from": "mai",
+            "to": "05"
+          },
+          {
+            "from": "juin",
+            "to": "06"
+          },
+          {
+            "from": "février",
+            "to": "02"
+          },
+          {
+            "from": "décembre",
+            "to": "12"
+          },
+          {
+            "from": "août",
+            "to": "08"
+          },
+          {
+            "from": "juillet",
+            "to": "07"
+          },
+          {
+            "from": "avrl",
+            "to": "04"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Mois début"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "novembre",
+            "to": "11"
+          },
+          {
+            "from": "octobre",
+            "to": "10"
+          },
+          {
+            "from": "mai",
+            "to": "05"
+          },
+          {
+            "from": "avril",
+            "to": "04"
+          },
+          {
+            "from": "février",
+            "to": "02"
+          },
+          {
+            "from": "septembre",
+            "to": "09"
+          },
+          {
+            "from": "novemrbe",
+            "to": "11"
+          },
+          {
+            "from": "févirer",
+            "to": "02"
+          },
+          {
+            "from": "décembre",
+            "to": "12"
+          },
+          {
+            "from": "mars",
+            "to": "03"
+          },
+          {
+            "from": "janvier",
+            "to": "01"
+          },
+          {
+            "from": "juillet",
+            "to": "07"
+          },
+          {
+            "from": "juin",
+            "to": "06"
+          },
+          {
+            "from": "août",
+            "to": "08"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Mois fin"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Mois début",
+          "Jour début",
+          "Année fin",
+          "Mois fin",
+          "Jour fin",
+          "Lieu d\u0027exposition (section unique)"
+        ],
+        "values": [
+          "non"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "1er",
+            "to": "01"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Jour fin"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "1",
+            "to": "01"
+          },
+          {
+            "from": "2",
+            "to": "02"
+          },
+          {
+            "from": "5",
+            "to": "05"
+          },
+          {
+            "from": "8",
+            "to": "08"
+          },
+          {
+            "from": "9",
+            "to": "09"
+          },
+          {
+            "from": "3",
+            "to": "03"
+          },
+          {
+            "from": "7",
+            "to": "07"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Jour début"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "2",
+            "to": "02"
+          },
+          {
+            "from": "3",
+            "to": "03"
+          },
+          {
+            "from": "1",
+            "to": "01"
+          },
+          {
+            "from": "5",
+            "to": "05"
+          },
+          {
+            "from": "8",
+            "to": "08"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Jour fin"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsConcat",
+      "params": {
+        "outputColumn": "Date début exposition",
+        "columns": [
+          "Année début",
+          "Mois début",
+          "Jour début"
+        ],
+        "join": "-"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsConcat",
+      "params": {
+        "outputColumn": "Date fin exposition",
+        "columns": [
+          "Année fin",
+          "Mois fin",
+          "Jour fin"
+        ],
+        "join": "-"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Année début",
+          "Mois début",
+          "Jour début",
+          "Jour fin",
+          "Mois fin",
+          "Année fin"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Auteur_copy",
+        "inputColumn": "Auteur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Auteur_copy",
+            "to": "Editeur"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Editeur_copy",
+        "inputColumn": "Editeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Editeur_copy",
+            "to": "Date"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Date",
+        "columns": [
+          "Ville"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Contributeur",
+        "columns": [
+          "Source"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Titre",
+        "columns": [
+          "Contributeur"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Lieu d\u0027exposition (section unique)",
+        "columns": [
+          "Date début exposition",
+          "Date fin exposition"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "mainColor": "#ffdc00",
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Catégorie",
+          "OCR-relu"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false,
+      "secondaryColor": "#f4edc1"
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "03-22",
+            "to": "1904-03-22"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Date fin exposition"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "SUBSTRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Nommage du fichier_copy",
+        "inputColumn": "Nommage du fichier"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Nommage du fichier_copy",
+            "to": "Catégorie (source)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FillEmptyWithValue",
+      "params": {
+        "columns": [
+          "Catégorie (source)"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "value": "Catalogue d\u0027exposition"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Pays d\u0027époque",
+            "to": "Nom pays tel que décrit dans source"
+          },
+          {
+            "from": "Ville d\u0027époque",
+            "to": "Nom ville telle que décrite dans source"
+          },
+          {
+            "from": "Pays d\u0027aujourd\u0027hui",
+            "to": "Pays"
+          },
+          {
+            "from": "(Etat d\u0027aujourd\u0027hui)",
+            "to": "Zone géographique (state)"
+          },
+          {
+            "from": "adresse complète de la section telle que dans le catalogue",
+            "to": "adresse de la section telle que décrite dans catalogue"
+          },
+          {
+            "from": "Date",
+            "to": "Date de publication"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Date de publication_copy",
+        "inputColumn": "Date de publication"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Date de publication_copy",
+            "to": "Langue source"
+          },
+          {
+            "from": "Source",
+            "to": "Source (diffuseur)"
+          },
+          {
+            "from": "Ville",
+            "to": "Lieu de publication"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Langue source_copy",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Langue source_copy",
+            "to": "Ville de l\u0027exposition"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Lieu d\u0027exposition (section unique)",
+        "columns": [
+          "Ville de l\u0027exposition"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Zone géographique (state)",
+            "to": "Zone géographique (state) (nom en fr)"
+          },
+          {
+            "from": "Pays",
+            "to": "Pays (nom en fr)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Nom ville telle que décrite dans source_copy",
+        "inputColumn": "Nom ville telle que décrite dans source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Nom ville telle que décrite dans source_copy",
+            "to": "Titre de la section"
+          },
+          {
+            "from": "adresse de la section telle que décrite dans catalogue",
+            "to": "adresse de la section telle qu\u0027écrite dans catalogue"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Titre de l\u0027exposition",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Source (diffuseur)",
+        "columns": [
+          "Titre de l\u0027exposition"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "adresse de la section telle qu\u0027écrite dans catalogue",
+        "columns": [
+          "Lieu d\u0027exposition (section unique)"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Type de lieu",
+        "inputColumn": "numéro de rue de la section"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "numéro de rue de la section",
+        "columns": [
+          "Type de lieu"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "notes (section)",
+        "inputColumn": "complément d’adresse de la section"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Date fin exposition",
+        "columns": [
+          "Titre de l\u0027exposition"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Titre de l\u0027exposition_copy",
+        "inputColumn": "Titre de l\u0027exposition"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Titre de l\u0027exposition",
+        "columns": [
+          "Titre de l\u0027exposition_copy"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Titre de l\u0027exposition_copy",
+            "to": "Notes (catalogue expo)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Exposition itinérante ? (remplir avec \"t\" (true) OU \"f\" (false))",
+        "inputColumn": "Titre de l\u0027exposition"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Exposition publique ? (remplir avec \"t\" (true) OU \"f\" (false))",
+        "inputColumn": "Nom ville telle que décrite dans source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Titre exposition de groupe (voir champs existants)",
+        "inputColumn": "Exposition publique ? (remplir avec \"t\" (true) OU \"f\" (false))"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Type exposition de groupe (voir champs existants)",
+        "inputColumn": "Titre exposition de groupe (voir champs existants)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Date de publication",
+            "to": "Année de publication"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Source mentionnant l\u0027exposition",
+        "inputColumn": "Titre de l\u0027exposition"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Nom ville telle que décrite dans source",
+          "Nom pays tel que décrit dans source"
+        ],
+        "keep": false,
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Année de publication",
+            "to": "Date de publication"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Exposition publique ? (remplir avec \"t\" (true) OU \"f\" (false))"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Zone géographique (state) (nom en fr)",
+            "to": "Etat (nom en fr)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Catalogue d\u0027exposition",
+            "to": "Exhibition catalog"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Catégorie (source)"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Lieu de publication",
+            "to": "Lieu de publication (en)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Pays (nom en)",
+        "inputColumn": "Pays (nom en fr)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Pays (nom en fr)",
+            "to": "Pays (nom fr)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Italie",
+            "to": "Italy"
+          },
+          {
+            "from": "Brésil",
+            "to": "Brazil"
+          },
+          {
+            "from": "Royaume-Uni",
+            "to": "United Kingdom"
+          },
+          {
+            "from": "United",
+            "to": "United Kingdom"
+          },
+          {
+            "from": "Belgique",
+            "to": "Belgium"
+          },
+          {
+            "from": "Fance",
+            "to": "France"
+          },
+          {
+            "from": "États-Unis",
+            "to": "United States"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Pays (nom en)"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Pays (nom en)"
+        ],
+        "values": [
+          "Mass.",
+          "Ohio"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "COLUMNS"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Ville de l\u0027exposition",
+            "to": "Ville de l\u0027exposition (en)"
+          },
+          {
+            "from": "Etat (nom en fr)",
+            "to": "Etat (nom fr)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Etat (nom fr)_copy",
+        "inputColumn": "Etat (nom fr)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Ville de l\u0027exposition (en)",
+            "to": "Ville de l\u0027exposition (nom en)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Licence",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Dépôt (repository)",
+        "inputColumn": "Licence"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Source (diffuseur)",
+        "columns": [
+          "Dépôt (repository)"
+        ],
+        "reorderAction": "AFTER_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Numérisé par (digitised by)",
+        "inputColumn": "Dépôt (repository)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Date de numérisation",
+        "inputColumn": "Numérisé par (digitised by)"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Format",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Numérisé par (digitised by)",
+            "to": "Numérisé par (digitized by)"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "Manifeste IIIF"
+        ],
+        "values": [
+          "?"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "CLEAR_CELL",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "Manifeste IIIF"
+        ],
+        "keep": true,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Manifeste IIIF"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Nommage du fichier",
+            "to": "Nommage_fichier"
+          },
+          {
+            "from": "Catégorie (source)",
+            "to": "Categorie_source"
+          },
+          {
+            "from": "Lieu de publication (en)",
+            "to": "Lieu_publication_en"
+          },
+          {
+            "from": "Date de publication",
+            "to": "Date_publication"
+          },
+          {
+            "from": "Langue source",
+            "to": "Langue_source"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": true,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Format",
+        "inputColumn": "Langue source"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "adresse de la section telle qu\u0027écrite dans catalogue",
+            "to": "adresse de la section telle qu écrite dans catalogue"
+          },
+          {
+            "from": "adresse de la section telle qu écrite dans catalogue",
+            "to": "adresse de la section telle que décrite dans catalogue"
+          },
+          {
+            "from": "Lieu d\u0027exposition (section unique)",
+            "to": "Lieu exposition (section unique)"
+          },
+          {
+            "from": "Ville de l\u0027exposition (nom en)",
+            "to": "Ville exposition (nom en)"
+          },
+          {
+            "from": "Source mentionnant l\u0027exposition",
+            "to": "Source mentionnant exposition"
+          },
+          {
+            "from": "Source (diffuseur)",
+            "to": "Source_diffuseur"
+          },
+          {
+            "from": "Dépôt (repository)",
+            "to": "Depot_repository"
+          },
+          {
+            "from": "Numérisé par (digitized by)",
+            "to": "Numerise_par"
+          },
+          {
+            "from": "Date de numérisation",
+            "to": "Date_numerisation"
+          },
+          {
+            "from": "Date début exposition",
+            "to": "Date_debut_exposition"
+          },
+          {
+            "from": "Date fin exposition",
+            "to": "Date_fin_exposition"
+          },
+          {
+            "from": "Notes (catalogue expo)",
+            "to": "Notes_catalogue_expo"
+          },
+          {
+            "from": "Titre de l\u0027exposition",
+            "to": "Titre_exposition"
+          },
+          {
+            "from": "Source mentionnant exposition",
+            "to": "Source_mentionnant_exposition"
+          },
+          {
+            "from": "Exposition itinérante ? (remplir avec \"t\" (true) OU \"f\" (false))",
+            "to": "Exposition_itinérante-remplir_avec_t_true_OU_f_false"
+          },
+          {
+            "from": "Ville exposition (nom en)",
+            "to": "Ville_exposition_en"
+          },
+          {
+            "from": "Pays (nom fr)",
+            "to": "Pays_fr"
+          },
+          {
+            "from": "Etat (nom fr)",
+            "to": "Etat_fr"
+          },
+          {
+            "from": "Titre exposition de groupe (voir champs existants)",
+            "to": "Titre_exposition_de_groupe-voir_champs_existants"
+          },
+          {
+            "from": "Type exposition de groupe (voir champs existants)",
+            "to": "Type_exposition_de_groupe-voir_champs_existants"
+          },
+          {
+            "from": "Titre de la section",
+            "to": "Titre_section"
+          },
+          {
+            "from": "adresse de la section telle que décrite dans catalogue",
+            "to": "adresse_section_decrite_dans_catalogue"
+          },
+          {
+            "from": "Lieu exposition (section unique)",
+            "to": "Lieu_exposition_section_unique"
+          },
+          {
+            "from": "Type de lieu",
+            "to": "Type_lieu"
+          },
+          {
+            "from": "numéro de rue de la section",
+            "to": "numero_rue_section"
+          },
+          {
+            "from": "Rue de la section",
+            "to": "Rue_section"
+          },
+          {
+            "from": "étage de la section",
+            "to": "etage_section"
+          },
+          {
+            "from": "lieu dit de la section",
+            "to": "lieu_dit_section"
+          },
+          {
+            "from": "complément d’adresse de la section",
+            "to": "complement_adresse_section"
+          },
+          {
+            "from": "notes (section)",
+            "to": "notes_section"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnReorder",
+      "params": {
+        "referenceColumn": "Date_debut_exposition",
+        "columns": [
+          "Auteur"
+        ],
+        "reorderAction": "BEFORE_COLUMN",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Categorie_source",
+            "to": "Type_source"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Exhibition catalog",
+            "to": "exhibition_catalog"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Type_source"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Depot_repository",
+            "to": "Depot"
+          },
+          {
+            "from": "Titre_exposition_de_groupe-voir_champs_existants",
+            "to": "Titre_groupe_expositions"
+          },
+          {
+            "from": "Type_exposition_de_groupe-voir_champs_existants",
+            "to": "Type_groupe_expositions"
+          },
+          {
+            "from": "lieu_dit_section",
+            "to": "Lieu-dit_section"
+          },
+          {
+            "from": "etage_section",
+            "to": "Etage_section"
+          },
+          {
+            "from": "complement_adresse_section",
+            "to": "Complement_adresse_section"
+          },
+          {
+            "from": "notes_section",
+            "to": "Notes_section"
+          },
+          {
+            "from": "numero_rue_section",
+            "to": "Numero_rue_section"
+          },
+          {
+            "from": "adresse_section_decrite_dans_catalogue",
+            "to": "Adresse_section_decrite_dans_catalogue"
+          },
+          {
+            "from": "Etat_fr",
+            "to": "Etat_en"
+          },
+          {
+            "from": "Pays_fr",
+            "to": "Pays_en"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FindReplace",
+      "params": {
+        "output": "",
+        "mapping": [
+          {
+            "from": "Italie",
+            "to": "Italy"
+          },
+          {
+            "from": "Brésil",
+            "to": "Brazil"
+          },
+          {
+            "from": "Royaume-Uni",
+            "to": "United Kingdom"
+          },
+          {
+            "from": "États-Unis",
+            "to": "United States"
+          },
+          {
+            "from": "Mass.",
+            "to": "United States"
+          },
+          {
+            "from": "Ohio",
+            "to": "United States"
+          }
+        ],
+        "normalization": "EXACT",
+        "columns": [
+          "Pays_en"
+        ],
+        "appliesTo": "SINGLE_COLUMN",
+        "stopAfterFirstMatch": false,
+        "matching": "FULL_STRING"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Editeur_copy",
+        "inputColumn": "Editeur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Editeur_copy",
+            "to": "Editeur_scientifique"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnCopier",
+      "params": {
+        "outputColumn": "Auteur_copy",
+        "inputColumn": "Auteur"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Auteur_copy",
+            "to": "Type_evenement"
+          },
+          {
+            "from": "Exposition_itinérante-remplir_avec_t_true_OU_f_false",
+            "to": "Exposition_itinerante"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Source_mentionnant_exposition"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnRenamer",
+      "params": {
+        "renamings": [
+          {
+            "from": "Numero_rue_section",
+            "to": "Numero_et_nom_rue_section"
+          }
+        ]
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "ColumnsSelector",
+      "params": {
+        "columns": [
+          "Rue_section"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
+  "maxProcessedMemTableBytes": -1,
+  "previewMode": "ALL_ROWS",
+  "vizSampling": {
+    "_refreshTrigger": 0,
+    "autoRefreshSample": false
+  },
+  "analysisColumnData": {},
+  "sorting": [
+    {
+      "column": "Jour fin",
+      "ascending": true
+    }
+  ],
+  "globalSearchQuery": "",
+  "coloring": {
+    "scheme": "MEANING_AND_STATUS",
+    "individualColumns": [],
+    "valueColoringMode": "HASH"
+  }
+}
