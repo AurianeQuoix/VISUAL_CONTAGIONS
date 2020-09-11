@@ -1,0 +1,1 @@
+## Prototype IIIF manifest

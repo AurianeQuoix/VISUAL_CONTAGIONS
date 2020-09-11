@@ -1,0 +1,412 @@
+{
+  // Metadata about this manifest file
+
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/book1/manifest",
+  // Dans "id", indiquer le lien vers le manifeste IIIF.
+  // Exemple (INHA) : "id": "https://bibliotheque-numerique.inha.fr/iiif/35311/manifest"
+  // Exemple (VISUAL CONTAGIONS) ( a priori l'URI sera) : "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/manifest"
+  "type": "Manifest",
+
+
+  // Descriptive metadata about the object/work
+
+  "label": { "none": [ "Exhibition catalog or periodical title (Publication place, Date)" ] },          
+    // Ajout de la ville de publication et de la date, en plus du titre, afin de différencier rapidement
+    // les catalogues (notamment utile pour ceux publiés régulièrement comme les biennales, salons etc.)
+    // Pas de langue prédéfinie (donc "none") car le corpus est international et les titres sont dans différentes langues.
+  
+  "metadata": [
+    {
+      "label": { "en": [ "Author" ] },
+      "value": { "none": [ "Firstname Name (Date of birth-date of death)" ] }
+    },
+    {
+      "label": { "en": [ "Director" ] },
+      "value": { "none": [ "Firstname Name (Date of birth-date of death)" ] }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "YYYY or YYYY-MM or YYYY-MM-DD" ] }
+    },
+    // Pour les catalogues d'exposition, on référence simplement l'année, en revanche le mois apparaît également pour les périodiques (et parfois le jour).
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { "none": [ "Publisher name" ] }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "Name of the city (in english)" ] }
+    },
+    {
+      "label": { "en": [ "Physical description" ] },
+      "value": { "none": [ "Physical description of the resource" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": { "none": [ "Resource language" ] }
+    },
+    {
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "Name of the repository within which the resource is stored" ] }
+    },
+    {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "Author of the digitisation" ] }
+    },
+    {
+      "label": { "en": [ "Digitisation date" ] },
+      "value": { "none": [ "YYYY or YYYY-MM or YYYY-MM-DD" ] }
+    },
+    {
+      "label": { "en": [ "Source" ] },
+      "value": { "none": [ "<span>From: <a href=\"https://example.org/db/1.html\">Provider</a></span>" ] }
+    } // Personne ou organisation qui a fourni la ressource numérisée et lien vers cette ressource lorsqu'il existe.
+    {
+      "label": { "en": [ "Rights" ] },
+      "value": { "none": [ "https://example.org/access_use" ] }
+    },
+    // Choix de mettre l'information concernant les droits d'utilisation de la ressource dans metadata plutôt que dans "rights" (partie "Rights Information").
+    // En effet, la documentation (https://iiif.io/api/presentation/3.0/#a-summary-of-property-requirements)
+    // spécifie que cette dernière catégorie ne peut contenir que des URI provenant du set "Creative Commons" ou bien "RightsStatements.org".
+    // La documentation précise aussi que dans le cas contraire il est conseillé d'inclure cette information dans la propriété "requiredStatement" ou bien dans la propriété "metadata".
+    // Ce lien peut donc renvoyer directement vers une licence ou bien vers la page qui spécifie les droits accordés à la ressource
+    // sur le site de l'institution hébergeant la version numérisée de cette ressource.
+    {
+      "label": { "en": [ "Notes" ] },
+      "value": {
+        "none": [
+          "Text of note 1",
+          "Text of note 2"
+        ]
+      }
+    },
+    // Notes concernant le catalogue ou le périodique. Pas de langue prédéfinie pour "value" (donc "none") car les notes apparaissent en différentes langues.
+  ],
+  "summary": { "en": [ "Exhibition catalog or periodical title, published in New York, 1924." ] },
+  "thumbnail": [
+    {
+      "id": "https://example.org/iiif/book1/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://example.org/iiif/book1/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+    // Concerne la vignette d'aperçu
+  ],
+
+  // Presentation Information
+
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  // Comportement : "paginé" c'est-à-dire que les vues sont présentées dans une interface de changement de page.
+
+  // Rights Information
+
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by Example Organization" ] }
+  },
+
+  // "provider" (élément non obligatoire) :
+  // Sert à mentionner une personne ou organisation qui a contribué à fournir le contenu de la ressource.
+  // Même chose que requiredStatement, mais il y a davantage d'informations qui sont hiérarchisées
+  // (logo de l'institution source, lien etc.)
+  // Attention, le CSV ne permettra pas de remplir cette partie du manifeste automatiquement.
+  "provider": [
+    {
+      "id": "https://example.org/about",
+      "type": "Agent",
+      "label": { "en": [ "Example Organization" ] },
+      "homepage": [
+        {
+          "id": "https://example.org/",
+          "type": "Text",
+          "label": { "en": [ "Example Organization Homepage" ] },
+          "format": "text/html"
+        }
+      ],
+      "logo": [
+        {
+          "id": "https://example.org/service/inst1/full/max/0/default.png",
+          "type": "Image",
+          "format": "image/png",
+          "service": [
+            {
+              "id": "https://example.org/service/inst1",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ],
+      "seeAlso": [
+        {
+          "id": "https://data.example.org/about/us.jsonld",
+          "type": "Dataset",
+          "format": "application/ld+json",
+          "profile": "https://schema.org/"
+        }
+      ]
+    }
+  ],
+
+// Links
+
+// "homepage" (Optionnel)
+// Page Web qui concerne l'objet représenté par la ressource (possède la propriété de page d'accueil).
+// La page Web est généralement publiée par l'organisation responsable de l'objet et peut être générée
+// par un système de gestion de contenu ou un autre système de catalogage.
+// La ressource doit pouvoir être affichée directement à l'utilisateur.
+  "homepage": [
+    {
+      "id": "https://example.org/info/book1/",
+      "type": "Text",
+      "label": { "en": [ "Home page for Book 1" ] },
+      "format": "text/html"
+    }
+  ],
+
+  // "service" (Optionnel)
+  // Donne des indications concernant un service offert à l'utilisateur
+  // Service avec lequel le client peut interagir directement et obtenir des informations ou des fonctionnalités supplémentaires
+  // pour utiliser la ressource qui possède la propriété "service"
+  // (par exemple à partir d'une image vers l'URI de base d'un service API d'image IIIF associé).
+  // Exemple de la manière dont la Welcome Library a utilisé la propriété "service" : https://wellcomelibrary.org/iiif/b18031511-0/manifest 
+  "service": [
+    {
+      "id": "https://example.org/service/example",
+      "type": "ExampleExtensionService",
+      "profile": "https://example.org/docs/example-service.html"
+    }
+  ],
+
+  // "seeAlso" (Optionnel)
+  // Lien vers le fichier XML ou RDF qui référence les métadonnées (lisible par la machine).
+  // Il sera possible de mettre ici le lien vers le TEI header (ou vers le fichier encodé entièrement)
+  // associé à la présente ressource (lorsqu'il sera publié).
+  // Possibilité également de faire un renvoi vers Artl@s
+  "seeAlso": [
+    {
+      "id": "https://example.org/library/catalog/book1.xml",
+      "type": "Dataset",
+      "format": "text/xml",
+      "profile": "https://example.org/profiles/bibliographic"
+    }
+  ],
+
+  // "rendering" (Optionnel)
+  // Présente une autre représentation non IIIF de la ressource actuelle (PDF par exemple).
+  // Possibilité de proposer la ressource en téléchargement au format pdf.
+  "rendering": [
+    {
+      "id": "https://example.org/iiif/book1.pdf",
+      "type": "Text",
+      "label": { "en": [ "Download as PDF" ] },
+      "format": "application/pdf"
+    }
+  ],
+
+  // "partOf" (Optionnel)
+  // Indique le lien vers le contenant (la collection) de la présente ressource.
+  // A utiliser pour le système des collections (pour les périodiques et uniquement certains catalogues comme les biennales)
+  "partOf": [
+    {
+      "id": "https://example.org/collections/books/",
+      "type": "Collection"
+    }
+  ],
+
+  // "start" (Optionnel)
+  // Indique à quelle page la ressource doit s'ouvrir lorsque l'utilisateur voudra la consulter (par exemple, en page 2)
+  "start": {
+    "id": "https://example.org/iiif/book1/canvas/p2",
+    "type": "Canvas"
+  },
+
+  // List of Services, referenced from within items, structures or annotations
+
+  // "services" (Optionnel)
+  // Regroupe la liste des services proposés dans items, structures et annotations
+  "services": [
+    {
+      "@id": "https://example.org/iiif/auth/login",
+      "@type": "AuthCookieService1",
+      "profile": "http://iiif.io/api/auth/1/login",
+      "label": "Login to Example Institution",
+      "service": [
+        {
+          "@id": "https://example.org/iiif/auth/token",
+          "@type": "AuthTokenService1",
+          "profile": "http://iiif.io/api/auth/1/token"          
+        }
+      ]
+    }
+  ],
+
+// List of Canvases
+
+// Liste des canevas (conteneur virtuel)
+// Le canevas représente une page ou une vue individuelle et sert de point central
+// pour l'assemblage des différentes ressources de contenu qui composent l'affichage.
+// Les toiles doivent être identifiées par un URI et il doit s'agir d'un URI HTTP(S).
+  "items": [
+    {
+      "id": "https://example.org/iiif/book1/canvas/p1",
+      "type": "Canvas",
+      "label": { "none": [ "p. 1" ] },
+      "height": 1000,
+      "width": 750,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://example.org/iiif/book1/page1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://example.org/iiif/book1/page1",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "service": [
+                      {
+                        "@id": "https://example.org/iiif/auth/login",
+                        "@type": "AuthCookieService1"
+                      }
+                    ]
+                  }
+                ],
+                "height": 2000,
+                "width": 1500
+              },
+              "target": "https://example.org/iiif/book1/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/book1/comments/p1/1",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/book1/canvas/p2",
+      "type": "Canvas",
+      "label": { "none": [ "p. 2" ] },
+      "height": 1000,
+      "width": 750,
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://example.org/iiif/book1/page2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://example.org/iiif/book1/page2",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 2000,
+                "width": 1500
+              },
+              "target": "https://example.org/iiif/book1/canvas/p2"
+            }
+          ]
+        }
+      ]
+    }
+    // [...] Chacune des pages de la ressource doit être décrite de la même façon.
+  ],
+
+// structure of the resource, described with Ranges
+
+// "structures" (Optionnel)
+// La structure d'un objet représenté en tant que manifeste peut être décrite
+// à l'aide d'une hiérarchie de champs. Les champs peuvent être utilisés
+// pour décrire la "table des matières" de l'objet ou d'autres structures
+// avec lesquelles l'utilisateur peut interagir sans tenir compte de l'ordre donné par la propriété items
+// du manifeste. La hiérarchie est construite en imbriquant les ressources Range enfants dans
+// le tableau d'éléments du Range de niveau supérieur. Les plages de niveau supérieur
+// de ces hiérarchies sont données dans la propriété "structures".
+  "structures": [
+    {
+      "id": "https://example.org/iiif/book1/range/r0",
+      "type": "Range",
+      "label": { "en": [ "Table of Contents" ] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/range/r1",
+          "type": "Range",
+          "label": { "en": [ "Introduction" ] },
+          "supplementary": {
+            "id": "https://example.org/iiif/book1/annocoll/introTexts",
+            "type": "AnnotationCollection"
+          },
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/canvas/p1",
+              "type": "Canvas"
+            },
+            {
+              "type": "SpecificResource",
+              "source": "https://example.org/iiif/book1/canvas/p2",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=0,0,750,300"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  // Commentary Annotations on the Manifest
+
+  // "annotations" (Optionnel)
+  // Une liste ordonnée de pages d'annotations contenant des commentaires
+  // ou d'autres annotations sur cette ressource (distincte des annotations
+  // utilisées pour décrire le contenu d'un canevas).
+  "annotations": [
+    {
+      "id": "https://example.org/iiif/book1/page/manifest/1",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/page/manifest/a1",
+          "type": "Annotation",
+          "motivation": "commenting",
+          "body": {
+            "type": "TextualBody",
+            "language": "en",
+            "value": "I love this manifest!"
+          },
+          "target": "https://example.org/iiif/book1/manifest"
+        }
+      ]
+    }
+  ]
+}

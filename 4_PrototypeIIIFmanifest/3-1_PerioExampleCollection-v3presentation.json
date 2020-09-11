@@ -1,0 +1,63 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_ArchitectureVivante",
+  "type": "Collection",
+  "label": { "en": [ "Collection for L'Architecture vivante" ] },
+  "metadata": [
+    {
+      "label": { "en": [ "Title" ] },
+      "value": { "none": [ "L'Architecture vivante" ] }
+    },
+    {
+      "label": { "en": [ "Director" ] },
+      "value": { "none": [ "Jean Badovici (1893-1956)" ] }
+    },
+    {
+      "label": { "en": [ "Dates" ] },
+      "value": { "none": [ "1923-1933" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": { "none": [ "fr" ] }
+    },
+  ],
+  "summary": { "none": [ "L'Architecture vivante (1923-1933)" ] },
+  "items": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1923-09_Paris_ArchitectureVivante/manifest",
+      "type": "Manifest",
+      "label": { "none": [ "L'Architecture vivante (Paris, 1923-09)" ] },
+      "thumbnail": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1923-09_Paris_ArchitectureVivante/page1/full/80,100/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/manifest",
+      "type": "Manifest",
+      "label": { "none": [ "L'Architecture vivante (Paris, 1924-03)" ] },
+      "thumbnail": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page1/full/80,100/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-09_Paris_ArchitectureVivante/manifest",
+      "type": "Manifest",
+      "label": { "none": [ "L'Architecture vivante (Paris, 1924-09)" ] },
+      "thumbnail": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-09_Paris_ArchitectureVivante/page1/full/80,100/0/default.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}

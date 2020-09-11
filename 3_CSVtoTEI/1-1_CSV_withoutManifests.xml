@@ -4,16 +4,15 @@
         <Nommage_fichier>exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai</Nommage_fichier>
         <Type_source>exhibition_catalog</Type_source>
         <Contributeur>Auriane Quoix</Contributeur>
-        <Titre>A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower
-            prints, and surimono from Hokusai to Kyōsai</Titre>
+        <Titre>A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai</Titre>
         <Auteur>Louis V. Ledoux (1880-1948)</Auteur>
-        <Directeur/>
+        <Directeur></Directeur>
         <Editeur>The Grolier Club</Editeur>
-        <Editeur_scientifique/>
+        <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>New York</Lieu_publication_en>
         <Date_publication>1924</Date_publication>
-        <Annee_1er_numero/>
-        <Annee_dernier_numero/>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
         <Langue_source>en</Langue_source>
         <Format>1 vol. (93 p.) ; 24 cm</Format>
         <Licence>https://www.hathitrust.org/access_use#pd-google</Licence>
@@ -21,26 +20,148 @@
         <Depot>University of Wisconsin - Madison</Depot>
         <Numerise_par>Google</Numerise_par>
         <Date_numerisation>2016</Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1924</Date_debut_exposition>
-        <Date_fin_exposition/>
-        <Notes_catalogue_expo/>
-        <Titre_exposition>Japanese landscape, bird, and flower prints, and surimono from Hokusai to
-            Kyōsai</Titre_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Titre_exposition>Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>New York</Ville_exposition_en>
         <Pays_en>United States</Pays_en>
-        <Etat_en/>
-        <Titre_groupe_expositions/>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
         <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
-        <Titre_section/>
-        <Adresse_section_decrite_dans_catalogue/>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
         <Lieu_exposition_section_unique>The Grolier Club</Lieu_exposition_section_unique>
         <Type_lieu>club</Type_lieu>
         <Numero_et_nom_rue_section>47 East 60th Street</Numero_et_nom_rue_section>
-        <Etage_section/>
-        <Lieu-dit_section/>
-        <Complement_adresse_section/>
-        <Notes_section/>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1923-09_Paris_ArchitectureVivante</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>L'Architecture vivante</Titre>
+        <Auteur></Auteur>
+        <Directeur>Jean Badovici (1893-1956)</Directeur>
+        <Editeur>Editions Albert Morancé</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1923-09</Date_publication>
+        <Annee_1er_numero>1923</Annee_1er_numero>
+        <Annee_dernier_numero>1933</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>28 cm</Format>
+        <Licence>https://www.citedelarchitecture.fr/fr/mentions-legales</Licence>
+        <Source_diffuseur>https://portaildocumentaire.citedelarchitecture.fr/doc/IFD/FRAPN02_ARVI_1923_AH_PDF/l-architecture-vivante-automne-hiver-1923</Source_diffuseur>
+        <Depot>Bibliothèque d’architecture contemporaine</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource>La revue se caractérise par une numérotation par année et par saison ainsi que par une numérotation continue.</Notes_ressource>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1924-03_Paris_ArchitectureVivante</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>L'Architecture vivante</Titre>
+        <Auteur></Auteur>
+        <Directeur>Jean Badovici (1893-1956)</Directeur>
+        <Editeur>Editions Albert Morancé</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1924-03</Date_publication>
+        <Annee_1er_numero>1923</Annee_1er_numero>
+        <Annee_dernier_numero>1933</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>28 cm</Format>
+        <Licence>https://www.citedelarchitecture.fr/fr/mentions-legales</Licence>
+        <Source_diffuseur>https://portaildocumentaire.citedelarchitecture.fr/doc/IFD/FRAPN02_ARVI_1924_PE_PDF/l-architecture-vivante-printemps-ete-1924</Source_diffuseur>
+        <Depot>Bibliothèque d’architecture contemporaine</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource>La revue se caractérise par une numérotation par année et par saison ainsi que par une numérotation continue.</Notes_ressource>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>perio_1924-09_Paris_ArchitectureVivante</Nommage_fichier>
+        <Type_source>periodical</Type_source>
+        <Contributeur>Auriane Quoix</Contributeur>
+        <Titre>L'Architecture vivante</Titre>
+        <Auteur></Auteur>
+        <Directeur>Jean Badovici (1893-1956)</Directeur>
+        <Editeur>Editions Albert Morancé</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1924-09</Date_publication>
+        <Annee_1er_numero>1923</Annee_1er_numero>
+        <Annee_dernier_numero>1933</Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>28 cm</Format>
+        <Licence>https://www.citedelarchitecture.fr/fr/mentions-legales</Licence>
+        <Source_diffuseur>https://portaildocumentaire.citedelarchitecture.fr/doc/IFD/FRAPN02_ARVI_1924_AH_PDF/l-architecture-vivante-automne-hiver-1924</Source_diffuseur>
+        <Depot>Bibliothèque d’architecture contemporaine</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource>La revue se caractérise par une numérotation par année et par saison ainsi que par une numérotation continue.</Notes_ressource>
+        <Type_evenement></Type_evenement>
+        <Date_debut_exposition></Date_debut_exposition>
+        <Date_fin_exposition></Date_fin_exposition>
+        <Titre_exposition></Titre_exposition>
+        <Exposition_itinerante></Exposition_itinerante>
+        <Ville_exposition_en></Ville_exposition_en>
+        <Pays_en></Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
     </row>
 </root>

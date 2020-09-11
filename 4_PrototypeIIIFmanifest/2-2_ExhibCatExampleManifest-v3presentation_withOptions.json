@@ -1,0 +1,375 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/manifest",
+  "type": "Manifest",
+  "label": { "none": [ "A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai (New York, 1924)" ] },          
+  "metadata": [
+    {
+      "label": { "en": [ "Author" ] },
+      "value": { "none": [ "Louis V. Ledoux (1880-1948)" ] }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "1924" ] }
+    },
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { "none": [ "The Grolier Club" ] }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "New York" ] }
+    },
+    {
+      "label": { "en": [ "Physical description" ] },
+      "value": { "none": [ "1 vol. (93 p.) ; 24 cm" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": { "none": [ "en" ] }
+    },
+    {
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "University of Wisconsin - Madison" ] }
+    },
+    {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "Google" ] }
+    },
+    {
+      "label": { "en": [ "Digitisation date" ] },
+      "value": { "none": [ "2016" ] }
+    },
+    {
+      "label": { "en": [ "Source" ] },
+      "value": { "none": [ "<span>From: <a href=\"https://babel.hathitrust.org/cgi/pt?id=wu.89054435979&amp;view=thumb&amp;seq=136\">HathiTrust Digital Library</a></span>" ] }
+    },
+    {
+      "label": { "en": [ "Rights" ] },
+      "value": { "none": [ "https://www.hathitrust.org/access_use#pd-google" ] }
+    },
+    {
+      "label": { "en": [ "Notes" ] },
+      "value": {"none": [ "" ] }
+    },
+  ],
+  "summary": { "en": [ "A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai, published in New York, 1924." ] },
+  "thumbnail": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by HathiTrust Digital Library" ] }
+  },
+  "provider": [
+    {
+      "id": "https://babel.hathitrust.org",
+      "type": "Agent",
+      "label": { "en": [ "HathiTrust Digital Library" ] },
+      "logo": [
+        {
+          "id": "https://www.hathitrust.org/documents/hathitrust_logos.eps/service/inst1/full/max/0/default.png",
+          "type": "Image",
+          "format": "image/png",
+          "service": [
+            {
+              "id": "https://www.hathitrust.org/documents/hathitrust_logos.eps/service/inst1",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "homepage": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/info/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/",
+      "type": "Text",
+      "label": { "en": [ "Home page for A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai" ] },
+      "format": "text/html"
+    }
+  ],
+
+  // (Optionnel)
+  // Lien vers le fichier XML ou RDF qui référence les métadonnées (lisible par la machine).
+  // Il sera possible de mettre ici le lien vers le header associé à la présente ressource (lorsqu'il sera publié).
+
+  // Faire un renvoi vers les fichiers xml et Artl@s
+  // A remplir ultérieurement (dépend de l'adresse à laquelle seront publiés ces fichiers XML)
+  "seeAlso": [
+    {
+      "id": "https://example.org/library/catalog/book1.xml",
+      "type": "Dataset",
+      "format": "text/xml",
+      "profile": "https://example.org/profiles/bibliographic"
+    }
+  ],
+
+  // (Optionnel)
+  // Présente une autre représentation non IIIF de la ressource actuelle (PDF par exemple).
+  // Possibilité de proposer la ressource en téléchargement au format pdf
+  
+  // A remplir ultérieurement (si l'équipe souhaite ou non mettre cette option en place)
+  "rendering": [
+    {
+      "id": "https://example.org/iiif/book1.pdf",
+      "type": "Text",
+      "label": { "en": [ "Download as PDF" ] },
+      "format": "application/pdf"
+    }
+  ],
+
+  // (Optionnel)
+  // Indique le lien vers le contenant (la collection) de la présente ressource.
+  // A utiliser pour le système des collections (pour les périodiques et uniquement certains catalogues)
+  "partOf": [
+    {
+      "id": "https://example.org/collections/books/",
+      "type": "Collection"
+    }
+  ],
+
+  "start": {
+    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2",
+    "type": "Canvas"
+  },
+
+  // List of Services, referenced from within items, structures or annotations
+
+
+  // (Optionnel)
+  // Regroupe la liste des services proposés dans items, structures et annotations
+  
+  // A remplir ultérieurement : cela dépendra des services proposés aux utilisateurs (s'il y en a)
+  "services": [
+    {
+      "@id": "https://example.org/iiif/auth/login",
+      "@type": "AuthCookieService1",
+      "profile": "http://iiif.io/api/auth/1/login",
+      "label": "Login to Example Institution",
+      "service": [
+        {
+          "@id": "https://example.org/iiif/auth/token",
+          "@type": "AuthTokenService1",
+          "profile": "http://iiif.io/api/auth/1/token"          
+        }
+      ]
+    }
+  ],
+
+// List of Canvases
+
+// Liste des canevas (conteneur virtuel)
+// Le canevas représente une page ou une vue individuelle et sert de point central
+// pour l'assemblage des différentes ressources de contenu qui composent l'affichage.
+// Les toiles doivent être identifiées par un URI et il doit s'agir d'un URI HTTP(S).
+
+  "items": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p1",
+      "type": "Canvas",
+      "label": { "none": [ "p. 1" ] },
+      "height": 1278,
+      "width": 850,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "service": [
+                      {
+                        "@id": "https://iiif.unige.ch/iiif/2/visualcontagions/auth/login", //est-ce que ce sera bien ce schéma ?
+                        "@type": "AuthCookieService1"
+                      }
+                    ]
+                  }
+                ],
+                "height": 1278,
+                "width": 850
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/p1/1",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2",
+      "type": "Canvas",
+      "label": { "none": [ "p. 2" ] },
+      "height": 1038,
+      "width": 680,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page2",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 1038,
+                "width": 680
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p3",
+      "type": "Canvas",
+      "label": { "none": [ "p. 3" ] },
+      "height": 1299,
+      "width": 850,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page3/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page3",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 1299,
+                "width": 850
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p3"
+            }
+          ]
+        }
+      ]
+    }
+    // [...] Chacune des 144 pages doit être décrite de la même façon.
+  ],
+
+// structure of the resource, described with Ranges
+
+// (Optionnel)
+// La structure d'un objet représenté en tant que manifeste peut être décrite
+// à l'aide d'une hiérarchie de champs. Les champs peuvent être utilisés
+// pour décrire la «table des matières» de l'objet ou d'autres structures
+// avec lesquelles l'utilisateur peut interagir sans tenir compte de l'ordre donné par la propriété items
+// du Manifest. La hiérarchie est construite en imbriquant les ressources Range enfants dans
+// le tableau d'éléments du Range de niveau supérieur. Les plages de niveau supérieur
+// de ces hiérarchies sont données dans la propriété structures.
+
+// -> A remplir uniquement s'il est décidé d'implémenter cette option dans le cadre du projet.
+
+  "structures": [
+    {
+      "id": "https://example.org/iiif/book1/range/r0",
+      "type": "Range",
+      "label": { "en": [ "Table of Contents" ] },
+      "items": [
+        {
+          "id": "https://example.org/iiif/book1/range/r1",
+          "type": "Range",
+          "label": { "en": [ "Introduction" ] },
+          "supplementary": {
+            "id": "https://example.org/iiif/book1/annocoll/introTexts",
+            "type": "AnnotationCollection"
+          },
+          "items": [
+            {
+              "id": "https://example.org/iiif/book1/canvas/p1",
+              "type": "Canvas"
+            },
+            {
+              "type": "SpecificResource",
+              "source": "https://example.org/iiif/book1/canvas/p2",
+              "selector": {
+                "type": "FragmentSelector",
+                "value": "xywh=0,0,750,300"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+
+  // Commentary Annotations on the Manifest
+
+  // (Optionnel)
+  // Une liste ordonnée de pages d'annotations contenant des commentaires
+  // ou d'autres annotations sur cette ressource (distincte des annotations
+  // utilisées pour décrire le contenu d'un canevas).
+
+  // -> A remplir également ultérieurement si cette option est retenue.
+  "annotations": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/manifest/1",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/manifest/a1",
+          "type": "Annotation",
+          "motivation": "commenting",
+          "body": {
+            "type": "TextualBody",
+            "language": "en",
+            "value": "I love this manifest!"
+          },
+          "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/manifest"
+        }
+      ]
+    }
+  ]
+}

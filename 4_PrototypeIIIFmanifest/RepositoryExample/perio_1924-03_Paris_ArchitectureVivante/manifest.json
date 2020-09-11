@@ -1,0 +1,201 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/manifest",
+  "type": "Manifest",
+  "label": { "none": [ "L'Architecture vivante (Paris, 1924-03)" ] },          
+  "metadata": [
+    {
+      "label": { "en": [ "Director" ] },
+      "value": { "none": [ "Jean Badovici (1893-1956)" ] }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "1924-03" ] }
+    },
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { "none": [ "Editions Albert Morancé" ] }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "Paris" ] }
+    },
+    {
+      "label": { "en": [ "Physical description" ] },
+      "value": { "none": [ "28 cm" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": { "none": [ "fr" ] }
+    },
+    {
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "Bibliothèque d’architecture contemporaine" ] }
+    },
+    {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "" ] }
+    },
+    {
+      "label": { "en": [ "Digitisation date" ] },
+      "value": { "none": [ "" ] }
+    },
+    {
+      "label": { "en": [ "Source" ] },
+      "value": { "none": [ "<span>From: <a href=\"https://portaildocumentaire.citedelarchitecture.fr/doc/IFD/FRAPN02_ARVI_1924_PE_PDF/l-architecture-vivante-printemps-ete-1924\">Bibliothèque d’architecture contemporaine</a></span>" ] }
+    },
+    {
+      "label": { "en": [ "Rights" ] },
+      "value": { "none": [ "https://www.citedelarchitecture.fr/fr/mentions-legales" ] }
+    },
+    {
+      "label": { "en": [ "Notes" ] },
+      "value": { "none": [ "La revue se caractérise par une numérotation par année et par saison ainsi que par une numérotation continue." ] }
+    },
+  ],
+  "summary": { "en": [ "L'Architecture vivante, published in Paris, 1924-03." ] },
+  "thumbnail": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by Bibliothèque d’architecture contemporaine" ] }
+  },
+  "start": {
+    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p2",
+    "type": "Canvas"
+  },
+  "items": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p1",
+      "type": "Canvas",
+      "label": { "none": [ "p. 1" ] },
+      "height": 121,
+      "width": 98,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page1",
+                    "type": "ImageService3",
+                    "profile": "level2",
+                    "service": [
+                      {
+                        "@id": "https://iiif.unige.ch/iiif/2/visualcontagions/auth/login",
+                        "@type": "AuthCookieService1"
+                      }
+                    ]
+                  }
+                ],
+                "height": 121,
+                "width": 98
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p1"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/p1/1",
+          "type": "AnnotationPage"
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p2",
+      "type": "Canvas",
+      "label": { "none": [ "p. 2" ] },
+      "height": 121,
+      "width": 98,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page/p2/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/annotation/p0002-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page2",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 121,
+                "width": 98
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p3",
+      "type": "Canvas",
+      "label": { "none": [ "p. 3" ] },
+      "height": 79,
+      "width": 98,
+      "items": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page/p3/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/annotation/p0003-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page3/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "service": [
+                  {
+                    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/page3",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "height": 79,
+                "width": 98
+              },
+              "target": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-03_Paris_ArchitectureVivante/canvas/p3"
+            }
+          ]
+        }
+      ]
+    }
+    // [...] Chacune des 79 pages doit être décrite de la même façon.
+  ]
+}

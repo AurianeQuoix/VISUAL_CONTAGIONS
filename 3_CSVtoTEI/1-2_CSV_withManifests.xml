@@ -20,10 +20,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1925-04-28</Date_debut_exposition>
         <Date_fin_exposition>1925-11-30</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>La Chine à l'exposition internationale des arts décoratifs et industriels modernes à Paris</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -62,10 +62,10 @@
         <Depot>Bibliothèque de l'INHA / coll. J. Doucet</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1899-06-01</Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>Expositions périodiques d'estampes. Troisième exposition</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -104,10 +104,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1883-04</Date_debut_exposition>
         <Date_fin_exposition>1883-05</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>Exposition rétrospective de l'art japonais</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -146,10 +146,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1886-04</Date_debut_exposition>
         <Date_fin_exposition>1886-05</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>Exposition de Maîtres du Siècle</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -169,10 +169,52 @@
         <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/btv1b7200759d/manifest.json</Manifeste_IIIF>
     </row>
     <row>
+        <Nommage_fichier>exhibCat_1890_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. Catalogue des œuvres exposées. 6e exposition</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Société des artistes indépendants</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1890</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (42 p.) ; 17 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k933463t</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1890-03-20</Date_debut_exposition>
+        <Date_fin_exposition>1890-04-27</Date_fin_exposition>
+        <Titre_exposition>6e exposition, pavillon de la ville de Paris, du 20 mars au 27 avril</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Pavillon de la ville de Paris</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Pavillon de la Ville de Paris</Lieu_exposition_section_unique>
+        <Type_lieu>room</Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k49789g/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
         <Nommage_fichier>exhibCat_1892_Paris_SocieteArtistesIndependants</Nommage_fichier>
         <Type_source>exhibition_catalog</Type_source>
         <Contributeur>Auriane Quoix</Contributeur>
-        <Titre>Société des artistes indépendants. Catalogue des oeuvres exposées.</Titre>
+        <Titre>Société des artistes indépendants. Catalogue des œuvres exposées.</Titre>
         <Auteur>Salon des indépendants</Auteur>
         <Directeur></Directeur>
         <Editeur>Société des artistes indépendants</Editeur>
@@ -188,10 +230,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1892-03-19</Date_debut_exposition>
         <Date_fin_exposition>1892-04-27</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>8e Exposition du 19 mars au 27 avril 1892, Pavillon de la ville de Paris, Champs Elysées</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -230,10 +272,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1921-04</Date_debut_exposition>
         <Date_fin_exposition>1921-05</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>Exposition hollandaise : tableaux, aquarelles et dessins anciens et modernes</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris</Ville_exposition_en>
@@ -272,10 +314,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1892-03-10</Date_debut_exposition>
         <Date_fin_exposition>1892-04-10</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>1er Salon de la Rose-Croix</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Paris </Ville_exposition_en>
@@ -314,10 +356,10 @@
         <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation>2017</Date_numerisation>
+        <Notes_ressource>Contient une introduction de Roger Fry, des textes de Clive Bell, Roger Fry et Boris von Anrep ; Index.</Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1912-10-05</Date_debut_exposition>
         <Date_fin_exposition>1912-12-31</Date_fin_exposition>
-        <Notes_catalogue_expo>Contient une introduction de Roger Fry, des textes de Clive Bell, Roger Fry et Boris von Anrep ; Index.</Notes_catalogue_expo>
         <Titre_exposition>Second post-impressionist exhibition​</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>London</Ville_exposition_en>
@@ -356,10 +398,10 @@
         <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation>2018</Date_numerisation>
+        <Notes_ressource>La Mansard Gallery a été fondée en 1917 par Frank Pick (1878-1941) et Ambrose Heal (1872-1959)</Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1919-08</Date_debut_exposition>
         <Date_fin_exposition>1919-08</Date_fin_exposition>
-        <Notes_catalogue_expo>La Mansard Gallery a été fondée en 1917 par Frank Pick (1878-1941) et Ambrose Heal (1872-1959)</Notes_catalogue_expo>
         <Titre_exposition>French Art, 1914-1919</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>London</Ville_exposition_en>
@@ -398,10 +440,10 @@
         <Depot>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation>2012</Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement>exhibition</Type_evenement>
         <Date_debut_exposition>1904-02-25</Date_debut_exposition>
         <Date_fin_exposition>1904-03-22</Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition>Exposition des peintres impressionnistes : Libre Esthétique</Titre_exposition>
         <Exposition_itinerante>fixed</Exposition_itinerante>
         <Ville_exposition_en>Brussels </Ville_exposition_en>
@@ -440,10 +482,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -482,10 +524,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -511,7 +553,7 @@
         <Titre>The Yellow Book: An Illustrated Quarterly</Titre>
         <Auteur></Auteur>
         <Directeur></Directeur>
-        <Editeur>Charles Elkin Mathews (1851-1921), John Lane (1854-1925)</Editeur>
+        <Editeur>Charles Elkin Mathews (1851-1921)</Editeur>
         <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>London</Lieu_publication_en>
         <Date_publication>1894-04</Date_publication>
@@ -524,10 +566,10 @@
         <Depot>Universitätsbibliothek Heidelberg</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -566,10 +608,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -594,7 +636,7 @@
         <Contributeur>Auriane Quoix</Contributeur>
         <Titre>L'Oeuf Dur</Titre>
         <Auteur></Auteur>
-        <Directeur>Georges Duvau (1903-1958), Gérard-Rosenthal (1903-1992), Pierre Villoteau (?-?), Jean Albert-Weil (1933-2019)</Directeur>
+        <Directeur>Georges Duvau (1903-1958)</Directeur>
         <Editeur></Editeur>
         <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>Paris</Lieu_publication_en>
@@ -608,10 +650,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -650,10 +692,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par></Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -692,10 +734,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -720,7 +762,7 @@
         <Contributeur>Auriane Quoix</Contributeur>
         <Titre>La Révolution surréaliste</Titre>
         <Auteur></Auteur>
-        <Directeur>André Breton (1896-1966), Pierre Naville (1904-1993), Benjamin Péret (1899-1959)</Directeur>
+        <Directeur>André Breton (1896-1966)</Directeur>
         <Editeur>Librairie J. Corti</Editeur>
         <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>Paris</Lieu_publication_en>
@@ -734,10 +776,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -762,7 +804,7 @@
         <Contributeur>Auriane Quoix</Contributeur>
         <Titre>Minotaure : revue artistique et littéraire</Titre>
         <Auteur></Auteur>
-        <Directeur>Albert Skira (1904-1973), Emile Tériade (1897-1983)</Directeur>
+        <Directeur>Albert Skira (1904-1973)</Directeur>
         <Editeur>Editions Albert Skira</Editeur>
         <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>Paris</Lieu_publication_en>
@@ -776,10 +818,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>
@@ -804,7 +846,7 @@
         <Contributeur>Auriane Quoix</Contributeur>
         <Titre>La Bête noire : artistique et littéraire</Titre>
         <Auteur></Auteur>
-        <Directeur>Maurice Raynal (1884-1954), Emile Tériade (1897-1983)</Directeur>
+        <Directeur>Maurice Raynal (1884-1954)</Directeur>
         <Editeur></Editeur>
         <Editeur_scientifique></Editeur_scientifique>
         <Lieu_publication_en>Paris</Lieu_publication_en>
@@ -818,10 +860,10 @@
         <Depot>Bibliothèque nationale de France</Depot>
         <Numerise_par>Bibliothèque nationale de France</Numerise_par>
         <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
         <Type_evenement></Type_evenement>
         <Date_debut_exposition></Date_debut_exposition>
         <Date_fin_exposition></Date_fin_exposition>
-        <Notes_catalogue_expo></Notes_catalogue_expo>
         <Titre_exposition></Titre_exposition>
         <Exposition_itinerante></Exposition_itinerante>
         <Ville_exposition_en></Ville_exposition_en>

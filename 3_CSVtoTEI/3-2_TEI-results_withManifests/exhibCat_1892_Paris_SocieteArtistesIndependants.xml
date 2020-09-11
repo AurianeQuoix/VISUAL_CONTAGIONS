@@ -6,7 +6,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Société des artistes indépendants. Catalogue des oeuvres exposées.</title>
+            <title>Société des artistes indépendants. Catalogue des œuvres exposées.</title>
             <editor role="metadata">
                <persName>Auriane Quoix</persName>
             </editor>
@@ -34,7 +34,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="exhibition_catalog">
-               <title>Société des artistes indépendants. Catalogue des oeuvres exposées.</title>
+               <title>Société des artistes indépendants. Catalogue des œuvres exposées.</title>
                <author>Salon des indépendants</author>
                <editor/>
                <editor role="director"/>

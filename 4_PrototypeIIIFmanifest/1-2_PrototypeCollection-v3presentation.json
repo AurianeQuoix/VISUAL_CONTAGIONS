@@ -1,0 +1,58 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://example.org/iiif/collection/top",
+  // Dans "id", indiquer le lien vers la collection regroupant plusieurs manifestes.
+  // Exemple (Welcome Library) : "https://wellcomelibrary.org/iiif/collection/b19974760"
+  // Exemple d'URI possible (VISUAL CONTAGIONS) : https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_ArchitectureVivante
+  "type": "Collection",
+  "label": { "en": [ "Collection for Resource title" ] },
+  "metadata": [
+    {
+      "label": { "en": [ "Title" ] },
+      "value": { "none": [ "Resource title" ] }
+    },
+    {
+      "label": { "en": [ "Director" ] },
+      "value": { "none": [ "Firstname Name (Date of birth-date of death)" ] }
+    },
+    {
+      "label": { "en": [ "Dates" ] },
+      "value": { "none": [ "YYYY-YYYY" ] }
+    },
+    //Dates de premier et dernier numéro de parution de la revue.
+    {
+      "label": { "en": [ "Language" ] },
+      "value": { "none": [ "Resource language" ] }
+    },
+  ],
+  "summary": { "none": [ "Resource title (YYYY-YYYY)" ] },
+  //Titre de la ressource puis dates de premier et dernier numéro de parution de la revue.
+
+  //Lien vers les manifestes correspondant aux différents numéros de la revue (ou aux différents catalogues d'exposition).
+  "items": [
+    {
+      "id": "https://example.org/iiif/1/manifest",
+      "type": "Manifest",
+      "label": { "en": [ "Example Manifest 1" ] },
+      "thumbnail": [
+        {
+          "id": "https://example.org/manifest1/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "id": "https://example.org/iiif/2/manifest",
+      "type": "Manifest",
+      "label": { "en": [ "Example Manifest 2" ] },
+      "thumbnail": [
+        {
+          "id": "https://example.org/manifest2/thumbnail.jpg",
+          "type": "Image",
+          "format": "image/jpeg"
+        }
+      ]
+    }
+  ]
+}
