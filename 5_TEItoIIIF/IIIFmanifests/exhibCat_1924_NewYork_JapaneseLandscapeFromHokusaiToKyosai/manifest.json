@@ -1,0 +1,210 @@
+
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/manifest",
+  "type": "Manifest",
+  "label": { "none": [ "A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai (New York, 1924)" ] },          
+  "metadata": [
+    {
+      "label": { "en": [ "Author" ] },
+      "value": {
+        "none": [
+          "Louis V. Ledoux (1880-1948)"
+        ]
+      }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "1924" ] }
+    },
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { 
+        "none": [
+          "The Grolier Club"
+        ]
+      }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "New York" ] }
+    },
+    {
+      "label": { "en": [ "Physical description" ] },
+      "value": { "none": [ "1 vol. (93 p.) ; 24 cm" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": {
+        "none": [
+          "en"
+        ]
+      }
+    },
+    { 
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "University of Wisconsin - Madison" ] }
+     },
+     {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "Google" ] }
+     },
+     {
+       "label": { "en": [ "Digitisation date" ] },
+       "value": { "none": [ "2016" ] }
+     },
+     {
+       "label": { "en": [ "Source" ] },
+       "value": { "none": [ "From: https://hdl.handle.net/2027/wu.89054435979" ] }
+     },
+     {
+       "label": { "en": [ "Rights" ] },
+       "value": { "none": [ "https://www.hathitrust.org/access_use#pd-google" ] }
+     }
+  ],
+  "summary": { "en": [ "A descriptive catalogue of an exhibition of Japanese landscape, bird, and flower prints, and surimono from Hokusai to Kyōsai, published in New York, 1924." ] },
+  "thumbnail": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by: https://hdl.handle.net/2027/wu.89054435979" ] }
+  },       
+  "start": {
+    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2",
+    "type": "Canvas"
+  },
+    "items": [
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p1",
+        "type": "Canvas",
+        "label": { "none": [ "p. 1" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page1",
+                      "type": "ImageService3",
+                      "profile": "level2",
+                      "service": [
+                        {
+                          "@id": "https://iiif.unige.ch/iiif/2/visualcontagions/auth/login",
+                          "@type": "AuthCookieService1"
+                        }
+                      ]
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p1"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/p1/1",
+            "type": "AnnotationPage"
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2",
+        "type": "Canvas",
+        "label": { "none": [ "p. 2" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p2/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0002-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page2",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p3",
+        "type": "Canvas",
+        "label": { "none": [ "p. 3" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page/p3/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/annotation/p0003-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page3/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/page3",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1924_NewYork_JapaneseLandscapeFromHokusaiToKyosai/canvas/p3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }    
+        
