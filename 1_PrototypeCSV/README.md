@@ -2,7 +2,7 @@
 
 ### Presentation
 
-This folder contains the first steps of my work : the realization of a prototype of CSV which lists exhibition catalogs and periodicals already available online.
+This folder contains the first steps of my work: the realization of a prototype of CSV which lists exhibition catalogs and periodicals already available online.
 This prototype must allow the collection of metadata concerning the resources.
 
 It is made up of two tables. The first one contains documents for which there are no IIIF manifest and the second one lists those for which there is already a IIIF manifest.
@@ -31,25 +31,25 @@ It is possible to import these projects in Dataiku ("**VISUALCONTAGIONS_withMani
 
 **2.** Click on `New project` > `Import project`.
 
-<img src="../Pictures/PrototypeCSV-1.png" width="70%">
+<img src="../Pictures/PrototypeCSV-1.png" width="100%">
 
 **3.** Then select one of the .zip files et click on the `Import` button.
 
 **4.** You have now access to the project. If you click on the `Flow`, you can see all the steps realized.
 
-<img src="../Pictures/PrototypeCSV-2.png" width="70%">
+<img src="../Pictures/PrototypeCSV-2.png" width="90%">
 
-<img src="../Pictures/PrototypeCSV-3.png" width="70%">
+<img src="../Pictures/PrototypeCSV-3.png" width="90%">
 
 **5.** If you click on the `Prepare` recipe, you can consult the script referencing all the modifications made to the first version of the CSV.
 
-<img src="../Pictures/PrototypeCSV-4.png" width="70%">
+<img src="../Pictures/PrototypeCSV-4.png" width="90%">
 
-<img src="../Pictures/PrototypeCSV-5.png" width="70%">
+<img src="../Pictures/PrototypeCSV-5.png" width="90%">
 
 **6.** The `Join` recipe shows you how the dataset are joined.
 
-<img src="../Pictures/PrototypeCSV-6.png" width="70%">
+<img src="../Pictures/PrototypeCSV-6.png" width="90%">
 
 
 ### Folder 2: 2_FinalPrototype
