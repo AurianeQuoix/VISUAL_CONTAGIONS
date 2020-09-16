@@ -32,19 +32,19 @@ Select the "**TEItoIIIF**" scenario and click on the `Edit`button.
 
 **4.** Verify that the XSL URL is "**../../5_TEItoIIIF/TEItoIIIF.xsl**" and click on `OK`.
 
-<img src="../Pictures/TEItoIIIF-4.png" width="70%">
+<img src="../Pictures/TEItoIIIF-4.png" width="90%">
 
 
 ### Dubstep 2: Generation of IIIF manifests with XSLT
 
 After configuring the transformation scenario, on the same dialog box (Configure Transformation Scenario(s)), you can click on `Apply associated`button.
 
-<img src="../Pictures/TEItoIIIF-5.png" width="70%">
+<img src="../Pictures/TEItoIIIF-5.png" width="90%">
 
 
 Once the transformation scenario has been associated, all you have to do is to right click on the "**3-1_TEI-results_withoutManifests**" folder and select `Transformation`> `Applying Associated Transformation Scenarios`.
 
-<img src="../Pictures/TEItoIIIF-6.png" width="70%">
+<img src="../Pictures/TEItoIIIF-6.png" width="90%">
 
 
 The results are in the **IIIFmanifests** folder.
