@@ -16,18 +16,18 @@ In the same way, each canvas will have to be repeated in order to obtain one can
 
 **1.** Firstly, open the **VisualContagions.xpr** project (VISUAL_CONTAGIONS/VisualContagions.xpr) in Oxygen XML Editor.
 
-<img src="../Pictures/TEItoIIIF-1.png" width="40%">
+<img src="../Pictures/TEItoIIIF-1.png" width="50%">
 
 
 **2.** Right click on the "**3-1_TEI-results_withoutManifests**" folder and select `Transformation`> `Configure Transformation Scenario(s)`.
 
-<img src="../Pictures/TEItoIIIF-2.png" width="70%">
+<img src="../Pictures/TEItoIIIF-2.png" width="90%">
 
 
 **3.** This opens the Configure Transformation Scenario(s) Dialog Box.
 Select the "**TEItoIIIF**" scenario and click on the `Edit`button.
 
-<img src="../Pictures/TEItoIIIF-3.png" width="70%">
+<img src="../Pictures/TEItoIIIF-3.png" width="90%">
 
 
 **4.** Verify that the XSL URL is "**../../5_TEItoIIIF/TEItoIIIF.xsl**" and click on `OK`.
