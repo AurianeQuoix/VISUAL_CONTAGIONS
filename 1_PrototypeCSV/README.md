@@ -31,32 +31,32 @@ It is possible to import these projects in Dataiku ("**VISUALCONTAGIONS_withMani
 
 **2.** Click on `New project` > `Import project`.
 
-<img src="../Pictures/PrototypeCSV-1.png" width="70%">
+<img src="../Pictures/PrototypeCSV-1.png" width="100%">
 
 **3.** Then select one of the .zip files et click on the `Import` button.
 
 **4.** You have now access to the project. If you click on the `Flow`, you can see all the steps realized.
 
-<img src="../Pictures/PrototypeCSV-2.png" width="70%">
+<img src="../Pictures/PrototypeCSV-2.png" width="90%">
 
-<img src="../Pictures/PrototypeCSV-3.png" width="70%">
+<img src="../Pictures/PrototypeCSV-3.png" width="90%">
 
 **5.** If you click on the `Prepare` recipe, you can consult the script referencing all the modifications made to the first version of the CSV.
 
-<img src="../Pictures/PrototypeCSV-4.png" width="70%">
+<img src="../Pictures/PrototypeCSV-4.png" width="90%">
 
-<img src="../Pictures/PrototypeCSV-5.png" width="70%">
+<img src="../Pictures/PrototypeCSV-5.png" width="90%">
 
 **6.** The `Join` recipe shows you how the dataset are joined.
 
-<img src="../Pictures/PrototypeCSV-6.png" width="70%">
+<img src="../Pictures/PrototypeCSV-6.png" width="90%">
 
 
 ### Folder 2: 2_FinalPrototype
 
 The folder includes a sample of the two CSV files ("**1_PrototypeCSV_exhibCat-periodicals_withoutManifests.csv**" and "**2_PrototypeCSV_exhibCat-periodicals_withManifests.csv**").
 The samples contain all the fully completed lines.
-The whole documents can be downloaded from the README in this folder: "**3_CSVtoTEI** »(VISUAL_CONTAGIONS/3_CSVtoTEI/README.md). They are filled in by several members of the team of the project.
+The whole documents can be downloaded from the README in this folder: "**3_CSVtoTEI**" (VISUAL_CONTAGIONS/3_CSVtoTEI/README.md). They are filled in by several members of the team of the project.
 
 I collected metadata and filled some lines in order to make tests in the next stages of the project.
 
