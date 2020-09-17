@@ -51,7 +51,7 @@
     {
       "label": { "en": [ "Notes" ] },
       "value": { "none": [ "La revue se caractérise par une numérotation par année et par saison ainsi que par une numérotation continue." ] }
-    },
+    }
   ],
   "summary": { "en": [ "L'Architecture vivante, published in Paris, 1924-09." ] },
   "thumbnail": [
@@ -74,6 +74,12 @@
     "label": { "en": [ "Attribution" ] },
     "value": { "en": [ "Provided by Bibliothèque d’architecture contemporaine" ] }
   },
+  "partOf": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_1923-1933_Paris_ArchitectureVivante",
+      "type": "Collection"
+    }
+  ],
   "start": {
     "id": "https://iiif.unige.ch/iiif/2/visualcontagions/perio_1924-09_Paris_ArchitectureVivante/canvas/p2",
     "type": "Canvas"

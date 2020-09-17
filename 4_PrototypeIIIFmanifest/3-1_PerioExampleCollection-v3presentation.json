@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_ArchitectureVivante",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_1923-1933_Paris_ArchitectureVivante",
   "type": "Collection",
   "label": { "en": [ "Collection for L'Architecture vivante" ] },
   "metadata": [
@@ -19,7 +19,7 @@
     {
       "label": { "en": [ "Language" ] },
       "value": { "none": [ "fr" ] }
-    },
+    }
   ],
   "summary": { "none": [ "L'Architecture vivante (1923-1933)" ] },
   "items": [

@@ -3,7 +3,7 @@
   "id": "https://example.org/iiif/collection/top",
   // Dans "id", indiquer le lien vers la collection regroupant plusieurs manifestes.
   // Exemple (Welcome Library) : "https://wellcomelibrary.org/iiif/collection/b19974760"
-  // Exemple d'URI possible (VISUAL CONTAGIONS) : https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_ArchitectureVivante
+  // Exemple d'URI possible (VISUAL CONTAGIONS) : https://iiif.unige.ch/iiif/2/visualcontagions/collection/perio_1923-1933_Paris_ArchitectureVivante
   "type": "Collection",
   "label": { "en": [ "Collection for Resource title" ] },
   "metadata": [
@@ -23,7 +23,7 @@
     {
       "label": { "en": [ "Language" ] },
       "value": { "none": [ "Resource language" ] }
-    },
+    }
   ],
   "summary": { "none": [ "Resource title (YYYY-YYYY)" ] },
   //Titre de la ressource puis dates de premier et dernier numéro de parution de la revue.

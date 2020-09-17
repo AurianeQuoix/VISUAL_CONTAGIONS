@@ -80,7 +80,7 @@
           "Text of note 2"
         ]
       }
-    },
+    }
     // Notes concernant le catalogue ou le périodique. Pas de langue prédéfinie pour "value" (donc "none") car les notes apparaissent en différentes langues.
   ],
   "summary": { "en": [ "Exhibition catalog or periodical title, published in New York, 1924." ] },
