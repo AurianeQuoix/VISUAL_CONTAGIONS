@@ -15,6 +15,7 @@ To carry out this work, I therefore had to select the fields necessary for BasAr
 ### Folder 1: 1_DataPreparation-Dataiku
 
 This folder contains the work I made with Dataiku.
+
 I started with three CSV files, partially completed, but which did not include all the fields necessary for the project. Moreover, it was impossible to use them to automatically generate other documents with a single script because the structure of these files was different.
 So I had to think about a model encompassing these three files (and including all the fields described above in the presentation part).
 
@@ -56,6 +57,7 @@ It is possible to import these projects in Dataiku ("**VISUALCONTAGIONS_withMani
 
 The folder includes a sample of the two CSV files ("**1_PrototypeCSV_exhibCat-periodicals_withoutManifests.csv**" and "**2_PrototypeCSV_exhibCat-periodicals_withManifests.csv**").
 The samples contain all the fully completed lines.
+
 The whole documents can be downloaded from the README in this folder: "**3_CSVtoTEI**" (VISUAL_CONTAGIONS/3_CSVtoTEI/README.md). They are filled in by several members of the team of the project.
 
 I collected metadata and filled some lines in order to make tests in the next stages of the project.
