@@ -43,6 +43,7 @@ Go to `File` > `Save` and give this name to the file: "**1-1_CSV_withoutManifest
 
 
 **You must follow the same procedure to import the second CSV file (PrototypeCSV_exhibCat-periodicals - withManifests) into Oxygen XML Editor.**
+
 Once you get to **4.**, name it: "**1-2_CSV_withManifests.xml**".
 
 
