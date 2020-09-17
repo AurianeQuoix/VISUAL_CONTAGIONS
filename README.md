@@ -17,6 +17,7 @@ To visualize the circulation of images, VISUAL CONTAGIONS deploys a global IIIF 
 During my internship, I had to think about a process to generate IIIF manifests from CSV files listing exhibition catalogs and periodicals available online.
 Each folder corresponds to the different stages of my internship.
 In each of these, you will find a README.md file describing each step as well as the contents of the folders and subfolders (except for the **3_CSVtoTEI** and **5_TEItoIIIF** folders).
+
 These over here contain data transformation steps (CSV to TEI, and then TEI to IIIF). The README.md files constitute a tutorial to start the transformations.
 Below, there is a description of the contents of these folders.
 
