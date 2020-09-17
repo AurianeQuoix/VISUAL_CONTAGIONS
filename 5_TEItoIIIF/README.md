@@ -16,7 +16,7 @@ In the same way, each canvas will have to be repeated in order to obtain one can
 
 **1.** Firstly, open the **VisualContagions.xpr** project (VISUAL_CONTAGIONS/VisualContagions.xpr) in Oxygen XML Editor.
 
-<img src="../Pictures/TEItoIIIF-1.png" width="40%">
+<img src="../Pictures/TEItoIIIF-1.png" width="50%">
 
 
 **2.** Right click on the "**3-1_TEI-results_withoutManifests**" folder and select `Transformation`> `Configure Transformation Scenario(s)`.
