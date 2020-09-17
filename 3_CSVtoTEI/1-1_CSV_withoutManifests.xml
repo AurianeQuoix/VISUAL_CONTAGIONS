@@ -42,6 +42,88 @@
         <Notes_section></Notes_section>
     </row>
     <row>
+        <Nommage_fichier>exhibCat_1951_SaoPaulo_Bienal</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>I Bienal do Museu de Arte Moderna de São Paulo</Titre>
+        <Auteur>Museu de Arte Moderna de São Paulo</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Museu de Arte Moderna de São Paulo</Editeur>
+        <Editeur_scientifique>Museu de arte moderna de São Paulo, Brasil</Editeur_scientifique>
+        <Lieu_publication_en>São Paulo</Lieu_publication_en>
+        <Date_publication>1951</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>pt</Langue_source>
+        <Format>1 vol. (252 p.)</Format>
+        <Licence>(c) Fundação Bienal, bienal.org.br</Licence>
+        <Source_diffuseur>https://issuu.com/bienal/docs/name3fe634</Source_diffuseur>
+        <Depot>Bienal São Paulo</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1951-10</Date_debut_exposition>
+        <Date_fin_exposition>1951-12</Date_fin_exposition>
+        <Titre_exposition>I Bienal do Museu de arte moderna de São Paulo</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>São Paulo</Ville_exposition_en>
+        <Pays_en>Brazil</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Biennale de São Paulo</Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section>Catálogo geral</Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Museu de arte moderna de São Paulo, Parque Ibirapuera</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Museu de arte moderna de São Paulo</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>Ibirapuera Park - Av. Pedro Álvares Cabral</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1972_SaoPaulo_Bienal</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Mostra de Arte Sesquicentenário da Independência</Titre>
+        <Auteur>Fundação Bienal de São Paulo</Auteur>
+        <Directeur></Directeur>
+        <Editeur>Grafica São José</Editeur>
+        <Editeur_scientifique>Museu de arte moderna de São Paulo, Brasil</Editeur_scientifique>
+        <Lieu_publication_en>São Paulo</Lieu_publication_en>
+        <Date_publication>1972</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>pt</Langue_source>
+        <Format>1 vol. (108 p.)</Format>
+        <Licence>(c) Fundação Bienal, bienal.org.br</Licence>
+        <Source_diffuseur>https://issuu.com/bienal/docs/ii_bienal_nacional_1972</Source_diffuseur>
+        <Depot>Bienal São Paulo</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1972</Date_debut_exposition>
+        <Date_fin_exposition>1972</Date_fin_exposition>
+        <Titre_exposition>Brasil Plástica-72</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>São Paulo</Ville_exposition_en>
+        <Pays_en>Brazil</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Biennale de São Paulo</Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section>Catálogo geral</Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Museu de arte moderna de São Paulo, Parque Ibirapuera</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Museu de arte moderna de São Paulo</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>Ibirapuera Park - Av. Pedro Álvares Cabral</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
         <Nommage_fichier>perio_1923-09_Paris_ArchitectureVivante</Nommage_fichier>
         <Type_source>periodical</Type_source>
         <Contributeur>Auriane Quoix</Contributeur>

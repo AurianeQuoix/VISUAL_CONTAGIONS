@@ -48,7 +48,7 @@ Once you get to **4.**, name it: "**1-2_CSV_withManifests.xml**".
 
 ### Dubstep 2: Generation of TEI headers with XSLT
 
-**1.** Open the **2-1_CSVtoTEI_withoutManifests.xsl** file (VISUAL_CONTAGIONS/3_CSVtoTEI/2-1_CSVtoTEI_withoutManifests.xsl) in Oxygen. Or open the **VisualContagions.xpr** project and click on **2-1_CSVtoTEI_withoutManifests.xsl** to open it.
+**1.** Open the **2-1_CSVtoTEI_withoutManifests.xsl** file (VISUAL_CONTAGIONS/3_CSVtoTEI/2-1_CSVtoTEI_withoutManifests.xsl) in Oxygen. Or open the **VisualContagions.xpr** project (VISUAL_CONTAGIONS/VisualContagions.xpr) and click on **2-1_CSVtoTEI_withoutManifests.xsl** to open it.
 
 <img src="../Pictures/CSVtoTEI-6.png" width="70%">
 

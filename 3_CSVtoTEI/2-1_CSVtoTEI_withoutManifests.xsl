@@ -3,6 +3,9 @@
     
     <xsl:output method="xml" indent="yes"/>
     
+    <!-- Document permettant de générer automatiquement des TEI headers à partir d'un fichier CSV  -->
+    <!-- Auteur : Auriane Quoix -->
+    
     <!-- Création d'une variable permettant de stocker le chemin jusqu'au dossier devant contenir les fichiers TEI générés automatiquement -->
     <xsl:variable name="dir">
         <xsl:text>./3-1_TEI-results_withoutManifests</xsl:text>
@@ -15,11 +18,11 @@
     <!-- Template qui permet de générer un fichier TEI par "row" et de le nommer selon l'information indiquée dans "Nommage_fichier" -->
     <xsl:template match="row">
         <!-- Pour chaque "row" création d'une variable récupérant l'information contenue dans "Nommage_fichier"... -->
-        <xsl:variable name="nameFolder">
+        <xsl:variable name="fileName">
             <xsl:value-of select="./Nommage_fichier"/>
         </xsl:variable>
         <!-- ...puis récupération en sortie du chemin stocké dans la variable $dir et du nom du fichier stocké dans la variable $nameFolder -->
-        <xsl:result-document method="xml" href="{$dir}/{$nameFolder}.xml" indent="yes">
+        <xsl:result-document method="xml" href="{$dir}/{$fileName}.xml" indent="yes">
             <!-- Appel de la règle contenant le modèle de header -->
             <xsl:call-template name="header"/>
         </xsl:result-document>

@@ -253,6 +253,48 @@
         <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1269951h/manifest.json</Manifeste_IIIF>
     </row>
     <row>
+        <Nommage_fichier>exhibCat_1943_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. Catalogue de la 54e exposition</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur>L'Emancipatrice</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1943</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (147 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k9741112g?rk=751076;4</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1943-03-05</Date_debut_exposition>
+        <Date_fin_exposition>1943-04-11</Date_fin_exposition>
+        <Titre_exposition>54e exposition : Musée d'art moderne de la ville de Paris, Avenue de Tokyo, du 5 mars au 11 avril inclus</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Pa</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Musée d'art moderne de la ville de Paris</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Musée d'art moderne de la ville de Paris</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>Avenue de Tokyo</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k9741112g/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
         <Nommage_fichier>exhibCat_1921_TheHague_ExpositionHollandaise</Nommage_fichier>
         <Type_source>exhibition_catalog</Type_source>
         <Contributeur>Auriane Quoix</Contributeur>
