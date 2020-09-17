@@ -43,11 +43,12 @@ You can also click on `Code` > `Download ZIP`.
 ### Acknowledgements
 
 I would like to acknowledge and thank all those who have collaborated and helped me in my work: Béatrice Joyeux-Prunel, Simon Gabay, Caroline Corbières, Barbara Topalov.
+
 I would also thank Mathieu Vonlanthen and Régis Robineau for all their valuable advice.
 
 ## Credits
 
-This repository has been created by Auriane Quoix under the direction of Béatrice Joyeux-Prunel and Simon Gabay, for the [VISUAL CONTAGIONS](https://www.imago.ens.fr/) project.
+This repository has been created by Auriane Quoix under the direction of Béatrice Joyeux-Prunel and Simon Gabay, for the [VISUAL CONTAGIONS project](https://www.imago.ens.fr/).
 
 ## Licence
 
