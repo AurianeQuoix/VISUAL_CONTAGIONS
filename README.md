@@ -22,12 +22,14 @@ These over here contain data transformation steps (CSV to TEI, and then TEI to I
 Below, there is a description of the contents of these folders.
 
 **1. 3_CSVtoTEI** 
+
 The folder contains: 
 - the sample of CSV files (the same as those in this folder: VISUAL_CONTAGIONS/1_PrototypeCSV/2_FinalPrototype) imported as XML documents
 - there are also two XSLT scripts (one for the resources without manifests and the other for the resources with manifests) which are used to automatically generate XML-TEI headers
 - the two subfolders contain the results, that is to say, the automatically generated files.
 
 **2. 5_TEItoIIIF**
+
 In this folder, you can find:
 - the XSLT script used to automatically generate IIIF manifests
 - one subfolder which contains the results, that is to say, the manifests.
@@ -36,7 +38,9 @@ In this folder, you can find:
 ### Requirements
 
 To complete the two steps described above, you will need to download this repository. To do this, use this command in your terminal:
-`git clone https://github.com/AurianeQuoix/VISUAL_CONTAGIONS.git`
+```
+git clone https://github.com/AurianeQuoix/VISUAL_CONTAGIONS.git
+```
 
 You can also click on `Code` > `Download ZIP`.
 
