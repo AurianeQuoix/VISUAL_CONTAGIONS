@@ -1,0 +1,202 @@
+
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/manifest",
+  "type": "Manifest",
+  "label": { "none": [ "XII. Esposizione Internazionle d'Arte della città di venezia. Catalogo (Roma, 1920)" ] },          
+  "metadata": [
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "1920" ] }
+    },
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { 
+        "none": [
+          "Bestetti & Tumminelli"
+        ]
+      }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "Roma" ] }
+    },
+    {
+      "label": { "en": [ "Physical description" ] },
+      "value": { "none": [ "1 vol. (304 p.), 17 cm" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": {
+        "none": [
+          "it"
+        ]
+      }
+    },
+    { 
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "University of Michigan" ] }
+     },
+     {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "Google" ] }
+     },
+     {
+       "label": { "en": [ "Digitisation date" ] },
+       "value": { "none": [ "" ] }
+     },
+     {
+       "label": { "en": [ "Source" ] },
+       "value": { "none": [ "From: PDF Hathitrust" ] }
+     },
+     {
+       "label": { "en": [ "Rights" ] },
+       "value": { "none": [ "http://www.hathitrust.org/access_use#pd-us-google" ] }
+     }
+  ],
+  "summary": { "en": [ "XII. Esposizione Internazionle d'Arte della città di venezia. Catalogo, published in Roma, 1920." ] },
+  "thumbnail": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by: PDF Hathitrust" ] }
+  },       
+  "start": {
+    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p2",
+    "type": "Canvas"
+  },
+    "items": [
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p1",
+        "type": "Canvas",
+        "label": { "none": [ "p. 1" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page1/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page1",
+                      "type": "ImageService3",
+                      "profile": "level2",
+                      "service": [
+                        {
+                          "@id": "https://iiif.unige.ch/iiif/2/visualcontagions/auth/login",
+                          "@type": "AuthCookieService1"
+                        }
+                      ]
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p1"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/p1/1",
+            "type": "AnnotationPage"
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p2",
+        "type": "Canvas",
+        "label": { "none": [ "p. 2" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page/p2/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/annotation/p0002-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page2",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p3",
+        "type": "Canvas",
+        "label": { "none": [ "p. 3" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page/p3/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/annotation/p0003-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page3/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/page3",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1920_Venezia_EsposizioneInternazionale/canvas/p3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }    
+        

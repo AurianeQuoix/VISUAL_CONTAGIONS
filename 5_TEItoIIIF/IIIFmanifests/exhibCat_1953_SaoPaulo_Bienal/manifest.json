@@ -1,0 +1,206 @@
+
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/manifest",
+  "type": "Manifest",
+  "label": { "none": [ "II Bienal do Museu de Arte Moderna de São Paulo (São Paulo, 1953)" ] },          
+  "metadata": [
+    {
+      "label": { "en": [ "Editor" ] },
+      "value": {
+        "none": [
+          "Museu de arte moderna de São Paulo, Brasil"
+        ]
+      }
+    },
+    {
+      "label": { "en": [ "Date" ] },
+      "value": { "none": [ "1953" ] }
+    },
+    {
+      "label": { "en": [ "Publisher" ] },
+      "value": { 
+        "none": [
+          "EDIAM, Edições americanas de arte e arquitetura. "
+        ]
+      }
+    },
+    {
+      "label": { "en": [ "Publication place" ] },
+      "value": { "en": [ "São Paulo" ] }
+    },
+    {
+      "label": { "en": [ "Language" ] },
+      "value": {
+        "none": [
+          "pt"
+        ]
+      }
+    },
+    { 
+      "label": { "en": [ "Repository" ] },
+      "value": { "en": [ "Arquivos historicos Wanda Svevo. Fundaçao Bienal São Paulo" ] }
+     },
+     {
+      "label": { "en": [ "Digitised by" ] },
+      "value": { "none": [ "" ] }
+     },
+     {
+       "label": { "en": [ "Digitisation date" ] },
+       "value": { "none": [ "" ] }
+     },
+     {
+       "label": { "en": [ "Source" ] },
+       "value": { "none": [ "From: https://issuu.com/bienal/docs/name24c514" ] }
+     },
+     {
+       "label": { "en": [ "Rights" ] },
+       "value": { "none": [ "(c) Fundação Bienal, bienal.org.br" ] }
+     }
+  ],
+  "summary": { "en": [ "II Bienal do Museu de Arte Moderna de São Paulo, published in São Paulo, 1953." ] },
+  "thumbnail": [
+    {
+      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page1/full/80,100/0/default.jpg",
+      "type": "Image",
+      "format": "image/jpeg",
+      "service": [
+        {
+          "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page1",
+          "type": "ImageService3",
+          "profile": "level1"
+        }
+      ]
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "behavior": [ "paged" ],
+  "requiredStatement": {
+    "label": { "en": [ "Attribution" ] },
+    "value": { "en": [ "Provided by: https://issuu.com/bienal/docs/name24c514" ] }
+  },       
+  "start": {
+    "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p2",
+    "type": "Canvas"
+  },
+    "items": [
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p1",
+        "type": "Canvas",
+        "label": { "none": [ "p. 1" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page/p1/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/annotation/p0001-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page1/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page1",
+                      "type": "ImageService3",
+                      "profile": "level2",
+                      "service": [
+                        {
+                          "@id": "https://iiif.unige.ch/iiif/2/visualcontagions/auth/login",
+                          "@type": "AuthCookieService1"
+                        }
+                      ]
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p1"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/p1/1",
+            "type": "AnnotationPage"
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p2",
+        "type": "Canvas",
+        "label": { "none": [ "p. 2" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page/p2/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/annotation/p0002-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page2/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page2",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p3",
+        "type": "Canvas",
+        "label": { "none": [ "p. 3" ] },
+        "height": 0000,
+        "width": 0000,
+        "items": [
+          {
+            "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page/p3/1",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/annotation/p0003-image",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page3/full/max/0/default.jpg",
+                  "type": "Image",
+                  "format": "image/jpeg",
+                  "service": [
+                    {
+                      "id": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/page3",
+                      "type": "ImageService3",
+                      "profile": "level2"
+                    }
+                  ],
+                  "height": 0000,
+                  "width": 0000
+                },
+                "target": "https://iiif.unige.ch/iiif/2/visualcontagions/exhibCat_1953_SaoPaulo_Bienal/canvas/p3"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }    
+        
