@@ -71,7 +71,48 @@
         <Pays_en>Brazil</Pays_en>
         <Etat_en></Etat_en>
         <Titre_groupe_expositions>Biennale de São Paulo</Titre_groupe_expositions>
-        <Type_groupe_expositions></Type_groupe_expositions>
+        <Type_groupe_expositions>biennial_triennial_documenta</Type_groupe_expositions>
+        <Titre_section>Catálogo geral</Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Museu de arte moderna de São Paulo, Parque Ibirapuera</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Museu de arte moderna de São Paulo</Lieu_exposition_section_unique>
+        <Type_lieu>museum</Type_lieu>
+        <Numero_et_nom_rue_section>Ibirapuera Park - Av. Pedro Álvares Cabral</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1953_SaoPaulo_Bienal</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Victor Polla</Contributeur>
+        <Titre>II Bienal do Museu de Arte Moderna de São Paulo</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>EDIAM, Edições americanas de arte e arquitetura. </Editeur>
+        <Editeur_scientifique>Museu de arte moderna de São Paulo, Brasil</Editeur_scientifique>
+        <Lieu_publication_en>São Paulo</Lieu_publication_en>
+        <Date_publication>1953</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>pt</Langue_source>
+        <Format></Format>
+        <Licence>(c) Fundação Bienal, bienal.org.br</Licence>
+        <Source_diffuseur>https://issuu.com/bienal/docs/name24c514</Source_diffuseur>
+        <Depot>Arquivos historicos Wanda Svevo. Fundaçao Bienal São Paulo</Depot>
+        <Numerise_par></Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1953-12</Date_debut_exposition>
+        <Date_fin_exposition>1954-02</Date_fin_exposition>
+        <Titre_exposition>II Bienal do Museu de arte moderna de São Paulo</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>São Paulo</Ville_exposition_en>
+        <Pays_en>Brazil</Pays_en>
+        <Etat_en>São Paulo</Etat_en>
+        <Titre_groupe_expositions>Biennale de São Paulo</Titre_groupe_expositions>
+        <Type_groupe_expositions>biennial_triennial_documenta</Type_groupe_expositions>
         <Titre_section>Catálogo geral</Titre_section>
         <Adresse_section_decrite_dans_catalogue>Museu de arte moderna de São Paulo, Parque Ibirapuera</Adresse_section_decrite_dans_catalogue>
         <Lieu_exposition_section_unique>Museu de arte moderna de São Paulo</Lieu_exposition_section_unique>
@@ -112,12 +153,94 @@
         <Pays_en>Brazil</Pays_en>
         <Etat_en></Etat_en>
         <Titre_groupe_expositions>Biennale de São Paulo</Titre_groupe_expositions>
-        <Type_groupe_expositions></Type_groupe_expositions>
+        <Type_groupe_expositions>biennial_triennial_documenta</Type_groupe_expositions>
         <Titre_section>Catálogo geral</Titre_section>
         <Adresse_section_decrite_dans_catalogue>Museu de arte moderna de São Paulo, Parque Ibirapuera</Adresse_section_decrite_dans_catalogue>
         <Lieu_exposition_section_unique>Museu de arte moderna de São Paulo</Lieu_exposition_section_unique>
         <Type_lieu>museum</Type_lieu>
         <Numero_et_nom_rue_section>Ibirapuera Park - Av. Pedro Álvares Cabral</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1895_Venezia_EsposizioneInternazionale</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Prima esposizione internazionale d'arte della citta di venezia. Catalogo illustrato.</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>Fratelli Visentini</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Venezia</Lieu_publication_en>
+        <Date_publication>1895</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>it</Langue_source>
+        <Format>1 vol. (420 p.)</Format>
+        <Licence>http://www.hathitrust.org/access_use#pd-us-google</Licence>
+        <Source_diffuseur>PDF Hathitrust</Source_diffuseur>
+        <Depot>University of Michigan</Depot>
+        <Numerise_par>Google</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1895-04-28</Date_debut_exposition>
+        <Date_fin_exposition>1895-10-21</Date_fin_exposition>
+        <Titre_exposition>Prima esposizione internazionale d'arte della citta di venezia</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Venezia</Ville_exposition_en>
+        <Pays_en>Italy</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1920_Venezia_EsposizioneInternazionale</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>XII. Esposizione Internazionle d'Arte della città di venezia. Catalogo</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>Bestetti &amp; Tumminelli</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Roma</Lieu_publication_en>
+        <Date_publication>1920</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>it</Langue_source>
+        <Format>1 vol. (304 p.), 17 cm</Format>
+        <Licence>http://www.hathitrust.org/access_use#pd-us-google</Licence>
+        <Source_diffuseur>PDF Hathitrust</Source_diffuseur>
+        <Depot>University of Michigan</Depot>
+        <Numerise_par>Google</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1920-04-15</Date_debut_exposition>
+        <Date_fin_exposition>1920-10-31</Date_fin_exposition>
+        <Titre_exposition>XIIa Esposizione Internazionale d'Arte della città di Venezia</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Venezia</Ville_exposition_en>
+        <Pays_en>Italy</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions></Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section></Numero_et_nom_rue_section>
         <Etage_section></Etage_section>
         <Lieu-dit_section></Lieu-dit_section>
         <Complement_adresse_section></Complement_adresse_section>

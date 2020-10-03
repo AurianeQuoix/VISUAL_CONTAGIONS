@@ -61,7 +61,7 @@
             <listEvent><!-- Concernant l'attribut "subtype" de la balise "event", indiquer "travelling" si l'exposition est itinérante, ou "fixed" si elle ne l'est pas -->
                <event type="exhibition" subtype="fixed" from="1972" to="1972">
                   <head>Brasil Plástica-72</head>
-                  <head>Biennale de São Paulo</head>
+                  <head type="biennial_triennial_documenta">Biennale de São Paulo</head>
                   <desc><!-- Liste des lieux -->
                      <listPlace><!-- Enchaînement de balises répétable (dans le cas où il y aurait plusieurs sections (= adresses) pour un même catalogue d'exposition) -->
                         <place>

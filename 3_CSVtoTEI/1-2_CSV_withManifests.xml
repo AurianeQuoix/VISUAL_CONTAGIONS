@@ -253,6 +253,174 @@
         <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1269951h/manifest.json</Manifeste_IIIF>
     </row>
     <row>
+        <Nommage_fichier>exhibCat_1901_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. 17, Catalogue des oeuvres exposées 1901</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1901</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (61 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k326416k?rk=64378;0</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1901-04-20</Date_debut_exposition>
+        <Date_fin_exposition>1901-05-21</Date_fin_exposition>
+        <Titre_exposition>17e exposition, grandes serres de l'Exposition universelle [Paris]..., du 20 avril au 21 mai...</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>grandes serres de l'Exposition universelle (Cours-la-Reine)</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>grandes serres de l'Exposition universelle</Lieu_exposition_section_unique>
+        <Type_lieu>other_type</Type_lieu>
+        <Numero_et_nom_rue_section>Cours-la-Reine</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k326416k/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1903_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. 19, Catalogue de la 19e exposition 1903</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1903</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (128 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k3264156?rk=85837;2</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1903-03-20</Date_debut_exposition>
+        <Date_fin_exposition>1903-04-25</Date_fin_exposition>
+        <Titre_exposition>19e exposition 1903 : Grandes serres de la ville de Paris..., du 20 mars au 25 avril...</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Grandes serres de la Ville de Paris (Cours-la-Reine</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Grandes serres de la Ville de Paris </Lieu_exposition_section_unique>
+        <Type_lieu>other_type</Type_lieu>
+        <Numero_et_nom_rue_section>Cours-la-Reine</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k3264156/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1913_Paris_SocieteArtistesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. 29, Catalogue de la 29e exposition.</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1913</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (318 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k8892045?rk=236052;4</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1913-03-19</Date_debut_exposition>
+        <Date_fin_exposition>1913-05-18</Date_fin_exposition>
+        <Titre_exposition>29e exposition, 1913 : Quai d'Orsay, Pont de l'Alma, du 19 mars au 18 mai inclus</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Quai d'Orsay, Pont de l'Alma</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Quai d'Orsay</Lieu_exposition_section_unique>
+        <Type_lieu>other_type</Type_lieu>
+        <Numero_et_nom_rue_section>Pont de l'Alma</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k8892045/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1923_Paris_SocieteArtisesIndependants</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Caroline Corbières</Contributeur>
+        <Titre>Société des artistes indépendants. 34, Catalogue de la 34e exposition 1923.</Titre>
+        <Auteur>Salon des indépendants</Auteur>
+        <Directeur></Directeur>
+        <Editeur></Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1923</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (164 p.) ; 18 cm</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k889198g?rk=321890;0</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation></Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1923-02-10</Date_debut_exposition>
+        <Date_fin_exposition>1923-03-11</Date_fin_exposition>
+        <Titre_exposition>34e exposition 1923 : Grand Palais des Champs-Elysées, du 10 février au 11 mars</Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris</Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions>Salon des indépendants</Titre_groupe_expositions>
+        <Type_groupe_expositions>salon</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue>Grand Palais des Champs-Elysées</Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Grand Palais</Lieu_exposition_section_unique>
+        <Type_lieu>other_type</Type_lieu>
+        <Numero_et_nom_rue_section>Champs-Elysées </Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k889198g/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
         <Nommage_fichier>exhibCat_1943_Paris_SocieteArtistesIndependants</Nommage_fichier>
         <Type_source>exhibition_catalog</Type_source>
         <Contributeur>Caroline Corbières</Contributeur>
@@ -503,6 +671,90 @@
         <Complement_adresse_section></Complement_adresse_section>
         <Notes_section></Notes_section>
         <Manifeste_IIIF>https://bibliotheque-numerique.inha.fr/iiif/26791/manifest</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1883_Paris_ClaudeMonet</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Béatrice Joyeux-Prunel</Contributeur>
+        <Titre>Catalogue de l'exposiiton des oeuvres de Claude Monet</Titre>
+        <Auteur></Auteur>
+        <Directeur></Directeur>
+        <Editeur>impr. J.-H. Gouéry</Editeur>
+        <Editeur_scientifique></Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1883</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (4 p.) ; In-8</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/btv1b525044704</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation>2014-07-28</Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1883-03-01</Date_debut_exposition>
+        <Date_fin_exposition>1883-03-25</Date_fin_exposition>
+        <Titre_exposition>Claude Monet </Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris </Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique></Lieu_exposition_section_unique>
+        <Type_lieu></Type_lieu>
+        <Numero_et_nom_rue_section>9, boulevard de la Madeleine</Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/btv1b525044704/manifest.json</Manifeste_IIIF>
+    </row>
+    <row>
+        <Nommage_fichier>exhibCat_1911_Paris_CharlesCottet</Nommage_fichier>
+        <Type_source>exhibition_catalog</Type_source>
+        <Contributeur>Béatrice Joyeux-Prunel</Contributeur>
+        <Titre>Exposition Charles Cottet</Titre>
+        <Auteur>Léonce Bénédite </Auteur>
+        <Directeur></Directeur>
+        <Editeur>Imprimerie Georges Petit </Editeur>
+        <Editeur_scientifique>Galerie Georges Petit </Editeur_scientifique>
+        <Lieu_publication_en>Paris</Lieu_publication_en>
+        <Date_publication>1911</Date_publication>
+        <Annee_1er_numero></Annee_1er_numero>
+        <Annee_dernier_numero></Annee_dernier_numero>
+        <Langue_source>fr</Langue_source>
+        <Format>1 vol. (59 p.) ; in-8</Format>
+        <Licence>https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica</Licence>
+        <Source_diffuseur>https://gallica.bnf.fr/ark:/12148/bpt6k321659b</Source_diffuseur>
+        <Depot>Bibliothèque nationale de France</Depot>
+        <Numerise_par>Bibliothèque nationale de France</Numerise_par>
+        <Date_numerisation>2018-10-28</Date_numerisation>
+        <Notes_ressource></Notes_ressource>
+        <Type_evenement>exhibition</Type_evenement>
+        <Date_debut_exposition>1911-06-14</Date_debut_exposition>
+        <Date_fin_exposition>1911-07-13</Date_fin_exposition>
+        <Titre_exposition>Chares Cottet </Titre_exposition>
+        <Exposition_itinerante>fixed</Exposition_itinerante>
+        <Ville_exposition_en>Paris </Ville_exposition_en>
+        <Pays_en>France</Pays_en>
+        <Etat_en></Etat_en>
+        <Titre_groupe_expositions></Titre_groupe_expositions>
+        <Type_groupe_expositions>simple_exhibition</Type_groupe_expositions>
+        <Titre_section></Titre_section>
+        <Adresse_section_decrite_dans_catalogue></Adresse_section_decrite_dans_catalogue>
+        <Lieu_exposition_section_unique>Galeries Georges Petit</Lieu_exposition_section_unique>
+        <Type_lieu>gallery </Type_lieu>
+        <Numero_et_nom_rue_section>8, rue de Sèze </Numero_et_nom_rue_section>
+        <Etage_section></Etage_section>
+        <Lieu-dit_section></Lieu-dit_section>
+        <Complement_adresse_section></Complement_adresse_section>
+        <Notes_section></Notes_section>
+        <Manifeste_IIIF>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k321659b/manifest.json</Manifeste_IIIF>
     </row>
     <row>
         <Nommage_fichier>perio_1888-05_Paris_JaponArtistique</Nommage_fichier>

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="exhibCat_1951_SaoPaulo_Bienal"><!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="exhibCat_1911_Paris_CharlesCottet"><!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>I Bienal do Museu de Arte Moderna de São Paulo</title>
+            <title>Exposition Charles Cottet</title>
             <editor role="metadata">
-               <persName>Caroline Corbières</persName>
+               <persName>Béatrice Joyeux-Prunel</persName>
             </editor>
             <editor role="data">
                <persName><!-- Prénom et nom de la personne ayant encodé le corps du texte --></persName>
@@ -28,61 +29,64 @@
             <availability><!-- Licence texte -->
                <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
                <!-- Licence images -->
-               <licence target="(c) Fundação Bienal, bienal.org.br"/>
+               <licence target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"/>
             </availability>
          </publicationStmt>
          <sourceDesc>
             <bibl type="exhibition_catalog">
-               <title>I Bienal do Museu de Arte Moderna de São Paulo</title>
-               <author>Museu de Arte Moderna de São Paulo</author>
-               <editor>Museu de arte moderna de São Paulo, Brasil</editor>
+               <title>Exposition Charles Cottet</title>
+               <author>Léonce Bénédite </author>
+               <editor>Galerie Georges Petit </editor>
                <editor role="director"/>
-               <publisher>Museu de Arte Moderna de São Paulo</publisher>
-               <pubPlace>São Paulo</pubPlace>
-               <date when="1951">1951</date>
+               <publisher>Imprimerie Georges Petit </publisher>
+               <pubPlace>Paris</pubPlace>
+               <date when="1911">1911</date>
                <date type="first_publication_number"/>
                <date type="last_publication_number"/>
                <relatedItem><!-- Localisation de l'original -->
                   <msDesc>
                      <msIdentifier>
-                        <repository>Bienal São Paulo</repository>
+                        <repository>Bibliothèque nationale de France</repository>
                      </msIdentifier>
                      <additional>
                         <surrogates><!-- Lien vers sa version numérisée -->
-                           <ref facs="https://issuu.com/bienal/docs/name3fe634"/>
-                           <name role="digitisation"/>
+                           <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k321659b"/>
+                           <name role="digitisation" when="2018-10-28">Bibliothèque nationale de France</name>
                         </surrogates>
                      </additional>
                   </msDesc>
                </relatedItem>
-               <extent>1 vol. (252 p.)</extent>
+               <extent>1 vol. (59 p.) ; in-8</extent>
                <note/>
             </bibl>
             <listEvent><!-- Concernant l'attribut "subtype" de la balise "event", indiquer "travelling" si l'exposition est itinérante, ou "fixed" si elle ne l'est pas -->
-               <event type="exhibition" subtype="fixed" from="1951-10" to="1951-12">
-                  <head>I Bienal do Museu de arte moderna de São Paulo</head>
-                  <head type="biennial_triennial_documenta">Biennale de São Paulo</head>
+               <event type="exhibition"
+                      subtype="fixed"
+                      from="1911-06-14"
+                      to="1911-07-13">
+                  <head>Chares Cottet </head>
+                  <head type="simple_exhibition"/>
                   <desc><!-- Liste des lieux -->
                      <listPlace><!-- Enchaînement de balises répétable (dans le cas où il y aurait plusieurs sections (= adresses) pour un même catalogue d'exposition) -->
                         <place>
-                           <head>Catálogo geral</head>
+                           <head/>
                            <placeName>
-                              <orgName type="museum">Museu de arte moderna de São Paulo</orgName>
+                              <orgName type="gallery ">Galeries Georges Petit</orgName>
                               <!-- Deux adresses sont encodées : celle indiquée dans l'imprimé et sa version normalisée -->
                               <choice>
                                  <orig>
                                     <address n="address_from_source">
-                                       <addrLine>Museu de arte moderna de São Paulo, Parque Ibirapuera</addrLine>
+                                       <addrLine/>
                                     </address>
                                  </orig>
                                  <reg>
                                     <address n="section_address">
-                                       <street>Ibirapuera Park - Av. Pedro Álvares Cabral</street>
+                                       <street>8, rue de Sèze </street>
                                        <addrLine n="floor"/>
                                        <addrLine n="additional_address"/>
                                        <addrLine n="locality"/>
-                                       <settlement>São Paulo</settlement>
-                                       <country>Brazil</country>
+                                       <settlement>Paris </settlement>
+                                       <country>France</country>
                                        <region/>
                                     </address>
                                  </reg>
@@ -99,11 +103,10 @@
       </fileDesc>
       <profileDesc>
          <langUsage>
-            <language ident="pt"/>
+            <language ident="fr"/>
          </langUsage>
       </profileDesc>
-      <encodingDesc><!-- Concerne uniquement les catalogues encodés avec GROBID.
-                    Caroline Corbières est chargée de compléter cette partie. -->
+      <encodingDesc><!-- Concerne uniquement les catalogues encodés avec GROBID. Caroline Corbières est chargée de compléter cette partie. -->
          <p/>
       </encodingDesc>
       <revisionDesc><!-- Descriptif des révisions du fichier -->

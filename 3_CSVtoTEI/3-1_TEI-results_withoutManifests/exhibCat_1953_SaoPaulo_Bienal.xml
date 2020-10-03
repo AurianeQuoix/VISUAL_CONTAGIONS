@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../2_PrototypeTEI-Header/3_ODD/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="exhibCat_1951_SaoPaulo_Bienal"><!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="exhibCat_1953_SaoPaulo_Bienal"><!-- Le nom de chaque fichier est indiqué à l'emplacement "xml:id="file_name"" -->
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>I Bienal do Museu de Arte Moderna de São Paulo</title>
+            <title>II Bienal do Museu de Arte Moderna de São Paulo</title>
             <editor role="metadata">
-               <persName>Caroline Corbières</persName>
+               <persName>Victor Polla</persName>
             </editor>
             <editor role="data">
                <persName><!-- Prénom et nom de la personne ayant encodé le corps du texte --></persName>
@@ -33,34 +33,34 @@
          </publicationStmt>
          <sourceDesc>
             <bibl type="exhibition_catalog">
-               <title>I Bienal do Museu de Arte Moderna de São Paulo</title>
-               <author>Museu de Arte Moderna de São Paulo</author>
+               <title>II Bienal do Museu de Arte Moderna de São Paulo</title>
+               <author/>
                <editor>Museu de arte moderna de São Paulo, Brasil</editor>
                <editor role="director"/>
-               <publisher>Museu de Arte Moderna de São Paulo</publisher>
+               <publisher>EDIAM, Edições americanas de arte e arquitetura. </publisher>
                <pubPlace>São Paulo</pubPlace>
-               <date when="1951">1951</date>
+               <date when="1953">1953</date>
                <date type="first_publication_number"/>
                <date type="last_publication_number"/>
                <relatedItem><!-- Localisation de l'original -->
                   <msDesc>
                      <msIdentifier>
-                        <repository>Bienal São Paulo</repository>
+                        <repository>Arquivos historicos Wanda Svevo. Fundaçao Bienal São Paulo</repository>
                      </msIdentifier>
                      <additional>
                         <surrogates><!-- Lien vers sa version numérisée -->
-                           <ref facs="https://issuu.com/bienal/docs/name3fe634"/>
+                           <ref facs="https://issuu.com/bienal/docs/name24c514"/>
                            <name role="digitisation"/>
                         </surrogates>
                      </additional>
                   </msDesc>
                </relatedItem>
-               <extent>1 vol. (252 p.)</extent>
+               <extent/>
                <note/>
             </bibl>
             <listEvent><!-- Concernant l'attribut "subtype" de la balise "event", indiquer "travelling" si l'exposition est itinérante, ou "fixed" si elle ne l'est pas -->
-               <event type="exhibition" subtype="fixed" from="1951-10" to="1951-12">
-                  <head>I Bienal do Museu de arte moderna de São Paulo</head>
+               <event type="exhibition" subtype="fixed" from="1953-12" to="1954-02">
+                  <head>II Bienal do Museu de arte moderna de São Paulo</head>
                   <head type="biennial_triennial_documenta">Biennale de São Paulo</head>
                   <desc><!-- Liste des lieux -->
                      <listPlace><!-- Enchaînement de balises répétable (dans le cas où il y aurait plusieurs sections (= adresses) pour un même catalogue d'exposition) -->
@@ -83,7 +83,7 @@
                                        <addrLine n="locality"/>
                                        <settlement>São Paulo</settlement>
                                        <country>Brazil</country>
-                                       <region/>
+                                       <region>São Paulo</region>
                                     </address>
                                  </reg>
                               </choice>
